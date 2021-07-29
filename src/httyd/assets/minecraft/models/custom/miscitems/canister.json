@@ -1,0 +1,76 @@
+{
+	"credit": "Made with Blockbench by Night (NightScythe1)",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "custom/miscitems/canister",
+		"particle": "custom/miscitems/canister"
+	},
+	"elements": [
+		{
+			"from": [5.8375, -0.1225, 5.8375],
+			"to": [10.0025, 9.9225, 10.0025],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"east": {"uv": [2, 0, 4, 4], "texture": "#0"},
+				"south": {"uv": [0, 4, 2, 8], "texture": "#0"},
+				"west": {"uv": [4, 0, 6, 4], "texture": "#0"},
+				"up": {"uv": [2, 10, 0, 8], "texture": "#0"},
+				"down": {"uv": [10, 0, 8, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.0825, 0.1225, 6.0825],
+			"to": [9.7575, 9.6775, 9.7575],
+			"faces": {
+				"north": {"uv": [2, 4, 4, 8], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [4, 4, 6, 8], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [6, 0, 8, 4], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [6, 4, 8, 8], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [4, 10, 2, 8], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [10, 2, 8, 4], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [20, -154, 0],
+			"translation": [0, 2, 2],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [20, 20, 0],
+			"translation": [0, 2, 2],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -119, 0],
+			"translation": [4.5, 2.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 23, 0],
+			"translation": [4.5, 2.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"rotation": [32, 0, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-15, -27, -29],
+			"translation": [1.25, 3, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 3.25, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "all",
+			"origin": [0, 0, 0],
+			"children": [0, 1]
+		}
+	]
+}

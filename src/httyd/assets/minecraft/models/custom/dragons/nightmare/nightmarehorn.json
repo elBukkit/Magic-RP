@@ -1,0 +1,108 @@
+{
+	"credit": "Made with Blockbench by Night (NightScythe1)",
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "custom/dragons/nightmare/nightmarebody",
+		"particle": "custom/dragons/nightmare/nightmarebody"
+	},
+	"elements": [
+		{
+			"from": [7.4631, 0.888, 8.09771],
+			"to": [9.2871, 2.712, 16.00171],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.6554, 1.00493, 7.20593]},
+			"faces": {
+				"north": {"uv": [4.875, 3.0625, 4.9375, 3.125], "texture": "#0"},
+				"east": {"uv": [3.875, 1.5625, 4.125, 1.625], "texture": "#0"},
+				"south": {"uv": [4.8125, 4.375, 4.875, 4.4375], "texture": "#0"},
+				"west": {"uv": [3.625, 1.6875, 3.875, 1.75], "texture": "#0"},
+				"up": {"uv": [2.75, 2, 2.6875, 1.75], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [2.75, 2, 2.6875, 2.25], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.41684, -0.17994, 0.89876],
+			"to": [7.32884, 0.73206, 4.85076],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.6554, 1.00493, 7.20593]},
+			"faces": {
+				"north": {"uv": [2.0625, 5.375, 2.125, 5.4375], "texture": "#0"},
+				"east": {"uv": [5, 1.1875, 5.1875, 1.25], "texture": "#0"},
+				"south": {"uv": [2, 5.375, 2.0625, 5.4375], "texture": "#0"},
+				"west": {"uv": [4.9375, 3.6875, 5.125, 3.75], "texture": "#0"},
+				"up": {"uv": [2, 5.3125, 1.9375, 5.125], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [2.0625, 5.125, 2, 5.3125], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.14964, 0.35581, 4.48528],
+			"to": [8.66964, 1.87581, 9.04528],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.6554, 1.00493, 7.20593]},
+			"faces": {
+				"north": {"uv": [5.5, 3.625, 5.5625, 3.6875], "texture": "#0"},
+				"east": {"uv": [5.1875, 1.25, 5.375, 1.3125], "texture": "#0"},
+				"south": {"uv": [5.5, 2.8125, 5.5625, 2.875], "texture": "#0"},
+				"west": {"uv": [5.1875, 1.1875, 5.375, 1.25], "texture": "#0"},
+				"up": {"uv": [5.3125, 3.6875, 5.25, 3.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [5.375, 3.4375, 5.3125, 3.625], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [81, -9, 38],
+			"translation": [-0.75, 4.25, 6.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [81, -24, 38],
+			"translation": [-2.5, 5, 5.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [12, 0.75, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [12, 0.75, 0]
+		},
+		"ground": {
+			"rotation": [0, 45, 45],
+			"translation": [-3.75, 8, 2.75]
+		},
+		"gui": {
+			"rotation": [74, -27, -60],
+			"translation": [7.5, -2, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"rotation": [-45, 0, 0],
+			"translation": [0, 10.75, 0]
+		},
+		"fixed": {
+			"rotation": [96, -31, 13],
+			"translation": [-0.5, 1, 7.5],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	},
+	"groups": [
+		{
+			"name": "all",
+			"origin": [7.36732, 15, -0.12788],
+			"children": [
+				{
+					"name": "HORNS",
+					"origin": [7.81769, 7.07806, -0.76773],
+					"children": [0, 1, 2]
+				},
+				{
+					"name": "Body",
+					"origin": [8, 8, 8],
+					"children": []
+				},
+				{
+					"name": "flats",
+					"origin": [8.5, 2.74445, 1.37119],
+					"children": []
+				}
+			]
+		}
+	]
+}

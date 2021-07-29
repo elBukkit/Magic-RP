@@ -1,0 +1,20 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/flint"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "custom/eggs/gronckleegg"},
+		{"predicate": {"custom_model_data":10}, "model": "custom/eggs/nadderegg"},
+		{"predicate": {"custom_model_data":20}, "model": "custom/eggs/nightfuryegg"},
+		{"predicate": {"custom_model_data":30}, "model": "custom/eggs/nightmareegg"},
+		{"predicate": {"custom_model_data":40}, "model": "custom/eggs/zipplebackegg"},
+		{"predicate": {"custom_model_data":60}, "model": "custom/eggs/skrillegg"},
+		{"predicate": {"custom_model_data":70}, "model": "custom/eggs/deathsongegg"},
+		{"predicate": {"custom_model_data":80}, "model": "custom/eggs/razorwhipegg"},
+		{"predicate": {"custom_model_data":90}, "model": "custom/eggs/scauldronegg"},
+		{"predicate": {"custom_model_data":100}, "model": "custom/eggs/stormcutteregg"},
+		{"predicate": {"custom_model_data":110}, "model": "custom/eggs/changewingegg"}
+	]
+}

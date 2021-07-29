@@ -1,0 +1,94 @@
+{
+	"credit": "Made with Blockbench by Night (NightScythe1)",
+	"textures": {
+		"0": "custom/drops/nightmaretalon",
+		"particle": "custom/drops/nightmaretalon"
+	},
+	"elements": [
+		{
+			"from": [7.51091, 8.71384, 4.20775],
+			"to": [9.28821, 10.49115, 11.90941],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.90736, 9.6025, 9.53967]},
+			"faces": {
+				"north": {"uv": [4, 4, 6, 6], "texture": "#0"},
+				"east": {"uv": [0, 0, 8, 2], "texture": "#0"},
+				"south": {"uv": [4, 6, 6, 8], "texture": "#0"},
+				"west": {"uv": [0, 2, 8, 4], "texture": "#0"},
+				"up": {"uv": [2, 12, 0, 4], "texture": "#0"},
+				"down": {"uv": [4, 4, 2, 12], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.80713, 5.8882, 3.52945],
+			"to": [8.992, 10.03525, 4.71432],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [5.90736, 7.96172, 4.12189]},
+			"faces": {
+				"north": {"uv": [6, 4, 7, 8], "texture": "#0"},
+				"east": {"uv": [7, 4, 8, 8], "texture": "#0"},
+				"south": {"uv": [8, 0, 9, 4], "texture": "#0"},
+				"west": {"uv": [4, 8, 5, 12], "texture": "#0"},
+				"up": {"uv": [9, 5, 8, 4], "texture": "#0"},
+				"down": {"uv": [6, 8, 5, 9], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [81, 16, 38],
+			"translation": [0.25, -0.5, -0.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [81, 16, 38],
+			"translation": [1, -0.5, -0.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [45, 45, 0],
+			"translation": [6, 0.75, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [45, 45, 0],
+			"translation": [6, 0.75, 0]
+		},
+		"ground": {
+			"rotation": [45, 45, 45],
+			"translation": [0.75, 1, 0]
+		},
+		"gui": {
+			"rotation": [19.5, 135, 0],
+			"translation": [1, -0.5, 0],
+			"scale": [1.7, 1.7, 1.7]
+		},
+		"head": {
+			"rotation": [-45, 0, 0],
+			"translation": [0, 10.75, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0.5, -0.75, 0.5],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "all",
+			"origin": [7.36732, 15, -0.12788],
+			"children": [
+				{
+					"name": "HORNS",
+					"origin": [7.81769, 7.07806, -0.76773],
+					"children": [0, 1]
+				},
+				{
+					"name": "Body",
+					"origin": [8, 8, 8],
+					"children": []
+				},
+				{
+					"name": "flats",
+					"origin": [8.5, 2.74445, 1.37119],
+					"children": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_axe"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "custom/weapons/gronckle_axe"},
+		{"predicate": {"custom_model_data":10}, "model": "custom/weapons/stormcutterstaff"}
+	]
+}

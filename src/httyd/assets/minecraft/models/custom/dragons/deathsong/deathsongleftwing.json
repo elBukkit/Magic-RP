@@ -1,0 +1,143 @@
+{
+	"credit": "Made with Blockbench by Night (NightScythe1)",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "custom/dragons/deathsong/deathsongleftwing",
+		"particle": "custom/dragons/deathsong/deathsongleftwing"
+	},
+	"elements": [
+		{
+			"from": [-10.88, 5.696, -15.2],
+			"to": [15.904, 5.704, 20.768],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.392, 5.696, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.1875, 0], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 0, 5.625, 0], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 0, 4.1875, 0], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0, 0, 5.625, 0], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [4.1875, 5.625, 0, 0], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [4.1875, 0, 0, 5.625], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7.12, 5.695, 17.8],
+			"to": [12.904, 5.703, 31.768],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.392, 5.696, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.1875, 0], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 0, 5.625, 0], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 0, 4.1875, 0], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0, 0, 5.625, 0], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [4.5625, 7.75, 3.4375, 5.75], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [4.5625, 5.75, 3.4375, 7.75], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [15.832, 6.31834, -6.8944],
+			"to": [20.8384, 6.34234, -0.344],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [14.50784, 6.15354, 13.1008]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.9375, 0], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 0, 1.3125, 0], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 0, 0.9375, 0], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0, 0, 1.3125, 0], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0.9375, 6.9375, 0, 5.625], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [0.9375, 5.625, 0, 6.9375], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-10.88, 5.68, -15.2],
+			"to": [15.904, 5.688, 20.768],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.392, 5.696, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.1875, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 5.625, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 4.1875, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 5.625, 0], "texture": "#0"},
+				"up": {"uv": [8.5, 5.625, 4.3125, 0], "texture": "#0"},
+				"down": {"uv": [8.5, 0, 4.3125, 5.625], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-10.88, 5.712, -15.2],
+			"to": [15.904, 5.72, 20.768],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.392, 5.696, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.1875, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 5.625, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 4.1875, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 5.625, 0], "texture": "#0"},
+				"up": {"uv": [8.5, 5.625, 4.3125, 0], "texture": "#0"},
+				"down": {"uv": [8.5, 0, 4.3125, 5.625], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [74, -296.5, -46.25],
+			"translation": [29.5, 4.5, -0.25],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [74, -296.5, -46.25],
+			"translation": [29.5, 4.5, -0.25],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [3.75, 0.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"translation": [3.75, 0.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [19.5, 135, 0],
+			"translation": [0.5, 0, 0],
+			"scale": [0.42969, 0.42969, 0.42969]
+		},
+		"head": {
+			"rotation": [45, 0, 0],
+			"translation": [0, -18.25, 34.5],
+			"scale": [3.2, 3.2, 3.2]
+		},
+		"fixed": {
+			"translation": [0, 7, 4.25],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "all",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "LARGEHORNS",
+					"origin": [4, 4.75268, 15.69133],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "WingFlat",
+					"origin": [8, 11.5, 21],
+					"color": 0,
+					"children": [0, 1, 2,
+						{
+							"name": "nocolour",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [3, 4]
+						}
+					]
+				}
+			]
+		}
+	]
+}

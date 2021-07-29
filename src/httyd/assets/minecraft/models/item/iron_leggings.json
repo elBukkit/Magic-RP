@@ -1,0 +1,12 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/iron_leggings"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "custom/helmets/nadderhelmet"},
+		{"predicate": {"custom_model_data":2}, "model": "custom/helmets/zipplebackhelmet"},
+		{"predicate": {"custom_model_data":3}, "model": "custom/helmets/nightmarehelmet"}
+	]
+}

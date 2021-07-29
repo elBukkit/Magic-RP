@@ -1,0 +1,110 @@
+{
+	"credit": "Made with Blockbench by Night (NightScythe1)",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "custom/dragons/zippleback/zipplebackbody",
+		"particle": "custom/dragons/zippleback/zipplebackbody"
+	},
+	"elements": [
+		{
+			"from": [6.39315, 0.60494, -14.14224],
+			"to": [7.08788, 1.29967, -4.76339],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [-39.22188, 6.23231, 1.5527]},
+			"faces": {
+				"north": {"uv": [3.5, 5.25, 3.25, 5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [1.75, 12, 2, 13.25], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.75, 5, 3.5, 5.25], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [1.25, 12, 1.5, 13.25], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2, 12, 2.25, 13.25], "texture": "#0"},
+				"down": {"uv": [1.5, 12, 1.75, 13.25], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.13263, 0.34442, -8.7407],
+			"to": [7.34841, 1.56019, -3.18286],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [-39.22188, 6.23231, 1.5527]},
+			"faces": {
+				"north": {"uv": [7.625, 13.375, 7.25, 13], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [12.25, 4.25, 12.625, 5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [13.375, 7.5, 13, 7.875], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [12.25, 1.75, 12.625, 2.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12.25, 6, 12.625, 6.75], "texture": "#0"},
+				"down": {"uv": [12.25, 3.5, 12.625, 4.25], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [81, -9, 38],
+			"translation": [-0.75, 7, 7.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [103, -21, 40],
+			"translation": [-3.25, 7.75, 6.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [61, 20, 41],
+			"translation": [6.25, 3, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [98, -16, 37],
+			"translation": [7.25, 3, 0]
+		},
+		"ground": {
+			"rotation": [0, 45, 45],
+			"translation": [-5.25, 7.25, 1.75]
+		},
+		"gui": {
+			"rotation": [74, -27, -60],
+			"translation": [9.5, -0.25, 0],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"head": {
+			"rotation": [-45, 0, 0],
+			"translation": [0, 10.75, 0]
+		},
+		"fixed": {
+			"rotation": [96, -23, 0],
+			"translation": [2, 1, 10.25],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "all",
+			"origin": [9, 4.5, 8.5],
+			"children": [
+				{
+					"name": "eyes",
+					"origin": [3.93549, 4.2554, 8.9488],
+					"children": []
+				},
+				{
+					"name": "body",
+					"origin": [14.90182, 3.5383, 7.61275],
+					"children": []
+				},
+				{
+					"name": "HORNS",
+					"origin": [4.2, 5, 6.5],
+					"children": [0, 1]
+				},
+				{
+					"name": "legs",
+					"origin": [2.33744, 0.63124, 8.6848],
+					"children": []
+				},
+				{
+					"name": "flat",
+					"origin": [14.90182, 3.5383, 7.61275],
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "wings",
+			"origin": [16.62793, 9.57083, 18.4796],
+			"children": []
+		}
+	]
+}
