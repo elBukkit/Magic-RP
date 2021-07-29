@@ -1,0 +1,314 @@
+{
+  "brawl.ak47": {
+    "sounds": [
+      {
+        "name": "magic:brawl/ak47-1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic:brawl/ak47-1",
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic:brawl/ak47-1",
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic:brawl/ak47-1",
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic:brawl/ak47-1",
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "brawl.deserteagle": {
+    "sounds": [
+      {
+        "name": "magic:brawl/deserteagle-1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic:brawl/deserteagle-1",
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic:brawl/deserteagle-1",
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic:brawl/deserteagle-1",
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic:brawl/deserteagle-1",
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "brawl.rocketlauncher": {
+    "sounds": [
+      {
+        "name": "magic:brawl/rocketlauncher-1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic:brawl/rocketlauncher-1",
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic:brawl/rocketlauncher-1",
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic:brawl/rocketlauncher-1",
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic:brawl/rocketlauncher-1",
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "brawl.shotgun": {
+    "sounds": [
+      {
+        "name": "magic:brawl/shotgun-1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic:brawl/shotgun-1",
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic:brawl/shotgun-1",
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic:brawl/shotgun-1",
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic:brawl/shotgun-1",
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "brawl.sniperrifle": {
+    "sounds": [
+      {
+        "name": "magic:brawl/sniperrifle-1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic:brawl/sniperrifle-1",
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic:brawl/sniperrifle-1",
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic:brawl/sniperrifle-1",
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic:brawl/sniperrifle-1",
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "brawl.ak47-reload": {
+    "sounds": [
+      {
+        "name": "magic:brawl/ak47-reload-1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic:brawl/ak47-reload-1",
+        "volume": 1,
+        "pitch": 0.9
+      },
+      {
+        "name": "magic:brawl/ak47-reload-1",
+        "volume": 1,
+        "pitch": 1.1
+      }
+    ],
+    "category": "player"
+  },
+  "brawl.deserteagle-reload": {
+    "sounds": [
+      {
+        "name": "magic:brawl/deserteagle-reload-1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic:brawl/deserteagle-reload-1",
+        "volume": 1,
+        "pitch": 0.9
+      },
+      {
+        "name": "magic:brawl/deserteagle-reload-1",
+        "volume": 1,
+        "pitch": 1.1
+      }
+    ],
+    "category": "player"
+  },
+  "brawl.rocketlauncher-reload": {
+    "sounds": [
+      {
+        "name": "magic:brawl/rocketlauncher-reload-1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic:brawl/rocketlauncher-reload-1",
+        "volume": 1,
+        "pitch": 0.9
+      },
+      {
+        "name": "magic:brawl/rocketlauncher-reload-1",
+        "volume": 1,
+        "pitch": 1.1
+      }
+    ],
+    "category": "player"
+  },
+  "brawl.shotgun-reload": {
+    "sounds": [
+      {
+        "name": "magic:brawl/shotgun-reload-1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic:brawl/shotgun-reload-1",
+        "volume": 1,
+        "pitch": 0.9
+      },
+      {
+        "name": "magic:brawl/shotgun-reload-1",
+        "volume": 1,
+        "pitch": 1.1
+      }
+    ],
+    "category": "player"
+  },
+  "brawl.sniperrifle-reload": {
+    "sounds": [
+      {
+        "name": "magic:brawl/sniperrifle-reload-1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic:brawl/sniperrifle-reload-1",
+        "volume": 1,
+        "pitch": 0.9
+      },
+      {
+        "name": "magic:brawl/sniperrifle-reload-1",
+        "volume": 1,
+        "pitch": 1.1
+      }
+    ],
+    "category": "player"
+  },
+  "brawl.ricochet": {
+    "sounds": [
+      {
+        "name": "magic:brawl/ricochet-1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic:brawl/ricochet-1",
+        "volume": 0.9,
+        "pitch": 0.7
+      },
+      {
+        "name": "magic:brawl/ricochet-1",
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "magic:brawl/ricochet-1",
+        "volume": 0.8,
+        "pitch": 1.2
+      },
+      {
+        "name": "magic:brawl/ricochet-1",
+        "volume": 1,
+        "pitch": 1.3
+      }
+    ],
+    "category": "player"
+  },
+  "brawl.noammo": {
+    "sounds": [
+      {
+        "name": "magic:brawl/noammo-1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 3
+      },
+      {
+        "name": "magic:brawl/noammo-1",
+        "volume": 1,
+        "pitch": 0.9
+      },
+      {
+        "name": "magic:brawl/noammo-1",
+        "volume": 1,
+        "pitch": 1.1
+      }
+    ],
+    "category": "player"
+  }
+}

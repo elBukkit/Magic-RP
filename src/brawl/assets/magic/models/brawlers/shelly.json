@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:icon",
+    "textures": {
+        "particle": "magic:brawlers/shelly",
+        "texture": "magic:brawlers/shelly"
+    }
+}

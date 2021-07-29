@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/yellow_stained_glass"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 27001}, "model": "magic:brawlers/spike"}
+  ]
+}

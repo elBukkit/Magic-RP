@@ -146,3 +146,12 @@ tail -n +2 ../../war/assets/minecraft/sounds.json >> assets/minecraft/sounds.jso
 find . -name ".DS_Store" -type f -delete
 zip -r -X ../Magic-hires-RP-1.17.zip *
 cd ..
+
+echo "** BUILDING BRAWL **"
+
+mkdir brawl
+cd brawl
+cp -R ../../src/brawl/* .
+find . -name ".DS_Store" -type f -delete
+zip -r -X ../Magic-RP-brawl-1.17.zip *
+cd ..

@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:icon",
+    "textures": {
+        "particle": "magic:brawlers/spike",
+        "texture": "magic:brawlers/spike"
+    }
+}
