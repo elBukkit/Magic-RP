@@ -5,9 +5,9 @@
 	},
 	
 	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "custom/weapons/gronckle_sword"},
-		{"predicate": {"custom_model_data":10}, "model": "custom/weapons/dragonsword"},
-		{"predicate": {"custom_model_data":11}, "model": "custom/weapons/dragonswordfire"},
-		{"predicate": {"custom_model_data":12}, "model": "custom/weapons/dragonswordsparks"}
+		{"predicate": {"custom_model_data":39001}, "model": "custom/weapons/gronckle_sword"},
+		{"predicate": {"custom_model_data":39010}, "model": "custom/weapons/dragonsword"},
+		{"predicate": {"custom_model_data":39011}, "model": "custom/weapons/dragonswordfire"},
+		{"predicate": {"custom_model_data":39012}, "model": "custom/weapons/dragonswordsparks"}
 	]
 }

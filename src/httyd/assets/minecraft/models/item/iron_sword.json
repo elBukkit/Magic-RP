@@ -5,6 +5,6 @@
 	},
 	
 	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "custom/weapons/gronckle_sword"}
+		{"predicate": {"custom_model_data":39001}, "model": "custom/weapons/gronckle_sword"}
 	]
 }

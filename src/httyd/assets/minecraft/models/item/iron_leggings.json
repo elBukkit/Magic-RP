@@ -5,8 +5,8 @@
 	},
 	
 	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "custom/helmets/nadderhelmet"},
-		{"predicate": {"custom_model_data":2}, "model": "custom/helmets/zipplebackhelmet"},
-		{"predicate": {"custom_model_data":3}, "model": "custom/helmets/nightmarehelmet"}
+		{"predicate": {"custom_model_data":39001}, "model": "custom/helmets/nadderhelmet"},
+		{"predicate": {"custom_model_data":39002}, "model": "custom/helmets/zipplebackhelmet"},
+		{"predicate": {"custom_model_data":39003}, "model": "custom/helmets/nightmarehelmet"}
 	]
 }

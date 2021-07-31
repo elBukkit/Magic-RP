@@ -49,8 +49,8 @@
             "model": "item/shield_blocking"
         },
 
-        {"predicate": {"custom_model_data": 1}, "model": "custom/weapons/gronckle_shield"},
+        {"predicate": {"custom_model_data":39001}, "model": "custom/weapons/gronckle_shield"},
 
-        {"predicate": {"blocking": 1, "custom_model_data": 1}, "model": "custom/weapons/gronckle_shield_blocking"}
+        {"predicate": {"blocking": 1, "custom_model_data":39001}, "model": "custom/weapons/gronckle_shield_blocking"}
     ]
 }

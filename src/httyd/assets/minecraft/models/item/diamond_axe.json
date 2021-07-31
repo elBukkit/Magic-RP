@@ -5,7 +5,7 @@
 	},
 	
 	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "custom/weapons/gronckle_axe"},
-		{"predicate": {"custom_model_data":10}, "model": "custom/weapons/stormcutterstaff"}
+		{"predicate": {"custom_model_data":39001}, "model": "custom/weapons/gronckle_axe"},
+		{"predicate": {"custom_model_data":39010}, "model": "custom/weapons/stormcutterstaff"}
 	]
 }

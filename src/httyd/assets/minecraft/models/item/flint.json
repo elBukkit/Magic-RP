@@ -5,16 +5,16 @@
 	},
 	
 	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "custom/eggs/gronckleegg"},
-		{"predicate": {"custom_model_data":10}, "model": "custom/eggs/nadderegg"},
-		{"predicate": {"custom_model_data":20}, "model": "custom/eggs/nightfuryegg"},
-		{"predicate": {"custom_model_data":30}, "model": "custom/eggs/nightmareegg"},
-		{"predicate": {"custom_model_data":40}, "model": "custom/eggs/zipplebackegg"},
-		{"predicate": {"custom_model_data":60}, "model": "custom/eggs/skrillegg"},
-		{"predicate": {"custom_model_data":70}, "model": "custom/eggs/deathsongegg"},
-		{"predicate": {"custom_model_data":80}, "model": "custom/eggs/razorwhipegg"},
-		{"predicate": {"custom_model_data":90}, "model": "custom/eggs/scauldronegg"},
-		{"predicate": {"custom_model_data":100}, "model": "custom/eggs/stormcutteregg"},
-		{"predicate": {"custom_model_data":110}, "model": "custom/eggs/changewingegg"}
+		{"predicate": {"custom_model_data":39001}, "model": "custom/eggs/gronckleegg"},
+		{"predicate": {"custom_model_data":39010}, "model": "custom/eggs/nadderegg"},
+		{"predicate": {"custom_model_data":39020}, "model": "custom/eggs/nightfuryegg"},
+		{"predicate": {"custom_model_data":39030}, "model": "custom/eggs/nightmareegg"},
+		{"predicate": {"custom_model_data":39040}, "model": "custom/eggs/zipplebackegg"},
+		{"predicate": {"custom_model_data":39060}, "model": "custom/eggs/skrillegg"},
+		{"predicate": {"custom_model_data":39070}, "model": "custom/eggs/deathsongegg"},
+		{"predicate": {"custom_model_data":39080}, "model": "custom/eggs/razorwhipegg"},
+		{"predicate": {"custom_model_data":39090}, "model": "custom/eggs/scauldronegg"},
+		{"predicate": {"custom_model_data":39100}, "model": "custom/eggs/stormcutteregg"},
+		{"predicate": {"custom_model_data":39110}, "model": "custom/eggs/changewingegg"}
 	]
 }

@@ -5,7 +5,7 @@
 	},
 	
 	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "custom/drops/dragonmeat"},
-		{"predicate": {"custom_model_data":2}, "model": "custom/drops/cookeddragonmeat"}
+		{"predicate": {"custom_model_data":39001}, "model": "custom/drops/dragonmeat"},
+		{"predicate": {"custom_model_data":39002}, "model": "custom/drops/cookeddragonmeat"}
 	]
 }
