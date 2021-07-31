@@ -147,6 +147,15 @@ find . -name ".DS_Store" -type f -delete
 zip -r -X ../Magic-hires-RP-1.17.zip *
 cd ..
 
+echo "** BUILDING HTTYD **"
+
+mkdir httyd
+cd httyd
+cp -R ../../src/httyd/* .
+find . -name ".DS_Store" -type f -delete
+zip -r -X ../Magic-RP-httyd-1.17.zip *
+cd ..
+
 echo "** BUILDING BRAWL **"
 
 mkdir brawl
