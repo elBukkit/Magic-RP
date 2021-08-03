@@ -44,50 +44,43 @@ function overrideSorter($a, $b) {
             if (!isset($bp['custom_model_data'])) return -1;
             if ($ap['custom_model_data'] < $bp['custom_model_data']) return -1;
             if ($ap['custom_model_data'] > $bp['custom_model_data']) return 1;
-        }
-        if (isset($bp['custom_model_data'])) return 1;
+        } else if (isset($bp['custom_model_data'])) return 1;
 
         // damaged
         if (isset($ap['damaged'])) {
             if (!isset($bp['damaged'])) return -1;
             if ($ap['damaged'] < $bp['damaged']) return -1;
             if ($ap['damaged'] > $bp['damaged']) return 1;
-        }
-        if (isset($bp['damaged'])) return 1;
+        } else if (isset($bp['damaged'])) return 1;
 
         // damage
         if (isset($ap['damage'])) {
             if (!isset($bp['damage'])) return -1;
             if ($ap['damage'] < $bp['damage']) return -1;
             if ($ap['damage'] > $bp['damage']) return 1;
-        }
-        if (isset($bp['damage'])) return 1;
+        } else if (isset($bp['damage'])) return 1;
 
         // Bow pulling
         if (isset($ap['pulling'])) {
             if (!isset($bp['pulling'])) return -1;
             if ($ap['pulling'] < $bp['pulling']) return -1;
             if ($ap['pulling'] > $bp['pulling']) return 1;
-        }
-        if (isset($bp['pulling'])) return 1;
+        } else if (isset($bp['pulling'])) return 1;
 
         // Bow pull
         if (isset($ap['pull'])) {
             if (!isset($bp['pull'])) return -1;
             if ($ap['pull'] < $bp['pull']) return -1;
             if ($ap['pull'] > $bp['pull']) return 1;
-        }
-        if (isset($bp['pull'])) return 1;
+        } else if (isset($bp['pull'])) return 1;
 
         // Blocking
         if (isset($ap['blocking'])) {
             if (!isset($bp['blocking'])) return -1;
             if ($ap['blocking'] < $bp['blocking']) return -1;
             if ($ap['blocking'] > $bp['blocking']) return 1;
-        }
-        if (isset($bp['blocking'])) return 1;
-    }
-    if (isset($b['predicate'])) return 1;
+        } else if (isset($bp['blocking'])) return 1;
+    } else if (isset($b['predicate'])) return 1;
     return 0;
 }
 
