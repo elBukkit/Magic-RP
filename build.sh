@@ -149,9 +149,7 @@ echo "** BUILDING MODEL ENGINE **"
 mkdir modelengine
 cd modelengine
 cp -R ../all/* .
-cp -R ../../src/modelengine/assets/minecraft/models/item/* assets/minecraft/models/item/
-mkdir assets/modelengine
-cp -R ../../src/modelengine/assets/modelengine/* assets/modelengine/
+../../merge_folder.php ../../src/modelengine .
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-modelengine-RP-1.17.zip *
 cd ..
