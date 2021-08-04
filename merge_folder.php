@@ -39,19 +39,19 @@ function overrideSorter($a, $b) {
         $ap = $a['predicate'];
         $bp = $b['predicate'];
 
+        // We need to first separate CMD from non-CMD/damage
+        // Non-CMD always needs to come first
+        // But after that we need to group by bow pull or shield blocking first.
+
         // CMD
         if (isset($ap['custom_model_data'])) {
-            if (!isset($bp['custom_model_data'])) return -1;
-            if ($ap['custom_model_data'] < $bp['custom_model_data']) return -1;
-            if ($ap['custom_model_data'] > $bp['custom_model_data']) return 1;
-        } else if (isset($bp['custom_model_data'])) return 1;
+            if (!isset($bp['custom_model_data'])) return 1;
+        } else if (isset($bp['custom_model_data'])) return -1;
 
         // damaged
         if (isset($ap['damaged'])) {
-            if (!isset($bp['damaged'])) return -1;
-            if ($ap['damaged'] < $bp['damaged']) return -1;
-            if ($ap['damaged'] > $bp['damaged']) return 1;
-        } else if (isset($bp['damaged'])) return 1;
+            if (!isset($bp['damaged'])) return 1;
+        } else if (isset($bp['damaged'])) return -1;
 
         // damage
         if (isset($ap['damage'])) {
@@ -62,24 +62,41 @@ function overrideSorter($a, $b) {
 
         // Bow pulling
         if (isset($ap['pulling'])) {
-            if (!isset($bp['pulling'])) return -1;
+            if (!isset($bp['pulling'])) return 1;
             if ($ap['pulling'] < $bp['pulling']) return -1;
             if ($ap['pulling'] > $bp['pulling']) return 1;
-        } else if (isset($bp['pulling'])) return 1;
+        } else if (isset($bp['pulling'])) return -1;
 
         // Bow pull
         if (isset($ap['pull'])) {
-            if (!isset($bp['pull'])) return -1;
+            if (!isset($bp['pull'])) return 1;
             if ($ap['pull'] < $bp['pull']) return -1;
             if ($ap['pull'] > $bp['pull']) return 1;
-        } else if (isset($bp['pull'])) return 1;
+        } else if (isset($bp['pull'])) return -1;
 
         // Blocking
         if (isset($ap['blocking'])) {
-            if (!isset($bp['blocking'])) return -1;
+            if (!isset($bp['blocking'])) return 1;
             if ($ap['blocking'] < $bp['blocking']) return -1;
             if ($ap['blocking'] > $bp['blocking']) return 1;
-        } else if (isset($bp['blocking'])) return 1;
+        } else if (isset($bp['blocking'])) return -1;
+
+        // Finally sort by CMD and/or damage values if present
+        // At this point if one has CMD the other should as well,
+        // or else we would've returned above.
+
+        // CMD
+        if (isset($ap['custom_model_data'])) {
+            if ($ap['custom_model_data'] < $bp['custom_model_data']) return -1;
+            if ($ap['custom_model_data'] > $bp['custom_model_data']) return 1;
+        }
+
+        // damaged
+        if (isset($ap['damaged'])) {
+            if ($ap['damaged'] < $bp['damaged']) return -1;
+            if ($ap['damaged'] > $bp['damaged']) return 1;
+        }
+
     } else if (isset($b['predicate'])) return 1;
     return 0;
 }
@@ -139,7 +156,7 @@ function mergeFolder($fromFolder, $toFolder) {
                     $toJSON[$key] = $sound;
                 }
             }
-            file_put_contents($toFile, json_encode($toJSON, JSON_PRETTY_PRINT));
+            file_put_contents($toFile, json_encode($toJSON, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
             continue;
         }
 
@@ -150,12 +167,14 @@ function mergeFolder($fromFolder, $toFolder) {
         $fromOverrides = $fromJSON['overrides'];
         if (!isset($toJSON['overrides'])) {
             $toJSON['overrides'] = $fromOverrides;
-            file_put_contents($toFile, json_encode($toJSON, JSON_PRETTY_PRINT));
+            file_put_contents($toFile, json_encode($toJSON, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
+            return;
         }
 
         $toOverrides = $toJSON['overrides'];
         $hasCustomModelData = array();
         $hasDamage = array();
+        $hasPredicate = array();
         for ($i = 0; $i < count($toOverrides); $i++) {
             $override = $toOverrides[$i];
             if (isset($override['predicate'])) {
@@ -164,6 +183,9 @@ function mergeFolder($fromFolder, $toFolder) {
                     $hasCustomModelData[$predicate['custom_model_data']] = true;
                 } else if (isset($predicate['damage'])) {
                     $hasDamage[$predicate['damage']] = true;
+                } else {
+                    ksort($predicate);
+                    $hasPredicate[json_encode($predicate)] = true;
                 }
             }
         }
@@ -172,21 +194,24 @@ function mergeFolder($fromFolder, $toFolder) {
             $override = $fromOverrides[$i];
             if (isset($override['predicate'])) {
                 $predicate = $override['predicate'];
+                ksort($predicate);
                 if (isset($predicate['custom_model_data'])) {
                     if (isset($hasCustomModelData[$predicate['custom_model_data']])) {
-                        echo("Skipping duplicate override from: " . $fromFile . "{CustomModelData:" . $predicate['custom_model_data'] . "}\n");
+                        echo("    Skipping duplicate override from: " . $fromFile . "{CustomModelData:" . $predicate['custom_model_data'] . "}\n");
                     } else {
                         array_push($toOverrides, $override);
                     }
                 } else if (isset($predicate['damage'])) {
                     if (isset($hasDamage[$predicate['custom_model_data']])) {
-                        echo("Skipping duplicate override from: " . $fromFile . ":" . $predicate['damage'] . "\n");
+                        echo("    Skipping duplicate override from: " . $fromFile . ":" . $predicate['damage'] . "\n");
                     } else {
                         array_push($toOverrides, $override);
                     }
+                } else if ($hasPredicate[json_encode($predicate)]) {
+                    echo "    Skipping override with duplicate predicate: " . json_encode($predicate) . "\n";
                 } else {
                     if (!isset($predicate['pulling']) && !isset($predicate['pull']) && !isset($predicate['blocking'])) {
-                        echo("Adding unknown override predicate type from: " . $fromFile . ": " . json_encode($predicate) . "}\n");
+                        echo("    Adding unknown override predicate type from: " . $fromFile . ": " . json_encode($predicate) . "}\n");
                     }
                     array_push($toOverrides, $override);
                 }
@@ -199,7 +224,7 @@ function mergeFolder($fromFolder, $toFolder) {
         usort($toOverrides, 'overrideSorter');
 
         $toJSON['overrides'] = $toOverrides;
-        file_put_contents($toFile, json_encode($toJSON, JSON_PRETTY_PRINT));
+        file_put_contents($toFile, json_encode($toJSON, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
     }
 }
 
