@@ -55,10 +55,8 @@ function overrideSorter($a, $b) {
 
         // damage
         if (isset($ap['damage'])) {
-            if (!isset($bp['damage'])) return -1;
-            if ($ap['damage'] < $bp['damage']) return -1;
-            if ($ap['damage'] > $bp['damage']) return 1;
-        } else if (isset($bp['damage'])) return 1;
+            if (!isset($bp['damage'])) return 1;
+        } else if (isset($bp['damage'])) return -1;
 
         // Bow pulling
         if (isset($ap['pulling'])) {
@@ -95,6 +93,12 @@ function overrideSorter($a, $b) {
         if (isset($ap['damaged'])) {
             if ($ap['damaged'] < $bp['damaged']) return -1;
             if ($ap['damaged'] > $bp['damaged']) return 1;
+        }
+
+        // damage
+        if (isset($ap['damage'])) {
+            if ($ap['damage'] < $bp['damage']) return -1;
+            if ($ap['damage'] > $bp['damage']) return 1;
         }
 
     } else if (isset($b['predicate'])) return 1;
