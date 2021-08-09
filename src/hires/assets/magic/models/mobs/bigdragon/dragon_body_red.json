@@ -1,7 +1,7 @@
 {
 	"__comment": "Minecraft structure body2 by NightScythe1",
-	"parent": "item/bigdragon/dragon_body_base",
+	"parent": "magic:mobs/bigdragon/dragon_body_base",
 	"textures": {
-		"atlas": "bigdragon/dragon_body_red"
+		"atlas": "magic:mobs/bigdragon/dragon_body_red"
 	}
 }

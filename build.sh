@@ -92,6 +92,7 @@ echo "** BUILDING ROBES **"
 mkdir robes
 cd robes
 cp -R ../../src/default/* .
+mkdir assets/minecraft/textures/
 cp -R ../../src/chainmail/assets/minecraft/textures/* assets/minecraft/textures/
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-robes-RP-1.17.zip *
@@ -120,6 +121,7 @@ echo "** BUILDING ALL **"
 mkdir all
 cd all
 cp -R ../../src/default/* .
+mkdir assets/minecraft/textures/
 cp -R ../../src/chainmail/assets/minecraft/textures/* assets/minecraft/textures/
 cp -R ../../src/war/assets/minecraft/sounds/* assets/minecraft/sounds/
 cp -R ../../src/war/assets/minecraft/models/item/* assets/minecraft/models/item/
@@ -180,8 +182,7 @@ echo "** BUILDING HIRES **"
 mkdir hires
 cd hires
 cp -R ../default/* .
-cp -R ../../src/hires/assets/minecraft/models/item/* assets/minecraft/models/item/
-cp -R ../../src/hires/assets/minecraft/textures/item/* assets/minecraft/textures/item/
+cp -R ../../src/hires/assets/magic/* assets/magic/
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-hires-RP-1.17.zip *
 cd ..
