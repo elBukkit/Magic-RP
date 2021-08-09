@@ -5,9 +5,9 @@
   },
 
   "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "item/spells/lockpick"},
-    {"predicate": { "custom_model_data": 18002}, "model": "item/spells_disabled/lockpick"},
-    {"predicate": { "custom_model_data": 18003}, "model": "item/spells/sniper"},
-    {"predicate": { "custom_model_data": 18004}, "model": "item/spells_disabled/sniper"}
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/lockpick"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/lockpick"},
+    {"predicate": { "custom_model_data": 18003}, "model": "magic:icons/spells/sniper"},
+    {"predicate": { "custom_model_data": 18004}, "model": "magic:icons_disabled/spells/sniper"}
   ]
 }

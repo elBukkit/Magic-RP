@@ -6,7 +6,7 @@
 
   "overrides": [
     {"predicate": {"custom_model_data": 18001}, "model": "item/custom/crystalball"},
-    {"predicate": { "custom_model_data": 18002}, "model": "item/spells/shuriken"},
-    {"predicate": { "custom_model_data": 18003}, "model": "item/spells_disabled/shuriken"}
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons/spells/shuriken"},
+    {"predicate": { "custom_model_data": 18003}, "model": "magic:icons_disabled/spells/shuriken"}
   ]
 }

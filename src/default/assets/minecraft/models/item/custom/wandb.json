@@ -3,7 +3,7 @@
 	"parent": "item/custom/lit",
 	"textures": {
 		"texture": "item/custom/redpurple",
-		"texture1": "item/spells/reflect"
+		"texture1": "magic:icons/spells/reflect"
 	},
 	"elements": [
 		{

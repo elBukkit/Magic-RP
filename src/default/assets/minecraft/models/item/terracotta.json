@@ -2,7 +2,7 @@
   "parent": "minecraft:block/terracotta",
 
   "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "item/spells/walls"},
-    {"predicate": { "custom_model_data": 18002}, "model": "item/spells_disabled/walls"}
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/walls"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/walls"}
   ]
 }

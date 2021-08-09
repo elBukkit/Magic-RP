@@ -5,7 +5,7 @@
   },
 
   "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "item/spells/superpyramid"},
-    {"predicate": { "custom_model_data": 18002}, "model": "item/spells_disabled/superpyramid"}
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/superpyramid"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/superpyramid"}
   ]
 }

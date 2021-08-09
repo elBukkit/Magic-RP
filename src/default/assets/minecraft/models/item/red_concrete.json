@@ -2,6 +2,6 @@
   "parent": "minecraft:block/red_concrete",
 
   "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "item/icons/no"}
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/generic/no"}
   ]
 }

@@ -4,7 +4,7 @@
     "layer0": "minecraft:item/oak_door"
   },
   "overrides": [
-      {"predicate": {"custom_model_data": 18001}, "model": "item/spells/admission"},
-      {"predicate": {"custom_model_data": 18002}, "model": "item/spells_disabled/admission"}
+      {"predicate": {"custom_model_data": 18001}, "model": "magic:icons/spells/admission"},
+      {"predicate": {"custom_model_data": 18002}, "model": "magic:icons_disabled/spells/admission"}
   ]
 }

@@ -2,10 +2,10 @@
 	"credit": "Designed by Lix3nn with Cubik studio - https://cubik.studio. Edited by PhvntxmX using BlockBench.",
 	"parent": "item/custom/lit",
 	"textures": {
-		"texture2": "item/spells/iceshards",
-		"texture": "item/spells/sniper",
+		"texture2": "magic:icons/spells/iceshards",
+		"texture": "magic:icons/spells/sniper",
 		"texture1": "item/custom/redpurple",
-		"texture4": "item/spells/rocketlauncher",
+		"texture4": "magic:icons/spells/rocketlauncher",
 		"particle": "item/custom/lightningred"
 	},
 	"elements": [

@@ -4,7 +4,7 @@
     "layer0": "minecraft:item/cookie"
   },
   "overrides": [
-    {"predicate": {"custom_model_data": 18001}, "model": "item/spells/grow"},
-    {"predicate": {"custom_model_data": 18002}, "model": "item/spells_disabled/grow"}
+    {"predicate": {"custom_model_data": 18001}, "model": "magic:icons/spells/grow"},
+    {"predicate": {"custom_model_data": 18002}, "model": "magic:icons_disabled/spells/grow"}
   ]
 }

@@ -5,7 +5,7 @@
         "layer1": "minecraft:item/firework_star_overlay"
     },
   "overrides": [
-    {"predicate": {"custom_model_data": 18001}, "model": "item/spells/flare"},
-    {"predicate": {"custom_model_data": 18002}, "model": "item/spells_disabled/flare"}
+    {"predicate": {"custom_model_data": 18001}, "model": "magic:icons/spells/flare"},
+    {"predicate": {"custom_model_data": 18002}, "model": "magic:icons_disabled/spells/flare"}
   ]
 }

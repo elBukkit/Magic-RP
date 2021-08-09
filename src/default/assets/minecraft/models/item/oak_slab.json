@@ -2,7 +2,7 @@
   "parent": "minecraft:block/oak_slab",
 
   "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "item/spells/flatten"},
-    {"predicate": { "custom_model_data": 18002}, "model": "item/spells_disabled/flatten"}
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/flatten"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/flatten"}
   ]
 }

@@ -5,9 +5,9 @@
   },
 
   "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "item/spells/frost"},
-    {"predicate": { "custom_model_data": 18002}, "model": "item/spells_disabled/frost"},
-    {"predicate": { "custom_model_data": 18003}, "model": "item/spells/iceshards"},
-    {"predicate": { "custom_model_data": 18004}, "model": "item/spells_disabled/iceshards"}
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/frost"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/frost"},
+    {"predicate": { "custom_model_data": 18003}, "model": "magic:icons/spells/iceshards"},
+    {"predicate": { "custom_model_data": 18004}, "model": "magic:icons_disabled/spells/iceshards"}
   ]
 }

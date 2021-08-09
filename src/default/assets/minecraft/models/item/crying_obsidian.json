@@ -2,7 +2,7 @@
   "parent": "minecraft:block/crying_obsidian",
 
   "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "item/spells/portal"},
-    {"predicate": { "custom_model_data": 18002}, "model": "item/spells_disabled/portal"}
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/portal"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/portal"}
   ]
 }

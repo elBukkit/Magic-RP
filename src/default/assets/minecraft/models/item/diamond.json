@@ -5,8 +5,8 @@
   },
 
   "overrides": [
-    {"predicate": {"custom_model_data": 18001}, "model": "item/spells/wand"},
-    {"predicate": {"custom_model_data": 18002}, "model": "item/spells_disabled/wand"},
+    {"predicate": {"custom_model_data": 18001}, "model": "magic:icons/spells/wand"},
+    {"predicate": {"custom_model_data": 18002}, "model": "magic:icons_disabled/spells/wand"},
     {"predicate": {"custom_model_data": 18003}, "model": "item/custom/crystalball"}
   ]
 }
