@@ -5,6 +5,6 @@
   },
 
   "overrides": [
-    {"predicate": {"custom_model_data": 18001}, "model": "magic:other/crystalball"}
+    {"predicate": {"custom_model_data": 18001}, "model": "magic:wands/crystalball"}
   ]
 }
