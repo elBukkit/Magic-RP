@@ -2,145 +2,145 @@
   "entity.zombie_pig.ambient": {
     "sounds": [
       {
-        "name": "war/groan-1",
+        "name": "magic:war/groan-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/groan-1",
+        "name": "magic:war/groan-1",
         "volume": 1,
         "pitch": 0.9,
         "weight": 3
       },
       {
-        "name": "war/groan-1",
+        "name": "magic:war/groan-1",
         "volume": 1,
         "pitch": 1.1,
         "weight": 3
       },
       {
-        "name": "war/groan-2",
+        "name": "magic:war/groan-2",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/groan-2",
+        "name": "magic:war/groan-2",
         "volume": 1,
         "pitch": 0.9,
         "weight": 3
       },
       {
-        "name": "war/groan-2",
+        "name": "magic:war/groan-2",
         "volume": 1,
         "pitch": 1.1,
         "weight": 3
       },
       {
-        "name": "war/grunt-1",
+        "name": "magic:war/grunt-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/grunt-1",
+        "name": "magic:war/grunt-1",
         "volume": 1,
         "pitch": 0.9,
         "weight": 3
       },
       {
-        "name": "war/grunt-1",
+        "name": "magic:war/grunt-1",
         "volume": 1,
         "pitch": 1.1,
         "weight": 3
       },
       {
-        "name": "war/gibberish-1",
+        "name": "magic:war/gibberish-1",
         "volume": 1,
         "pitch": 1,
         "weight": 2
       },
       {
-        "name": "war/gibberish-1",
+        "name": "magic:war/gibberish-1",
         "volume": 1,
         "pitch": 0.9,
         "weight": 2
       },
       {
-        "name": "war/gibberish-1",
+        "name": "magic:war/gibberish-1",
         "volume": 1,
         "pitch": 1.1,
         "weight": 2
       },
       {
-        "name": "war/radio-1",
+        "name": "magic:war/radio-1",
         "volume": 1,
         "pitch": 1,
         "weight": 1
       },
       {
-        "name": "war/radio-1",
+        "name": "magic:war/radio-1",
         "volume": 1,
         "pitch": 0.9,
         "weight": 1
       },
       {
-        "name": "war/radio-1",
+        "name": "magic:war/radio-1",
         "volume": 1,
         "pitch": 1.1,
         "weight": 1
       },
       {
-        "name": "war/radio-2",
+        "name": "magic:war/radio-2",
         "volume": 1,
         "pitch": 1,
         "weight": 1
       },
       {
-        "name": "war/radio-2",
+        "name": "magic:war/radio-2",
         "volume": 1,
         "pitch": 0.9,
         "weight": 1
       },
       {
-        "name": "war/radio-2",
+        "name": "magic:war/radio-2",
         "volume": 1,
         "pitch": 1.1,
         "weight": 1
       },
       {
-        "name": "war/radio-3",
+        "name": "magic:war/radio-3",
         "volume": 1,
         "pitch": 1,
         "weight": 1
       },
       {
-        "name": "war/radio-3",
+        "name": "magic:war/radio-3",
         "volume": 1,
         "pitch": 0.9,
         "weight": 1
       },
       {
-        "name": "war/radio-3",
+        "name": "magic:war/radio-3",
         "volume": 1,
         "pitch": 1.1,
         "weight": 1
       },
       {
-        "name": "war/radio-4",
+        "name": "magic:war/radio-4",
         "volume": 1,
         "pitch": 1,
         "weight": 1
       },
       {
-        "name": "war/radio-4",
+        "name": "magic:war/radio-4",
         "volume": 1,
         "pitch": 0.9,
         "weight": 1
       },
       {
-        "name": "war/radio-4",
+        "name": "magic:war/radio-4",
         "volume": 1,
         "pitch": 1.1,
         "weight": 1
@@ -150,77 +150,77 @@
   "entity.zombie_pig.hurt": {
     "sounds": [
       {
-        "name": "war/hit-1",
+        "name": "magic:war/hit-1",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-1",
+        "name": "magic:war/hit-1",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-1",
+        "name": "magic:war/hit-1",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/hit-2",
+        "name": "magic:war/hit-2",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-2",
+        "name": "magic:war/hit-2",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-2",
+        "name": "magic:war/hit-2",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/hit-3",
+        "name": "magic:war/hit-3",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-3",
+        "name": "magic:war/hit-3",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-3",
+        "name": "magic:war/hit-3",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/hit-4",
+        "name": "magic:war/hit-4",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-4",
+        "name": "magic:war/hit-4",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-4",
+        "name": "magic:war/hit-4",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/hit-5",
+        "name": "magic:war/hit-5",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-5",
+        "name": "magic:war/hit-5",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-5",
+        "name": "magic:war/hit-5",
         "volume": 1,
         "pitch": 1.1
       }
@@ -229,61 +229,61 @@
   "entity.zombie_pig.angry": {
     "sounds": [
       {
-        "name": "war/angry-1",
+        "name": "magic:war/angry-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/angry-1",
+        "name": "magic:war/angry-1",
         "volume": 1,
         "pitch": 0.9,
         "weight": 3
       },
       {
-        "name": "war/angry-1",
+        "name": "magic:war/angry-1",
         "volume": 1,
         "pitch": 1.1,
         "weight": 3
       },
       {
-        "name": "war/angry-1",
+        "name": "magic:war/angry-1",
         "volume": 1,
         "pitch": 0.8,
         "weight": 3
       },
       {
-        "name": "war/angry-1",
+        "name": "magic:war/angry-1",
         "volume": 1,
         "pitch": 1.2,
         "weight": 3
       },
       {
-        "name": "war/angry-2",
+        "name": "magic:war/angry-2",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/angry-2",
+        "name": "magic:war/angry-2",
         "volume": 1,
         "pitch": 0.9,
         "weight": 3
       },
       {
-        "name": "war/angry-2",
+        "name": "magic:war/angry-2",
         "volume": 1,
         "pitch": 1.1,
         "weight": 3
       },
       {
-        "name": "war/angry-2",
+        "name": "magic:war/angry-2",
         "volume": 1,
         "pitch": 0.8,
         "weight": 3
       },
       {
-        "name": "war/angry-2",
+        "name": "magic:war/angry-2",
         "volume": 1,
         "pitch": 0.7,
         "weight": 3
@@ -293,32 +293,32 @@
   "entity.zombie_pig.death": {
     "sounds": [
       {
-        "name": "war/dying-1",
+        "name": "magic:war/dying-1",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/dying-1",
+        "name": "magic:war/dying-1",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/dying-1",
+        "name": "magic:war/dying-1",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/dying-2",
+        "name": "magic:war/dying-2",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/dying-2",
+        "name": "magic:war/dying-2",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/dying-2",
+        "name": "magic:war/dying-2",
         "volume": 1,
         "pitch": 1.1
       }
@@ -327,73 +327,73 @@
   "entity.zombie.ambient": {
     "sounds": [
       {
-        "name": "war/groan-1",
+        "name": "magic:war/groan-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/groan-1",
+        "name": "magic:war/groan-1",
         "volume": 1,
         "pitch": 0.9,
         "weight": 3
       },
       {
-        "name": "war/groan-1",
+        "name": "magic:war/groan-1",
         "volume": 1,
         "pitch": 1.1,
         "weight": 3
       },
       {
-        "name": "war/groan-2",
+        "name": "magic:war/groan-2",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/groan-2",
+        "name": "magic:war/groan-2",
         "volume": 1,
         "pitch": 0.9,
         "weight": 3
       },
       {
-        "name": "war/groan-2",
+        "name": "magic:war/groan-2",
         "volume": 1,
         "pitch": 1.1,
         "weight": 3
       },
       {
-        "name": "war/grunt-1",
+        "name": "magic:war/grunt-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/grunt-1",
+        "name": "magic:war/grunt-1",
         "volume": 1,
         "pitch": 0.9,
         "weight": 3
       },
       {
-        "name": "war/grunt-1",
+        "name": "magic:war/grunt-1",
         "volume": 1,
         "pitch": 1.1,
         "weight": 3
       },
       {
-        "name": "war/gibberish-1",
+        "name": "magic:war/gibberish-1",
         "volume": 1,
         "pitch": 1,
         "weight": 1
       },
       {
-        "name": "war/gibberish-1",
+        "name": "magic:war/gibberish-1",
         "volume": 1,
         "pitch": 0.9,
         "weight": 1
       },
       {
-        "name": "war/gibberish-1",
+        "name": "magic:war/gibberish-1",
         "volume": 1,
         "pitch": 1.1,
         "weight": 1
@@ -403,77 +403,77 @@
   "entity.zombie.hurt": {
     "sounds": [
       {
-        "name": "war/hit-1",
+        "name": "magic:war/hit-1",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-1",
+        "name": "magic:war/hit-1",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-1",
+        "name": "magic:war/hit-1",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/hit-2",
+        "name": "magic:war/hit-2",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-2",
+        "name": "magic:war/hit-2",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-2",
+        "name": "magic:war/hit-2",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/hit-3",
+        "name": "magic:war/hit-3",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-3",
+        "name": "magic:war/hit-3",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-3",
+        "name": "magic:war/hit-3",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/hit-4",
+        "name": "magic:war/hit-4",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-4",
+        "name": "magic:war/hit-4",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-4",
+        "name": "magic:war/hit-4",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/hit-5",
+        "name": "magic:war/hit-5",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-5",
+        "name": "magic:war/hit-5",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-5",
+        "name": "magic:war/hit-5",
         "volume": 1,
         "pitch": 1.1
       }
@@ -482,32 +482,32 @@
   "entity.zombie.death": {
     "sounds": [
       {
-        "name": "war/dying-1",
+        "name": "magic:war/dying-1",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/dying-1",
+        "name": "magic:war/dying-1",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/dying-1",
+        "name": "magic:war/dying-1",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/dying-2",
+        "name": "magic:war/dying-2",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/dying-2",
+        "name": "magic:war/dying-2",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/dying-2",
+        "name": "magic:war/dying-2",
         "volume": 1,
         "pitch": 1.1
       }
@@ -516,73 +516,73 @@
   "entity.skeleton.ambient": {
     "sounds": [
       {
-        "name": "war/groan-1",
+        "name": "magic:war/groan-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/groan-1",
+        "name": "magic:war/groan-1",
         "volume": 1,
         "pitch": 0.9,
         "weight": 3
       },
       {
-        "name": "war/groan-1",
+        "name": "magic:war/groan-1",
         "volume": 1,
         "pitch": 1.1,
         "weight": 3
       },
       {
-        "name": "war/groan-2",
+        "name": "magic:war/groan-2",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/groan-2",
+        "name": "magic:war/groan-2",
         "volume": 1,
         "pitch": 0.9,
         "weight": 3
       },
       {
-        "name": "war/groan-2",
+        "name": "magic:war/groan-2",
         "volume": 1,
         "pitch": 1.1,
         "weight": 3
       },
       {
-        "name": "war/grunt-1",
+        "name": "magic:war/grunt-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/grunt-1",
+        "name": "magic:war/grunt-1",
         "volume": 1,
         "pitch": 0.9,
         "weight": 3
       },
       {
-        "name": "war/grunt-1",
+        "name": "magic:war/grunt-1",
         "volume": 1,
         "pitch": 1.1,
         "weight": 3
       },
       {
-        "name": "war/gibberish-1",
+        "name": "magic:war/gibberish-1",
         "volume": 1,
         "pitch": 1,
         "weight": 1
       },
       {
-        "name": "war/gibberish-1",
+        "name": "magic:war/gibberish-1",
         "volume": 1,
         "pitch": 0.9,
         "weight": 1
       },
       {
-        "name": "war/gibberish-1",
+        "name": "magic:war/gibberish-1",
         "volume": 1,
         "pitch": 1.1,
         "weight": 1
@@ -592,77 +592,77 @@
   "entity.skeleton.hurt": {
     "sounds": [
       {
-        "name": "war/hit-1",
+        "name": "magic:war/hit-1",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-1",
+        "name": "magic:war/hit-1",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-1",
+        "name": "magic:war/hit-1",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/hit-2",
+        "name": "magic:war/hit-2",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-2",
+        "name": "magic:war/hit-2",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-2",
+        "name": "magic:war/hit-2",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/hit-3",
+        "name": "magic:war/hit-3",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-3",
+        "name": "magic:war/hit-3",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-3",
+        "name": "magic:war/hit-3",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/hit-4",
+        "name": "magic:war/hit-4",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-4",
+        "name": "magic:war/hit-4",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-4",
+        "name": "magic:war/hit-4",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/hit-5",
+        "name": "magic:war/hit-5",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/hit-5",
+        "name": "magic:war/hit-5",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/hit-5",
+        "name": "magic:war/hit-5",
         "volume": 1,
         "pitch": 1.1
       }
@@ -671,32 +671,32 @@
   "entity.skeleton.death": {
     "sounds": [
       {
-        "name": "war/dying-1",
+        "name": "magic:war/dying-1",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/dying-1",
+        "name": "magic:war/dying-1",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/dying-1",
+        "name": "magic:war/dying-1",
         "volume": 1,
         "pitch": 1.1
       },
       {
-        "name": "war/dying-2",
+        "name": "magic:war/dying-2",
         "volume": 1,
         "pitch": 1
       },
       {
-        "name": "war/dying-2",
+        "name": "magic:war/dying-2",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/dying-2",
+        "name": "magic:war/dying-2",
         "volume": 1,
         "pitch": 1.1
       }

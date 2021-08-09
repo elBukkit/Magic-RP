@@ -2,28 +2,28 @@
   "war.ak47": {
     "sounds": [
       {
-        "name": "war/ak47-1",
+        "name": "magic:war/ak47-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/ak47-1",
+        "name": "magic:war/ak47-1",
         "volume": 0.9,
         "pitch": 0.7
       },
       {
-        "name": "war/ak47-1",
+        "name": "magic:war/ak47-1",
         "volume": 1,
         "pitch": 0.8
       },
       {
-        "name": "war/ak47-1",
+        "name": "magic:war/ak47-1",
         "volume": 0.8,
         "pitch": 1.2
       },
       {
-        "name": "war/ak47-1",
+        "name": "magic:war/ak47-1",
         "volume": 1,
         "pitch": 1.3
       }
@@ -33,28 +33,28 @@
   "war.deserteagle": {
     "sounds": [
       {
-        "name": "war/deserteagle-1",
+        "name": "magic:war/deserteagle-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/deserteagle-1",
+        "name": "magic:war/deserteagle-1",
         "volume": 0.9,
         "pitch": 0.7
       },
       {
-        "name": "war/deserteagle-1",
+        "name": "magic:war/deserteagle-1",
         "volume": 1,
         "pitch": 0.8
       },
       {
-        "name": "war/deserteagle-1",
+        "name": "magic:war/deserteagle-1",
         "volume": 0.8,
         "pitch": 1.2
       },
       {
-        "name": "war/deserteagle-1",
+        "name": "magic:war/deserteagle-1",
         "volume": 1,
         "pitch": 1.3
       }
@@ -64,28 +64,28 @@
   "war.rocketlauncher": {
     "sounds": [
       {
-        "name": "war/rocketlauncher-1",
+        "name": "magic:war/rocketlauncher-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/rocketlauncher-1",
+        "name": "magic:war/rocketlauncher-1",
         "volume": 0.9,
         "pitch": 0.7
       },
       {
-        "name": "war/rocketlauncher-1",
+        "name": "magic:war/rocketlauncher-1",
         "volume": 1,
         "pitch": 0.8
       },
       {
-        "name": "war/rocketlauncher-1",
+        "name": "magic:war/rocketlauncher-1",
         "volume": 0.8,
         "pitch": 1.2
       },
       {
-        "name": "war/rocketlauncher-1",
+        "name": "magic:war/rocketlauncher-1",
         "volume": 1,
         "pitch": 1.3
       }
@@ -95,28 +95,28 @@
   "war.shotgun": {
     "sounds": [
       {
-        "name": "war/shotgun-1",
+        "name": "magic:war/shotgun-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/shotgun-1",
+        "name": "magic:war/shotgun-1",
         "volume": 0.9,
         "pitch": 0.7
       },
       {
-        "name": "war/shotgun-1",
+        "name": "magic:war/shotgun-1",
         "volume": 1,
         "pitch": 0.8
       },
       {
-        "name": "war/shotgun-1",
+        "name": "magic:war/shotgun-1",
         "volume": 0.8,
         "pitch": 1.2
       },
       {
-        "name": "war/shotgun-1",
+        "name": "magic:war/shotgun-1",
         "volume": 1,
         "pitch": 1.3
       }
@@ -126,28 +126,28 @@
   "war.sniperrifle": {
     "sounds": [
       {
-        "name": "war/sniperrifle-1",
+        "name": "magic:war/sniperrifle-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/sniperrifle-1",
+        "name": "magic:war/sniperrifle-1",
         "volume": 0.9,
         "pitch": 0.7
       },
       {
-        "name": "war/sniperrifle-1",
+        "name": "magic:war/sniperrifle-1",
         "volume": 1,
         "pitch": 0.8
       },
       {
-        "name": "war/sniperrifle-1",
+        "name": "magic:war/sniperrifle-1",
         "volume": 0.8,
         "pitch": 1.2
       },
       {
-        "name": "war/sniperrifle-1",
+        "name": "magic:war/sniperrifle-1",
         "volume": 1,
         "pitch": 1.3
       }
@@ -157,18 +157,18 @@
   "war.ak47-reload": {
     "sounds": [
       {
-        "name": "war/ak47-reload-1",
+        "name": "magic:war/ak47-reload-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/ak47-reload-1",
+        "name": "magic:war/ak47-reload-1",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/ak47-reload-1",
+        "name": "magic:war/ak47-reload-1",
         "volume": 1,
         "pitch": 1.1
       }
@@ -178,18 +178,18 @@
   "war.deserteagle-reload": {
     "sounds": [
       {
-        "name": "war/deserteagle-reload-1",
+        "name": "magic:war/deserteagle-reload-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/deserteagle-reload-1",
+        "name": "magic:war/deserteagle-reload-1",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/deserteagle-reload-1",
+        "name": "magic:war/deserteagle-reload-1",
         "volume": 1,
         "pitch": 1.1
       }
@@ -199,18 +199,18 @@
   "war.rocketlauncher-reload": {
     "sounds": [
       {
-        "name": "war/rocketlauncher-reload-1",
+        "name": "magic:war/rocketlauncher-reload-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/rocketlauncher-reload-1",
+        "name": "magic:war/rocketlauncher-reload-1",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/rocketlauncher-reload-1",
+        "name": "magic:war/rocketlauncher-reload-1",
         "volume": 1,
         "pitch": 1.1
       }
@@ -220,18 +220,18 @@
   "war.shotgun-reload": {
     "sounds": [
       {
-        "name": "war/shotgun-reload-1",
+        "name": "magic:war/shotgun-reload-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/shotgun-reload-1",
+        "name": "magic:war/shotgun-reload-1",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/shotgun-reload-1",
+        "name": "magic:war/shotgun-reload-1",
         "volume": 1,
         "pitch": 1.1
       }
@@ -241,18 +241,18 @@
   "war.sniperrifle-reload": {
     "sounds": [
       {
-        "name": "war/sniperrifle-reload-1",
+        "name": "magic:war/sniperrifle-reload-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/sniperrifle-reload-1",
+        "name": "magic:war/sniperrifle-reload-1",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/sniperrifle-reload-1",
+        "name": "magic:war/sniperrifle-reload-1",
         "volume": 1,
         "pitch": 1.1
       }
@@ -262,28 +262,28 @@
   "war.ricochet": {
     "sounds": [
       {
-        "name": "war/ricochet-1",
+        "name": "magic:war/ricochet-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/ricochet-1",
+        "name": "magic:war/ricochet-1",
         "volume": 0.9,
         "pitch": 0.7
       },
       {
-        "name": "war/ricochet-1",
+        "name": "magic:war/ricochet-1",
         "volume": 1,
         "pitch": 0.8
       },
       {
-        "name": "war/ricochet-1",
+        "name": "magic:war/ricochet-1",
         "volume": 0.8,
         "pitch": 1.2
       },
       {
-        "name": "war/ricochet-1",
+        "name": "magic:war/ricochet-1",
         "volume": 1,
         "pitch": 1.3
       }
@@ -305,18 +305,18 @@
   "war.noammo": {
     "sounds": [
       {
-        "name": "war/noammo-1",
+        "name": "magic:war/noammo-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
       },
       {
-        "name": "war/noammo-1",
+        "name": "magic:war/noammo-1",
         "volume": 1,
         "pitch": 0.9
       },
       {
-        "name": "war/noammo-1",
+        "name": "magic:war/noammo-1",
         "volume": 1,
         "pitch": 1.1
       }
@@ -326,7 +326,7 @@
   "war.electricmotor": {
     "sounds": [
       {
-        "name": "war/electricmotor-1",
+        "name": "magic:war/electricmotor-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
@@ -337,7 +337,7 @@
   "war.engine": {
     "sounds": [
       {
-        "name": "war/engine-1",
+        "name": "magic:war/engine-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
@@ -348,7 +348,7 @@
   "war.radar": {
     "sounds": [
       {
-        "name": "war/radar-1",
+        "name": "magic:war/radar-1",
         "volume": 1,
         "pitch": 1,
         "weight": 3
