@@ -13,7 +13,6 @@ https://github.com/elBukkit/MagicPlugin/wiki
   - Night
   - Toffy
   - Lix3nn (https://sketchfab.com/Lix3nn/models)
-  - VelVoxel Raptor (https://www.youtube.com/watch?v=5QId3rMv89o)
 
 - 2D Artists:
   - realflamegirl (Discord flame#0464)
