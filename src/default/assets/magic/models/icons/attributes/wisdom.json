@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "magic:attributes/wisdom",
-        "texture": "magic:attributes/wisdom"
+        "particle": "magic:icons/attributes/wisdom",
+        "texture": "magic:icons/attributes/wisdom"
     }
 }

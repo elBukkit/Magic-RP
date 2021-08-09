@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full_disabled",
     "textures": {
-        "particle": "magic:attributes/constitution",
-        "texture": "magic:attributes/constitution"
+        "particle": "magic:icons/attributes/constitution",
+        "texture": "magic:icons/attributes/constitution"
     }
 }

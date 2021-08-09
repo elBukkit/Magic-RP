@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "magic:classes/druid",
-        "texture": "magic:classes/druid"
+        "particle": "magic:icons/classes/druid",
+        "texture": "magic:icons/classes/druid"
     }
 }

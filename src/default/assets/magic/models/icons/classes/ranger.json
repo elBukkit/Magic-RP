@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "magic:classes/ranger",
-        "texture": "magic:classes/ranger"
+        "particle": "magic:icons/classes/ranger",
+        "texture": "magic:icons/classes/ranger"
     }
 }

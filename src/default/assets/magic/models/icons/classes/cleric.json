@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "magic:classes/cleric",
-        "texture": "magic:classes/cleric"
+        "particle": "magic:icons/classes/cleric",
+        "texture": "magic:icons/classes/cleric"
     }
 }

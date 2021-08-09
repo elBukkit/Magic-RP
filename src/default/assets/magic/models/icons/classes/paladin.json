@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "magic:classes/paladin",
-        "texture": "magic:classes/paladin"
+        "particle": "magic:icons/classes/paladin",
+        "texture": "magic:icons/classes/paladin"
     }
 }

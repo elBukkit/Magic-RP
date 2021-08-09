@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "magic:classes/rogue",
-        "texture": "magic:classes/rogue"
+        "particle": "magic:icons/classes/rogue",
+        "texture": "magic:icons/classes/rogue"
     }
 }

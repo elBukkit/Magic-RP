@@ -1,5 +1,5 @@
 {
-	"parent": "magic:other/staff_survival",
+	"parent": "magic:wands/staff_survival",
 	"textures": {
 		"1": "magic:other/survivalwand3_colorable"
 	}
