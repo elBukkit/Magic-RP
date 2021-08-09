@@ -22,11 +22,11 @@ cd assets
 cp -R ../../../src/skulls/assets/* .
 cd ..
 cp -R ../../src/default/* .
-rm -R assets/minecraft/textures/item/spells
-rm -R assets/minecraft/textures/item/brushes
-rm -R assets/minecraft/models/item/spells
-rm -R assets/minecraft/models/item/spells_disabled
-rm -R assets/minecraft/models/item/brushes
+rm -R assets/magic/textures/icons/spells
+rm -R assets/magic/textures/icons/brushes
+rm -R assets/magic/models/icons/spells
+rm -R assets/magic/models/icons_disabled/spells
+rm -R assets/magic/models/icons/brushes
 rm assets/minecraft/models/item/diamond_axe.json
 rm assets/minecraft/models/item/diamond_hoe.json
 find . -name ".DS_Store" -type f -delete
@@ -47,7 +47,7 @@ echo "** BUILDING PAINTERLY **"
 
 mkdir painterly
 cd painterly
-cp -R ../../src/default/* .
+cp -R ../default/* .
 cp -R ../../src/painterly/* .
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-painterly-RP-1.17.zip *
@@ -57,7 +57,7 @@ echo "** BUILDING LOW-RES **"
 
 mkdir lowres
 cd lowres
-cp -R ../../src/default/* .
+cp -R ../default/* .
 cp -R ../../src/lowres/* .
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-lowres-RP-1.17.zip *
@@ -67,7 +67,7 @@ echo "** BUILDING POTTER **"
 
 mkdir potter
 cd potter
-cp -R ../../src/default/* .
+cp -R ../default/* .
 cp -R ../../src/potter/* .
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-potter-RP-1.17.zip *
@@ -78,7 +78,6 @@ echo "** BUILDING WAR **"
 mkdir war
 cd war
 cp -R ../../src/war/* .
-
 sed -e '$ d' ../../src/war/assets/minecraft/sounds.json > assets/minecraft/sounds.json
 echo , >> assets/minecraft/sounds.json
 tail -n +2 ../../src/war/assets/minecraft/sound-overrides.json >> assets/minecraft/sounds.json
@@ -91,7 +90,7 @@ echo "** BUILDING ROBES **"
 
 mkdir robes
 cd robes
-cp -R ../../src/default/* .
+cp -R ../default/* .
 mkdir assets/minecraft/textures/
 cp -R ../../src/chainmail/assets/minecraft/textures/* assets/minecraft/textures/
 find . -name ".DS_Store" -type f -delete
@@ -120,13 +119,9 @@ echo "** BUILDING ALL **"
 
 mkdir all
 cd all
-cp -R ../../src/default/* .
-mkdir assets/minecraft/textures/
-cp -R ../../src/chainmail/assets/minecraft/textures/* assets/minecraft/textures/
-cp -R ../../src/war/assets/minecraft/sounds/* assets/minecraft/sounds/
-cp -R ../../src/war/assets/minecraft/models/item/* assets/minecraft/models/item/
-cp -R ../../src/war/assets/minecraft/textures/misc assets/minecraft/textures/
-cp -R ../../src/war/assets/minecraft/textures/item/custom/* assets/minecraft/textures/item/custom/
+cp -R ../robes/* .
+cp -R ../../src/war/assets/magic/* assets/magic/
+cp ../../src/war/assets/minecraft/models/item/diamond_pickaxe.json assets/minecraft/models/item/
 sed -e '$ d' ../../src/default/assets/minecraft/sounds.json > assets/minecraft/sounds.json
 echo , >> assets/minecraft/sounds.json
 tail -n +2 ../../src/war/assets/minecraft/sounds.json >> assets/minecraft/sounds.json
@@ -160,8 +155,7 @@ echo "** BUILDING HIRES-ALL **"
 mkdir hires-all
 cd hires-all
 cp -R ../all/* .
-cp -R ../../src/hires/assets/minecraft/models/item/* assets/minecraft/models/item/
-cp -R ../../src/hires/assets/minecraft/textures/item/* assets/minecraft/textures/item/
+cp -R ../../src/hires/* .
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-hires-all-RP-1.17.zip *
 cd ..
@@ -171,8 +165,7 @@ echo "** BUILDING HIRES-ROBES **"
 mkdir hires-robes
 cd hires-robes
 cp -R ../robes/* .
-cp -R ../../src/hires/assets/minecraft/models/item/* assets/minecraft/models/item/
-cp -R ../../src/hires/assets/minecraft/textures/item/* assets/minecraft/textures/item/
+cp -R ../../src/hires/* .
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-hires-robes-RP-1.17.zip *
 cd ..
