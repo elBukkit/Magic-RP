@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "attributes/dexterity",
-        "texture": "attributes/dexterity"
+        "particle": "magic:attributes/dexterity",
+        "texture": "magic:attributes/dexterity"
     }
 }

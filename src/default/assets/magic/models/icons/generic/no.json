@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "icons/no",
-        "texture": "icons/no"
+        "particle": "magic:icons/generic/no",
+        "texture": "magic:icons/generic/no"
     }
 }

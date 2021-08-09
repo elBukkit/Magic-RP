@@ -2,9 +2,9 @@
     "__comment": "Created by Droobledore with BDcraft Cubik PRO 0.93 Beta. Used with permission in NathanWolf's Magic plugin.",
     "ambientocclusion": false,
     "textures": {
-        "particle": "item/custom/staff_gandalf",
-        "texture": "item/custom/staff_gandalf",
-        "animated1": "item/custom/animated1"
+        "particle": "magic:other/staff_gandalf",
+        "texture": "magic:other/staff_gandalf",
+        "animated1": "magic:other/animated1"
     },
     "elements": [
         {

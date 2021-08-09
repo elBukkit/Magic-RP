@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/virus",
-        "texture": "item/spells/virus"
+        "particle": "magic:icons/spells/virus",
+        "texture": "magic:icons/spells/virus"
     }
 }

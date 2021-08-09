@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/invincible",
-        "texture": "item/spells/invincible"
+        "particle": "magic:icons/spells/invincible",
+        "texture": "magic:icons/spells/invincible"
     }
 }

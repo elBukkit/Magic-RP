@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/lockpick",
-        "texture": "item/spells/lockpick"
+        "particle": "magic:icons/spells/lockpick",
+        "texture": "magic:icons/spells/lockpick"
     }
 }

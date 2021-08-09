@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/cage",
-        "texture": "item/spells/cage"
+        "particle": "magic:icons/spells/cage",
+        "texture": "magic:icons/spells/cage"
     }
 }

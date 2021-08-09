@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "item/custom/black",
-        "texture": "item/custom/black"
+        "particle": "magic:other/black",
+        "texture": "magic:other/black"
     }
 }

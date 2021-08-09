@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/upgrades/quickcast_normal",
-        "texture": "item/upgrades/quickcast_normal"
+        "particle": "magic:icons/upgrades/quickcast_normal",
+        "texture": "magic:icons/upgrades/quickcast_normal"
     }
 }

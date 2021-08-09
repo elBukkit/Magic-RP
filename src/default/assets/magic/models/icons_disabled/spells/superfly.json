@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/superfly",
-        "texture": "item/spells/superfly"
+        "particle": "magic:icons/spells/superfly",
+        "texture": "magic:icons/spells/superfly"
     }
 }

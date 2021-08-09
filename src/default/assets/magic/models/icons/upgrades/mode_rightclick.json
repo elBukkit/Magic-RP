@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/upgrades/mode_rightclick",
-        "texture": "item/upgrades/mode_rightclick"
+        "particle": "magic:icons/upgrades/mode_rightclick",
+        "texture": "magic:icons/upgrades/mode_rightclick"
     }
 }

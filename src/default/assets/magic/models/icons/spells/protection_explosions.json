@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/protection_explosions",
-        "texture": "item/spells/protection_explosions"
+        "particle": "magic:icons/spells/protection_explosions",
+        "texture": "magic:icons/spells/protection_explosions"
     }
 }

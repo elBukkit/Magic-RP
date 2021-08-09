@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/tracking",
-        "texture": "item/spells/tracking"
+        "particle": "magic:icons/spells/tracking",
+        "texture": "magic:icons/spells/tracking"
     }
 }

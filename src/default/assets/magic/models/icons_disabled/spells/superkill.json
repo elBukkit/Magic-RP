@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/superkill",
-        "texture": "item/spells/superkill"
+        "particle": "magic:icons/spells/superkill",
+        "texture": "magic:icons/spells/superkill"
     }
 }

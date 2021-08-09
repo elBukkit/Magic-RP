@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/flamethrower",
-        "texture": "item/spells/flamethrower"
+        "particle": "magic:icons/spells/flamethrower",
+        "texture": "magic:icons/spells/flamethrower"
     }
 }

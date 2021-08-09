@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/commit",
-        "texture": "item/spells/commit"
+        "particle": "magic:icons/spells/commit",
+        "texture": "magic:icons/spells/commit"
     }
 }

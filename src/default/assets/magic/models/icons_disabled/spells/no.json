@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/custom/no",
-        "texture": "item/custom/no"
+        "particle": "magic:other/no",
+        "texture": "magic:other/no"
     }
 }

@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench by Phantom, used in the Magic plugin with permission",
 	"textures": {
-		"1": "item/custom/survivalwand3"
+		"1": "magic:other/survivalwand3"
 	},
 	"elements": [
 		{

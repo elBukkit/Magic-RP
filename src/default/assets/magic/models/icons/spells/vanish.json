@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/vanish",
-        "texture": "item/spells/vanish"
+        "particle": "magic:icons/spells/vanish",
+        "texture": "magic:icons/spells/vanish"
     }
 }

@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/rubberize",
-        "texture": "item/spells/rubberize"
+        "particle": "magic:icons/spells/rubberize",
+        "texture": "magic:icons/spells/rubberize"
     }
 }

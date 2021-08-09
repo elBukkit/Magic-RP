@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/railgun",
-        "texture": "item/spells/railgun"
+        "particle": "magic:icons/spells/railgun",
+        "texture": "magic:icons/spells/railgun"
     }
 }

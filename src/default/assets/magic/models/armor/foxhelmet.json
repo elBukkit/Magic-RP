@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night, used in the Magic plugin with permission",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/custom/foxhelmet",
-		"particle": "item/custom/foxhelmet"
+		"0": "magic:other/foxhelmet",
+		"particle": "magic:other/foxhelmet"
 	},
 	"elements": [
 		{

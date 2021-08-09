@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/nuke",
-        "texture": "item/spells/nuke"
+        "particle": "magic:icons/spells/nuke",
+        "texture": "magic:icons/spells/nuke"
     }
 }

@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/admission",
-        "texture": "item/spells/admission"
+        "particle": "magic:icons/spells/admission",
+        "texture": "magic:icons/spells/admission"
     }
 }

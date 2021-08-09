@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full_disabled",
     "textures": {
-        "particle": "item/spells/sharpen_sword",
-        "texture": "item/spells/sharpen_sword"
+        "particle": "magic:icons/spells/sharpen_sword",
+        "texture": "magic:icons/spells/sharpen_sword"
     }
 }

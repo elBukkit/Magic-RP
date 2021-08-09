@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "item/custom/coffee"
+        "layer0": "magic:other/coffee"
     }
 }

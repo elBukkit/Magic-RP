@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "attributes/strength",
-        "texture": "attributes/strength"
+        "particle": "magic:attributes/strength",
+        "texture": "magic:attributes/strength"
     }
 }

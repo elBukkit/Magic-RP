@@ -3,9 +3,9 @@
 	"parent": "magic:base/lit",
 	"ambientocclusion": false,
 	"textures": {
-		"1": "item/custom/crystalball1",
-		"2": "item/custom/crystalball",
-		"particle": "item/custom/crystalball"
+		"1": "magic:other/crystalball1",
+		"2": "magic:other/crystalball",
+		"particle": "magic:other/crystalball"
 	},
 	"elements": [
 		{

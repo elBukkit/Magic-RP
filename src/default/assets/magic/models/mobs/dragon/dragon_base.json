@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench, by realflamegirl- Do not use without permission (Magic has permission!). Discord is Flamegirl#0464",
 	"texture_size": [128, 128],
 	"textures": {
-		"1": "dragon/dragon_base"
+		"1": "magic:mobs/dragon/dragon_base"
 	},
 	"elements": [
 		{

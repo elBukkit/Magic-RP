@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench, by RealFlamegirl. Do not take this out of the Magic resource pack and/or redistribute without permission. Discord is flame#0464",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "item/custom/demon_sword",
-		"particle": "item/custom/demon_sword"
+		"1": "magic:other/demon_sword",
+		"particle": "magic:other/demon_sword"
 	},
 	"elements": [
 		{

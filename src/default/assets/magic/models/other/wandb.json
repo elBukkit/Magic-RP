@@ -2,7 +2,7 @@
 	"credit": "Designed by Lix3nn with Cubik Studio - https://cubik.studio. Edited by PhvntxmX using BlockBench.",
 	"parent": "magic:base/lit",
 	"textures": {
-		"texture": "item/custom/redpurple",
+		"texture": "magic:other/redpurple",
 		"texture1": "magic:icons/spells/reflect"
 	},
 	"elements": [

@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "classes/barbarian",
-        "texture": "classes/barbarian"
+        "particle": "magic:classes/barbarian",
+        "texture": "magic:classes/barbarian"
     }
 }

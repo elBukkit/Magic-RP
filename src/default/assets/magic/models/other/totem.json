@@ -2,8 +2,8 @@
 	"__comment": "Designed by NathanWolf with Cubik Studio - https://cubik.studio",
 	"parent" : "magic:base/lit",
 	"textures": {
-		"particle": "item/custom/totem",
-		"texture": "item/custom/totem"
+		"particle": "magic:other/totem",
+		"texture": "magic:other/totem"
 	},
 	"elements": [ 	 
 		{

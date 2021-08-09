@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/lightning",
-        "texture": "item/spells/lightning"
+        "particle": "magic:icons/spells/lightning",
+        "texture": "magic:icons/spells/lightning"
     }
 }

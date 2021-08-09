@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "magic:base/lit",
 	"textures": {
-		"1": "item/custom/egypt",
-		"2": "item/custom/bow2",
-		"particle": "item/custom/egypt",
+		"1": "magic:other/egypt",
+		"2": "magic:other/bow2",
+		"particle": "magic:other/egypt",
 		"texture3": "minecraft:block/white_wool"
 	},
 	"elements": [

@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/camera",
-        "texture": "item/spells/camera"
+        "particle": "magic:icons/spells/camera",
+        "texture": "magic:icons/spells/camera"
     }
 }

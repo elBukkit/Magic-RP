@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/superrepair",
-        "texture": "item/spells/superrepair"
+        "particle": "magic:icons/spells/superrepair",
+        "texture": "magic:icons/spells/superrepair"
     }
 }

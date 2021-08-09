@@ -2,7 +2,7 @@
 	"credit": "Designed by Lix3nn with Cubik Studio - https://cubik.studio. Edited by PhvntxmX using BlockBench.",
 	"parent": "magic:base/lit",
 	"textures": {
-		"lavad_palette": "item/custom/lavad_palette"
+		"lavad_palette": "magic:other/lavad_palette"
 	},
 	"elements": [
 		{

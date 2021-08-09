@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/sniper",
-        "texture": "item/spells/sniper"
+        "particle": "magic:icons/spells/sniper",
+        "texture": "magic:icons/spells/sniper"
     }
 }

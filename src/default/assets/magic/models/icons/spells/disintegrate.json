@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/disintegrate",
-        "texture": "item/spells/disintegrate"
+        "particle": "magic:icons/spells/disintegrate",
+        "texture": "magic:icons/spells/disintegrate"
     }
 }

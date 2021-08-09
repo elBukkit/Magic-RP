@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1), used in the Magic plugin with permission",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/custom/enchantedbook",
-		"particle": "item/custom/enchantedbook"
+		"0": "magic:other/enchantedbook",
+		"particle": "magic:other/enchantedbook"
 	},
 	"elements": [
 		{

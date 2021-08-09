@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/upgrades/mode_sword",
-        "texture": "item/upgrades/mode_sword"
+        "particle": "magic:icons/upgrades/mode_sword",
+        "texture": "magic:icons/upgrades/mode_sword"
     }
 }

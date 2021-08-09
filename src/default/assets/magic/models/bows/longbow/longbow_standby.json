@@ -3,9 +3,9 @@
 	"parent": "magic:base/lit",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/custom/longbow",
+		"0": "magic:other/longbow",
 		"1": "minecraft:block/white_wool",
-		"particle": "item/custom/longbow"
+		"particle": "magic:other/longbow"
 	},
 	"elements": [
 		{

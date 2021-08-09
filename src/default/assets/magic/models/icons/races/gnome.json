@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "races/gnome",
-        "texture": "races/gnome"
+        "particle": "magic:races/gnome",
+        "texture": "magic:races/gnome"
     }
 }

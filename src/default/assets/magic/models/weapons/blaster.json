@@ -3,8 +3,8 @@
     "parent" : "magic:base/lit",
     "ambientocclusion": false,
     "textures": {
-        "particle": "item/custom/blaster",
-        "texture": "item/custom/blaster"
+        "particle": "magic:other/blaster",
+        "texture": "magic:other/blaster"
     },
     "elements": [
         {

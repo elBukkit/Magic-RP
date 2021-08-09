@@ -3,7 +3,7 @@
 	"parent": "magic:base/lit",
 	"ambientocclusion": false,
 	"textures": {
-		"texture": "item/custom/broom2"
+		"texture": "magic:other/broom2"
 	},
 	"elements": [
 		{

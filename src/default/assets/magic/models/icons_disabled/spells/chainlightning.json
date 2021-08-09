@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/chainlightning",
-        "texture": "item/spells/chainlightning"
+        "particle": "magic:icons/spells/chainlightning",
+        "texture": "magic:icons/spells/chainlightning"
     }
 }

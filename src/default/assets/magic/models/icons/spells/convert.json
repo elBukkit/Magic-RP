@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/convert",
-        "texture": "item/spells/convert"
+        "particle": "magic:icons/spells/convert",
+        "texture": "magic:icons/spells/convert"
     }
 }

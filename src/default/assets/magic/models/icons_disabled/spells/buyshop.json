@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/buyshop",
-        "texture": "item/spells/buyshop"
+        "particle": "magic:icons/spells/buyshop",
+        "texture": "magic:icons/spells/buyshop"
     }
 }

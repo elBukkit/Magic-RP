@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/upgrades/antihunger",
-        "texture": "item/upgrades/antihunger"
+        "particle": "magic:icons/upgrades/antihunger",
+        "texture": "magic:icons/upgrades/antihunger"
     }
 }

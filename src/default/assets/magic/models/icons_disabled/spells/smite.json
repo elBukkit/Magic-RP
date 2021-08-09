@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/smite",
-        "texture": "item/spells/smite"
+        "particle": "magic:icons/spells/smite",
+        "texture": "magic:icons/spells/smite"
     }
 }

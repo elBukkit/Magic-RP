@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/brushes/replicate",
-        "texture": "item/brushes/replicate"
+        "particle": "magic:icons/brushes/replicate",
+        "texture": "magic:icons/brushes/replicate"
     }
 }

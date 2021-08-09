@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/rollback",
-        "texture": "item/spells/rollback"
+        "particle": "magic:icons/spells/rollback",
+        "texture": "magic:icons/spells/rollback"
     }
 }

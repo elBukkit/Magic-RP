@@ -2,8 +2,8 @@
 	"__comment": "Designed by Dejakob with Cubik Studio - Only to be used with Magic plugin by NathanWolf",
 	"parent" : "magic:base/lit",
 	"textures": {
-		"particle": "item/custom/air_glider",
-		"texture": "item/custom/air_glider"
+		"particle": "magic:other/air_glider",
+		"texture": "magic:other/air_glider"
 	},
 	"elements": [
 		{

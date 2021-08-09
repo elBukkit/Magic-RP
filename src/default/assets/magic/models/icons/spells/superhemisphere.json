@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/superhemisphere",
-        "texture": "item/spells/superhemisphere"
+        "particle": "magic:icons/spells/superhemisphere",
+        "texture": "magic:icons/spells/superhemisphere"
     }
 }

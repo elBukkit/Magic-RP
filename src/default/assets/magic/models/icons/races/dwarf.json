@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "races/dwarf",
-        "texture": "races/dwarf"
+        "particle": "magic:races/dwarf",
+        "texture": "magic:races/dwarf"
     }
 }

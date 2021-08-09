@@ -3,9 +3,9 @@
 	"parent": "magic:base/lit",
 	"ambientocclusion": false,
 	"textures": {
-		"texture": "item/custom/staff_wolf",
-		"staff_wolf_top": "item/custom/staff_wolf_top",
-		"staff_wolf_bottom": "item/custom/staff_wolf_bottom"
+		"texture": "magic:other/staff_wolf",
+		"staff_wolf_top": "magic:other/staff_wolf_top",
+		"staff_wolf_bottom": "magic:other/staff_wolf_bottom"
 	},
 	"elements": [
 		{

@@ -3,8 +3,8 @@
 	"parent": "magic:base/lit",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "item/custom/broom",
-		"texture": "item/custom/broom"
+		"particle": "magic:other/broom",
+		"texture": "magic:other/broom"
 	},
 	"elements": [
 		{

@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/supertorch",
-        "texture": "item/spells/supertorch"
+        "particle": "magic:icons/spells/supertorch",
+        "texture": "magic:icons/spells/supertorch"
     }
 }

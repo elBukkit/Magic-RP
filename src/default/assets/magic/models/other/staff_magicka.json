@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench, by RealFlamegirl. Do not take this out of the Magic resource pack and/or redistribute without permission. Discord is flame#0464",
 	"ambientocclusion": false,
 	"textures": {
-		"2": "item/custom/magicka_wand"
+		"2": "magic:other/magicka_wand"
 	},
 	"elements": [
 		{

@@ -4,9 +4,9 @@
 	"textures": {
 		"texture2": "magic:icons/spells/iceshards",
 		"texture": "magic:icons/spells/sniper",
-		"texture1": "item/custom/redpurple",
+		"texture1": "magic:other/redpurple",
 		"texture4": "magic:icons/spells/rocketlauncher",
-		"particle": "item/custom/lightningred"
+		"particle": "magic:other/lightningred"
 	},
 	"elements": [
 		{

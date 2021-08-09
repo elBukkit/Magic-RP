@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/polymorph",
-        "texture": "item/spells/polymorph"
+        "particle": "magic:icons/spells/polymorph",
+        "texture": "magic:icons/spells/polymorph"
     }
 }

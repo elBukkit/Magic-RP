@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/defender",
-        "texture": "item/spells/defender"
+        "particle": "magic:icons/spells/defender",
+        "texture": "magic:icons/spells/defender"
     }
 }

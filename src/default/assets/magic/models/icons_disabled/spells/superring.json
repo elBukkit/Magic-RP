@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/superring",
-        "texture": "item/spells/superring"
+        "particle": "magic:icons/spells/superring",
+        "texture": "magic:icons/spells/superring"
     }
 }

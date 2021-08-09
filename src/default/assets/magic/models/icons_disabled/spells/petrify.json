@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/petrify",
-        "texture": "item/spells/petrify"
+        "particle": "magic:icons/spells/petrify",
+        "texture": "magic:icons/spells/petrify"
     }
 }

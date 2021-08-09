@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/superconvert",
-        "texture": "item/spells/superconvert"
+        "particle": "magic:icons/spells/superconvert",
+        "texture": "magic:icons/spells/superconvert"
     }
 }

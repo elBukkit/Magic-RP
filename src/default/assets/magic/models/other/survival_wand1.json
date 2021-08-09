@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1), used in the Magic plugin with permission",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/custom/survival_wand1",
-		"particle": "item/custom/survival_wand1"
+		"0": "magic:other/survival_wand1",
+		"particle": "magic:other/survival_wand1"
 	},
 	"elements": [
 		{

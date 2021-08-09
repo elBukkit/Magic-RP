@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/grow",
-        "texture": "item/spells/grow"
+        "particle": "magic:icons/spells/grow",
+        "texture": "magic:icons/spells/grow"
     }
 }

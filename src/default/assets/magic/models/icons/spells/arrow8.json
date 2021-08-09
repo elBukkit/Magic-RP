@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/arrow8",
-        "texture": "item/spells/arrow8"
+        "particle": "magic:icons/spells/arrow8",
+        "texture": "magic:icons/spells/arrow8"
     }
 }

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench, by realflamegirl- Do not use without permission (Magic has permission!). Discord is Flamegirl#0464",
 	"texture_size": [64, 64],
 	"textures": {
-		"2": "dragon/dragon_wing",
-		"particle": "dragon/dragon_wing"
+		"2": "magic:mobs/dragon/dragon_wing",
+		"particle": "magic:mobs/dragon/dragon_wing"
 	},
 	"elements": [
 		{

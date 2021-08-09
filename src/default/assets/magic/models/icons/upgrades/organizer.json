@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/upgrades/organizer",
-        "texture": "item/upgrades/organizer"
+        "particle": "magic:icons/upgrades/organizer",
+        "texture": "magic:icons/upgrades/organizer"
     }
 }

@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/flat/broom_booster",
-        "texture": "item/flat/broom_booster"
+        "particle": "magic:broomsticks/broom_booster",
+        "texture": "magic:broomsticks/broom_booster"
     }
 }

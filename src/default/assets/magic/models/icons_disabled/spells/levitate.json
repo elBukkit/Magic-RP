@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/levitate",
-        "texture": "item/spells/levitate"
+        "particle": "magic:icons/spells/levitate",
+        "texture": "magic:icons/spells/levitate"
     }
 }

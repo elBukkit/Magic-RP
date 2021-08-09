@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/airscooter",
-        "texture": "item/spells/airscooter"
+        "particle": "magic:icons/spells/airscooter",
+        "texture": "magic:icons/spells/airscooter"
     }
 }

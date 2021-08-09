@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/supershell",
-        "texture": "item/spells/supershell"
+        "particle": "magic:icons/spells/supershell",
+        "texture": "magic:icons/spells/supershell"
     }
 }

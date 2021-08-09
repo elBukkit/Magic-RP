@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/superemp",
-        "texture": "item/spells/superemp"
+        "particle": "magic:icons/spells/superemp",
+        "texture": "magic:icons/spells/superemp"
     }
 }

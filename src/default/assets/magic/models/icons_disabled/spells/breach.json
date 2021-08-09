@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/breach",
-        "texture": "item/spells/breach"
+        "particle": "magic:icons/spells/breach",
+        "texture": "magic:icons/spells/breach"
     }
 }

@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/upgrades/mode_drop",
-        "texture": "item/upgrades/mode_drop"
+        "particle": "magic:icons/upgrades/mode_drop",
+        "texture": "magic:icons/upgrades/mode_drop"
     }
 }

@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full_disabled",
     "textures": {
-        "particle": "item/spells/gills",
-        "texture": "item/spells/gills"
+        "particle": "magic:icons/spells/gills",
+        "texture": "magic:icons/spells/gills"
     }
 }

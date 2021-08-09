@@ -4,7 +4,7 @@
 	"textures": {
 		"texture": "magic:icons/spells/cloak",
 		"texture1": "magic:icons/spells/iceshards",
-		"texture2": "item/custom/redpurple"
+		"texture2": "magic:other/redpurple"
 	},
 	"elements": [
 		{

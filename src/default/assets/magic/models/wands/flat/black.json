@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "item/flat/black"
+    "layer0": "magic:wands/flat/black"
   }
 }

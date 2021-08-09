@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/spells/shrink",
-        "texture": "item/spells/shrink"
+        "particle": "magic:icons/spells/shrink",
+        "texture": "magic:icons/spells/shrink"
     }
 }

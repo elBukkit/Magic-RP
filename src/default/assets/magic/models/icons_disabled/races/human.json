@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full_disabled",
     "textures": {
-        "particle": "races/human",
-        "texture": "races/human"
+        "particle": "magic:races/human",
+        "texture": "magic:races/human"
     }
 }

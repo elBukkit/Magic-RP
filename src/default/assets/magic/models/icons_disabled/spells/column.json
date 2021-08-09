@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/column",
-        "texture": "item/spells/column"
+        "particle": "magic:icons/spells/column",
+        "texture": "magic:icons/spells/column"
     }
 }

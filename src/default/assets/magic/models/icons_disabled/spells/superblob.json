@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/superblob",
-        "texture": "item/spells/superblob"
+        "particle": "magic:icons/spells/superblob",
+        "texture": "magic:icons/spells/superblob"
     }
 }

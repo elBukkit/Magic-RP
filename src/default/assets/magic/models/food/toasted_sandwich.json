@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "item/custom/toasted_sandwich"
+        "layer0": "magic:other/toasted_sandwich"
     }
 }

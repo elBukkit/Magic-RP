@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/workbench",
-        "texture": "item/spells/workbench"
+        "particle": "magic:icons/spells/workbench",
+        "texture": "magic:icons/spells/workbench"
     }
 }

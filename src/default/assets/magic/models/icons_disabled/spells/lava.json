@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/lava",
-        "texture": "item/spells/lava"
+        "particle": "magic:icons/spells/lava",
+        "texture": "magic:icons/spells/lava"
     }
 }

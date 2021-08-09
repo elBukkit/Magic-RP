@@ -1,5 +1,5 @@
 {
-	"parent": "item/custom/atm",
+	"parent": "magic:other/atm",
 	"display": {
 		"head": {
 			"translation": [0, -73, -10],

@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/rocketlauncher",
-        "texture": "item/spells/rocketlauncher"
+        "particle": "magic:icons/spells/rocketlauncher",
+        "texture": "magic:icons/spells/rocketlauncher"
     }
 }

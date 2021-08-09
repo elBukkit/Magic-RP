@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1), used in the Magic plugin with permission",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/custom/magmawand",
-		"particle": "item/custom/magmawand"
+		"0": "magic:other/magmawand",
+		"particle": "magic:other/magmawand"
 	},
 	"elements": [
 		{

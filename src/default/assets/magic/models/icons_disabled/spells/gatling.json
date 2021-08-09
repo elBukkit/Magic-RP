@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_disabled",
     "textures": {
-        "particle": "item/spells/gatling",
-        "texture": "item/spells/gatling"
+        "particle": "magic:icons/spells/gatling",
+        "texture": "magic:icons/spells/gatling"
     }
 }

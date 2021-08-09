@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night, used in the Magic plugin with permission",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/custom/arcticfoxhelmet",
-		"particle": "item/custom/arcticfoxhelmet"
+		"0": "magic:other/arcticfoxhelmet",
+		"particle": "magic:other/arcticfoxhelmet"
 	},
 	"elements": [
 		{

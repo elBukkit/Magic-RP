@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full",
     "textures": {
-        "particle": "attributes/luck",
-        "texture": "attributes/luck"
+        "particle": "magic:attributes/luck",
+        "texture": "magic:attributes/luck"
     }
 }

@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon_full_disabled",
     "textures": {
-        "particle": "item/spells/cure",
-        "texture": "item/spells/cure"
+        "particle": "magic:icons/spells/cure",
+        "texture": "magic:icons/spells/cure"
     }
 }

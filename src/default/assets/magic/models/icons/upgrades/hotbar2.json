@@ -1,7 +1,7 @@
 {
     "parent" : "magic:base/icon",
     "textures": {
-        "particle": "item/upgrades/hotbar2",
-        "texture": "item/upgrades/hotbar2"
+        "particle": "magic:icons/upgrades/hotbar2",
+        "texture": "magic:icons/upgrades/hotbar2"
     }
 }

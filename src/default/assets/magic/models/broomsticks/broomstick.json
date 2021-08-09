@@ -3,9 +3,9 @@
 	"parent": "magic:base/lit",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "item/custom/brush",
-		"1": "item/custom/handle",
-		"particle": "item/custom/brush"
+		"0": "magic:other/brush",
+		"1": "magic:other/handle",
+		"particle": "magic:other/brush"
 	},
 	"elements": [
 		{
