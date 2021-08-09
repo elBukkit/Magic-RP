@@ -53,7 +53,7 @@
 			"predicate": {
 				"blocking": 1
 			},
-			"model": "item/saber/lightsaber_blue_blocking"
+			"model": "magic:sabers/lightsaber_blue_blocking"
 		}
 	],
 	"display": {

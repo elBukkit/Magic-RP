@@ -281,11 +281,11 @@
     {"predicate": {"damaged": 0, "damage": 0.174775928297055}, "model": "magic:icons_disabled/classes/warlock"},
     {"predicate": {"damaged": 0, "damage": 0.175416133162612}, "model": "magic:icons_disabled/classes/artificer"},
     {"predicate": {"damaged": 0, "damage": 0.176056338028169}, "model": "item/custom/gray"},
-    {"predicate": {"damaged": 0, "damage": 0.176696542893726}, "model": "item/races_disabled/human"},
-    {"predicate": {"damaged": 0, "damage": 0.177336747759283}, "model": "item/races_disabled/elf"},
-    {"predicate": {"damaged": 0, "damage": 0.17797695262484}, "model": "item/races_disabled/gnome"},
-    {"predicate": {"damaged": 0, "damage": 0.178617157490397}, "model": "item/races_disabled/dwarf"},
-    {"predicate": {"damaged": 0, "damage": 0.179257362355954}, "model": "item/races_disabled/halfling"},
+    {"predicate": {"damaged": 0, "damage": 0.176696542893726}, "model": "magic:icons_disabled/races/human"},
+    {"predicate": {"damaged": 0, "damage": 0.177336747759283}, "model": "magic:icons_disabled/races/elf"},
+    {"predicate": {"damaged": 0, "damage": 0.17797695262484}, "model": "magic:icons_disabled/races/gnome"},
+    {"predicate": {"damaged": 0, "damage": 0.178617157490397}, "model": "magic:icons_disabled/races/dwarf"},
+    {"predicate": {"damaged": 0, "damage": 0.179257362355954}, "model": "magic:icons_disabled/races/halfling"},
 
     {"predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_hoe"}
   ]
