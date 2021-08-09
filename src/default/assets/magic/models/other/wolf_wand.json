@@ -1,6 +1,6 @@
 {
 	"credit": "Created by Droobledore with BDcraft Cubik PRO 0.93 Beta. Used with permission in NathanWolf's Magic plugin. Edited by PhvntxmX using BlockBench.",
-	"parent": "item/custom/lit",
+	"parent": "magic:base/lit",
 	"ambientocclusion": false,
 	"textures": {
 		"texture": "item/custom/wand_wolf"

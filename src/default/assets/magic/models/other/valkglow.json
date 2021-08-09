@@ -1,6 +1,6 @@
 {
 	"credit": "Designed by Lix3nn with Cubik studio - https://cubik.studio. Edited by PhvntxmX using BlockBench.",
-	"parent": "item/custom/lit",
+	"parent": "magic:base/lit",
 	"textures": {
 		"texture1": "minecraft:block/black_terracotta",
 		"texture2": "magic:icons/spells/sharpen_sword",

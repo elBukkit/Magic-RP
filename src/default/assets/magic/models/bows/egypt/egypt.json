@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "item/custom/lit",
+	"parent": "magic:base/lit",
 	"textures": {
 		"1": "item/custom/egypt",
 		"particle": "item/custom/egypt",

@@ -1,6 +1,6 @@
 {
 	"credit": "Designed by Lix3nn with Cubik Studio - https://cubik.studio. Edited by PhvntxmX using BlockBench.",
-	"parent": "item/custom/lit",
+	"parent": "magic:base/lit",
 	"textures": {
 		"texture": "item/custom/redpurple",
 		"texture1": "magic:icons/spells/reflect"

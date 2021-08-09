@@ -1,5 +1,5 @@
 {
-    "parent" : "item/custom/icon_full",
+    "parent" : "magic:base/icon_full",
     "textures": {
         "particle": "classes/wizard",
         "texture": "classes/wizard"

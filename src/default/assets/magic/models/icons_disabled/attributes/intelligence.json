@@ -1,5 +1,5 @@
 {
-    "parent" : "item/custom/icon_full_disabled",
+    "parent" : "magic:base/icon_full_disabled",
     "textures": {
         "particle": "attributes/intelligence",
         "texture": "attributes/intelligence"

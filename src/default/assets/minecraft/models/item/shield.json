@@ -49,7 +49,7 @@
             "model": "item/shield_blocking"
         },
 
-        {"predicate": {"custom_model_data": 18001}, "model": "item/custom/mirror_shield"},
+        {"predicate": {"custom_model_data": 18001}, "model": "magic:other/mirror_shield"},
         {"predicate": {"custom_model_data": 18002}, "model": "magic:sabers/lightsaber_green"},
         {"predicate": {"custom_model_data": 18003}, "model": "magic:sabers/lightsaber_blue"},
         {"predicate": {"custom_model_data": 18004}, "model": "magic:sabers/lightsaber_red"},
@@ -69,7 +69,7 @@
         {"predicate": {"custom_model_data": 18020}, "model": "magic:icons/spells/protection_projectiles"},
         {"predicate": {"custom_model_data": 18021}, "model": "magic:icons_disabled/spells/protection_projectiles"},
 
-        {"predicate": {"blocking": 1, "custom_model_data": 18001}, "model": "item/custom/mirror_shield_blocking"},
+        {"predicate": {"blocking": 1, "custom_model_data": 18001}, "model": "magic:other/mirror_shield_blocking"},
         {"predicate": {"blocking": 1, "custom_model_data": 18002}, "model": "magic:sabers/lightsaber_green_blocking"},
         {"predicate": {"blocking": 1, "custom_model_data": 18003}, "model": "magic:sabers/lightsaber_blue_blocking"},
         {"predicate": {"blocking": 1, "custom_model_data": 18004}, "model": "magic:sabers/lightsaber_red_blocking"},

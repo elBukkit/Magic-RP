@@ -1,5 +1,5 @@
 {
-    "parent" : "item/custom/icon_disabled",
+    "parent" : "magic:base/icon_disabled",
     "textures": {
         "particle": "item/spells/grenade",
         "texture": "item/spells/grenade"

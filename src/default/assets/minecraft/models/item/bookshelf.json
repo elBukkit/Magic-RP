@@ -2,7 +2,7 @@
   "parent": "minecraft:block/bookshelf",
 
   "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "item/custom/atm"},
-    {"predicate": { "custom_model_data": 18002}, "model": "item/custom/atm2"}
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:other/atm"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:other/atm2"}
   ]
 }

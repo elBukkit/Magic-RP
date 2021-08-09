@@ -1,5 +1,5 @@
 {
-    "parent" : "item/custom/icon",
+    "parent" : "magic:base/icon",
     "textures": {
         "particle": "item/upgrades/hotbar1",
         "texture": "item/upgrades/hotbar1"

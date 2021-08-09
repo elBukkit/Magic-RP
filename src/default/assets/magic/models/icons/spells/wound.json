@@ -1,5 +1,5 @@
 {
-    "parent" : "item/custom/icon",
+    "parent" : "magic:base/icon",
     "textures": {
         "particle": "item/spells/wound",
         "texture": "item/spells/wound"

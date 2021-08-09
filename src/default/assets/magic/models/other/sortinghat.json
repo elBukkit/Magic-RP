@@ -1,6 +1,6 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
-    "parent" : "item/custom/lit",
+    "parent" : "magic:base/lit",
     "textures": {
         "0": "minecraft:block/black_wool"
     },

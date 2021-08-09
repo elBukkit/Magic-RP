@@ -1,6 +1,6 @@
 {
 	"__comment": "Designed by NathanWolf with Cubik Studio - https://cubik.studio, from Droobledore's broomstick",
-	"parent": "item/custom/lit",
+	"parent": "magic:base/lit",
 	"ambientocclusion": false,
 	"textures": {
 		"particle": "item/custom/broom",
