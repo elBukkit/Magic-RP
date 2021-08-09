@@ -182,7 +182,7 @@ echo "** BUILDING HIRES **"
 mkdir hires
 cd hires
 cp -R ../default/* .
-cp -R ../../src/hires/assets/magic/* assets/magic/
+cp -R ../../src/hires/* .
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-hires-RP-1.17.zip *
 cd ..
