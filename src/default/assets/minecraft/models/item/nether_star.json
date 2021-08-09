@@ -6,7 +6,7 @@
 
   "overrides": [
     {"predicate": {"custom_model_data": 18001}, "model": "item/custom/crystalball"},
-    {"predicate": {"custom_model_data": 18002}, "model": "item/custom/broom_booster"},
-    {"predicate": {"custom_model_data": 18003}, "model": "item/custom/broom_glider"}
+    {"predicate": {"custom_model_data": 18002}, "model": "magic:broomsticks/broom_booster"},
+    {"predicate": {"custom_model_data": 18003}, "model": "magic:broomsticks/broom_glider"}
   ]
 }

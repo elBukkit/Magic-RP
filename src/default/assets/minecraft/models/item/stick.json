@@ -14,8 +14,8 @@
     {"predicate": {"custom_model_data": 18008}, "model": "item/custom/wolf_wand"},
     {"predicate": {"custom_model_data": 18009}, "model": "item/custom/staff_magicka"},
     {"predicate": {"custom_model_data": 18010}, "model": "item/custom/moon_wand"},
-    {"predicate": {"custom_model_data": 18011}, "model": "item/custom/broomstick"},
-    {"predicate": {"custom_model_data": 18012}, "model": "item/custom/blaster"},
+    {"predicate": {"custom_model_data": 18011}, "model": "magic:broomsticks/broomstick"},
+    {"predicate": {"custom_model_data": 18012}, "model": "magic:weapons/blaster"},
     {"predicate": {"custom_model_data": 18013}, "model": "magic:sabers/lightsaber_hilt"},
     {"predicate": {"custom_model_data": 18014}, "model": "magic:sabers/lightsaber_hilt"},
     {"predicate": {"custom_model_data": 18015}, "model": "item/custom/hat_cloak"},
@@ -32,7 +32,7 @@
     {"predicate": {"custom_model_data": 18026}, "model": "magic:wands/flat/brown"},
     {"predicate": {"custom_model_data": 18027}, "model": "magic:wands/flat/elder"},
     {"predicate": {"custom_model_data": 18028}, "model": "magic:wands/flat/wolf"},
-    {"predicate": {"custom_model_data": 18029}, "model": "item/custom/broomstick2"},
+    {"predicate": {"custom_model_data": 18029}, "model": "magic:broomsticks/broomstick2"},
     {"predicate": {"custom_model_data": 18030}, "model": "item/custom/crystalball"},
     {"predicate": {"custom_model_data": 18031}, "model": "item/custom/enchantedbook"},
     {"predicate": {"custom_model_data": 18032}, "model": "item/custom/extinguisher"},
@@ -50,7 +50,7 @@
     {"predicate": {"custom_model_data": 18044}, "model": "item/custom/magmawand"},
     {"predicate": {"custom_model_data": 18045}, "model": "magic:icons/spells/wand"},
     {"predicate": {"custom_model_data": 18046}, "model": "magic:icons_disabled/spells/wand"},
-    {"predicate": {"custom_model_data": 18047}, "model": "item/custom/broomstick_handle"},
-    {"predicate": {"custom_model_data": 18048}, "model": "item/custom/broomstick2_handle"}
+    {"predicate": {"custom_model_data": 18047}, "model": "magic:broomsticks/broomstick_handle"},
+    {"predicate": {"custom_model_data": 18048}, "model": "magic:broomsticks/broomstick2_handle"}
   ]
 }

@@ -5,7 +5,7 @@
         "layer1": "item/potion"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 18001}, "model": "item/custom/coffee"},
-        {"predicate": {"custom_model_data": 18002}, "model": "item/custom/tea"}
+        {"predicate": {"custom_model_data": 18001}, "model": "magic:food/coffee"},
+        {"predicate": {"custom_model_data": 18002}, "model": "magic:food/tea"}
     ]
 }

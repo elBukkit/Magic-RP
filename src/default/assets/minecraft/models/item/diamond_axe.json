@@ -258,7 +258,7 @@
     {"predicate": {"damaged": 0, "damage": 0.160691421254802}, "model": "magic:icons/spells/capture"},
     {"predicate": {"damaged": 0, "damage": 0.161331626120359}, "model": "magic:icons/generic/up_arrow"},
     {"predicate": {"damaged": 0, "damage": 0.161971830985915}, "model": "magic:icons/generic/down_arrow"},
-    {"predicate": {"damaged": 0, "damage": 0.162612035851472}, "model": "item/custom/black"},
+    {"predicate": {"damaged": 0, "damage": 0.162612035851472}, "model": "magic:icons/generic/black"},
     {"predicate": {"damaged": 0, "damage": 0.163252240717029}, "model": "magic:icons/attributes/constitution"},
     {"predicate": {"damaged": 0, "damage": 0.163892445582586}, "model": "magic:icons/attributes/dexterity"},
     {"predicate": {"damaged": 0, "damage": 0.164532650448143}, "model": "magic:icons/attributes/intelligence"},
