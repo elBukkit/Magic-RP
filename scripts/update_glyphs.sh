@@ -1,0 +1,3 @@
+#!/bin/bash
+php generate_glyphs.php ~/Documents/Code/Bukkit/Magic-RP/src/default/assets/magic/textures/icons/spells E900 gui.icons.spells magic:icons/spells/ ~/Documents/Code/Bukkit/Magic-RP/src/fonticons/assets/minecraft/font/spells.json spells_messages.yml
+php generate_glyphs.php ~/Documents/Code/Bukkit/Magic-RP/src/default/assets/magic/textures/icons/brushes E800 gui.icons.brushes magic:icons/brushes/ ~/Documents/Code/Bukkit/Magic-RP/src/fonticons/assets/minecraft/font/brushes.json brushes_messages.yml
