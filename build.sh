@@ -9,9 +9,16 @@ echo "** BUILDING DEFAULT **"
 mkdir default
 cd default
 cp -R ../../src/default/* .
+cp -R ../../src/space/* .
+php ../../merge_fonts.php ../../src/fonticons/assets/minecraft/font assets/minecraft/font/default.json
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-RP-1.17.zip *
 cd ..
+
+if [ -n "$1" ]
+then
+  exit
+fi
 
 echo "** BUILDING SKULLS **"
 
@@ -21,7 +28,7 @@ mkdir assets
 cd assets
 cp -R ../../../src/skulls/assets/* .
 cd ..
-cp -R ../../src/default/* .
+cp -R ../default/* .
 rm -R assets/magic/textures/icons/spells
 rm -R assets/magic/textures/icons/brushes
 rm -R assets/magic/models/icons/spells

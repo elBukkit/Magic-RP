@@ -1,0 +1,2128 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/default.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue900"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/absorb.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue901"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/admission.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue902"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/airscooter.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue903"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/alter.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue904"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/animate.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue905"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/anvil.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue906"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/arrow.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue907"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/arrow10.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue908"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/arrow2.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue909"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/arrow3.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue90a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/arrow4.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue90b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/arrow5.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue90c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/arrow6.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue90d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/arrow7.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue90e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/arrow8.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue90f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/arrow9.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue910"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/arrowrain.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue911"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/backup.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue912"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/blast.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue913"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/blaster.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue914"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/blessing.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue915"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/blind.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue916"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/blink.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue917"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/blob.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue918"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/bomb.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue919"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/boom.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue91a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/boomstown.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue91b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/boon.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue91c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/bow.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue91d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/box.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue91e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/breach.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue91f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/bridge.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue920"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/broom.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue921"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/brushselect.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue922"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/bubble.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue923"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/buyshop.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue924"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/cage.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue925"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/camera.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue926"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/capture.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue927"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/cat.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue928"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/chainlightning.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue929"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/chop.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue92a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/cloak.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue92b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/cluster.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue92c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/collapse.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue92d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/column.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue92e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/commit.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue92f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/convert.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue930"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/counterspell.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue931"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/cure.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue932"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/curse.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue933"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/day.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue934"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/defender.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue935"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/disarm.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue936"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/disintegrate.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue937"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/dragonball.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue938"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/earth.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue939"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/earthquake.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue93a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/emp.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue93b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/entangle.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue93c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/extinguish.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue93d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/familiar.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue93e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/farm.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue93f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/feather.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue940"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/fill.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue941"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/fire.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue942"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/fireball.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue943"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/flamethrower.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue944"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/flare.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue945"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/flashbang.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue946"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/flatten.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue947"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/fling.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue948"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/floodfill.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue949"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/force.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue94a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/forest.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue94b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/frost.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue94c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/fury.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue94d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/fxdemo.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue94e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/gasp.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue94f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/gather.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue950"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/gatling.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue951"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/ghast.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue952"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/gills.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue953"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/glide.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue954"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/glider.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue955"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/grab.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue956"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/grenade.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue957"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/grow.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue958"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/harden.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue959"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/hat.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue95a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/heal.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue95b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/healing.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue95c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/homing.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue95d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/hunter.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue95e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/icbm.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue95f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/iceshards.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue960"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/invincible.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue961"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/iterate.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue962"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/kill.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue963"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/laser.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue964"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/lava.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue965"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/levitate.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue966"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/life.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue967"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/life3.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue968"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/lift.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue969"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/light.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue96a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/lightning.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue96b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/lockpick.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue96c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/magichat.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue96d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/map.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue96e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/meteor.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue96f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/mine.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue970"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/missile.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue971"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/mob.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue972"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/monster.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue973"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/mount.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue974"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/music.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue975"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/neutron.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue976"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/night.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue977"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/nuke.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue978"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/paint.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue979"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/paste.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue97a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/peek.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue97b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/permafrost.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue97c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/petrify.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue97d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/phase.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue97e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/phasebackup.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue97f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/pickpocket.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue980"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/pillar.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue981"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/place.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue982"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/platform.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue983"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/poison.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue984"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/pollinate.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue985"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/polymorph.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue986"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/portal.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue987"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/projectile.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue988"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/protection_all.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue989"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/protection_explosions.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue98a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/protection_falling.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue98b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/protection_fire.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue98c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/protection_physical.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue98d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/protection_projectiles.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue98e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/pull.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue98f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/purpleblast.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue990"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/push.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue991"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/railgun.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue992"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/rainbow.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue993"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/raise.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue994"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/randomtp.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue995"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/recall.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue996"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/recurse.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue997"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/reflect.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue998"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/regenerate.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue999"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/repair.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue99a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/rocket.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue99b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/rocketlauncher.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue99c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/rollback.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue99d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/rubberize.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue99e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/sandblast.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue99f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/secure.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9a0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/sellshop.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9a1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/sharpen_sword.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9a2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/shell.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9a3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/shrink.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9a4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/shuriken.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9a5"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/silence.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9a6"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/simulate.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9a7"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/simulate3.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9a8"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/singularity.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9a9"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/smash.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9aa"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/smite.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9ab"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/sniper.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9ac"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/sparkle.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9ad"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/sphere.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9ae"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/spider.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9af"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/sponge.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9b0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/stash.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9b1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/sticky.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9b2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/stream.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9b3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/stun.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9b4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superalter.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9b5"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superbackup.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9b6"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superblast.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9b7"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superblob.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9b8"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superbox.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9b9"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/supercollapse.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9ba"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superconvert.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9bb"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/supercube.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9bc"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/supercylinder.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9bd"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superdisc.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9be"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superdome.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9bf"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superemp.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9c0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superfly.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9c1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/supergather.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9c2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superhemisphere.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9c3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superkill.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9c4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superlaser.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9c5"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superpyramid.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9c6"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superregenerate.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9c7"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superrepair.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9c8"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/superring.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9c9"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/supershell.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9ca"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/supertorch.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9cb"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/tag.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9cc"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/tame.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9cd"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/tendril.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9ce"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/tent.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9cf"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/testdummy.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9d0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/time.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9d1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/toggleair.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9d2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/torch.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9d3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/tornado.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9d4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/torture.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9d5"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/toss.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9d6"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/tracking.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9d7"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/trash.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9d8"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/tree.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9d9"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/tunnel.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9da"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/upgrades.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9db"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/vanish.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9dc"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/virus.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9dd"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/volley.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9de"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/walls.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9df"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/wand.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9e0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/wave.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9e1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/wear.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9e2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/weather.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9e3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/webbing.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9e4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/whip.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9e5"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/wither.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9e6"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/wolf.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9e7"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/wolfhouse.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9e8"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/workbench.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9e9"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/worm.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9ea"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magic:icons/spells/wound.png",
+            "ascent": -8,
+            "height": 16,
+            "chars": [
+                "\ue9eb"
+            ]
+        }
+    ]
+}
