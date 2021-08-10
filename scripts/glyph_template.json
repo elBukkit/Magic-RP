@@ -1,7 +1,7 @@
 {
   "type": "bitmap",
   "file": "$file",
-  "ascent": -8,
-  "height": 16,
+  "ascent": -6,
+  "height": 15,
   "chars": [ "$char" ]
 }
