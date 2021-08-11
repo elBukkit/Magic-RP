@@ -3,7 +3,7 @@
     {
       "type": "bitmap",
       "file": "space:font/space_split.png",
-      "ascent": -6,
+      "ascent": 4,
       "height": 15,
       "chars": [
         "\uE700"
@@ -11,7 +11,7 @@
     },
     {
       "file": "minecraft:gui/widgets.png",
-      "ascent": -3,
+      "ascent": 7,
       "type": "bitmap",
       "chars": [
         "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
@@ -30,7 +30,7 @@
     },
     {
       "file": "minecraft:gui/widgets.png",
-      "ascent": -2,
+      "ascent": 8,
       "type": "bitmap",
       "chars": [
         "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
