@@ -18,7 +18,7 @@ $spellModelsFolder = "$rpFolder/src/default/assets/magic/models/icons/spells";
 
 // Prepare output folder
 $iconsOutputFolder =  "$configRoot/defaults/icons";
-if (!file_exists()) {
+if (!file_exists($iconsOutputFolder)) {
     mkdir($iconsOutputFolder);
 }
 
@@ -39,8 +39,6 @@ $icons = array();
 $spellIcons = array();
 $unmappedSpellIcons = array();
 
-$spellConfigFolder = "$configRoot/examples/survival/spells";
-
 function convertIcon($icon) {
     $startJson = strpos($icon, '{');
     if (!$startJson) return $icon;
@@ -52,15 +50,33 @@ function convertIcon($icon) {
     return substr($icon, 0, $startJson - 1) . "{$customModelData}";
 }
 
-$spellFolder = new DirectoryIterator($spellConfigFolder);
-foreach ($spellFolder as $fileInfo) {
-    if ($fileInfo->isDir()) continue;
-    if ($fileInfo->isDot()) continue;
-    $extension = $fileInfo->getExtension();
-    if ($extension != 'yml') continue;
-    $fileName = $fileInfo->getFilename();
+$allConfigFiles = array();
+function gatherFiles($path) {
+    global $allConfigFiles;
+
+    $spellFolder = new DirectoryIterator($path);
+    foreach ($spellFolder as $fileInfo) {
+        if ($fileInfo->isDir()) continue;
+        if ($fileInfo->isDot()) continue;
+        $extension = $fileInfo->getExtension();
+        if ($extension != 'yml') continue;
+        $fileName = $fileInfo->getFilename();
+        array_push($allConfigFiles, "$path/$fileName");
+    }
+}
+
+gatherFiles("$configRoot/examples/survival/spells");
+gatherFiles("$configRoot/examples/engineering/spells");
+gatherFiles("$configRoot/examples/automata/spells");
+gatherFiles("$configRoot/examples/potter/spells");
+gatherFiles("$configRoot/examples/bending/spells");
+gatherFiles("$configRoot/examples/stars/spells");
+gatherFiles("$configRoot/examples/war/spells");
+
+foreach ($allConfigFiles as $filePath) {
+    $filePieces = explode('/', $filePath);
+    $fileName = end($filePieces);
     $spellKey = basename($fileName, '.yml');
-    $filePath = "$spellConfigFolder/$fileName";
     $spellConfig = spyc_load_file($filePath);
     if (!$spellConfig) {
         echo "Could not parse $filePath\n";
@@ -131,11 +147,20 @@ foreach ($unmappedSpellIcons as $spellKey => $unmapped) {
     }
 }
 
+// Any glyphs we missed (not in a spell by that name)?
+foreach ($spellMessages as $key => $spellMessage) {
+    if (isset($icons[$key])) continue;
+
+    echo "Adding icon for unmapped glyph $key\n";
+    $icons[$key] = array();
+}
+
 ksort($icons);
 $iconCount = count($icons);
 $overwrite = true;
 echo "Writing out $iconCount icons\n";
 foreach ($icons as $key => $icon) {
+    if ($key === 'default') continue;
     $icon['type'] = 'spell';
     $iconFilename = "$iconsOutputFolder/$key.yml";
     if (!$overwrite && file_exists($iconFilename)) {
@@ -146,5 +171,5 @@ foreach ($icons as $key => $icon) {
     $iconFile = array();
     $iconFile[$key] = $icon;
     file_put_contents($iconFilename, Spyc::YAMLDump($iconFile, false, 0, true));
-    echo "Wrote to $iconFilename\n";
+    # echo "Wrote to $iconFilename\n";
 }
