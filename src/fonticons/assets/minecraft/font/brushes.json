@@ -4,7 +4,7 @@
             "type": "bitmap",
             "file": "magic:icons/brushes/default.png",
             "ascent": 4,
-            "height": 15,
+            "height": 16,
             "chars": [
                 "\ue800"
             ]
@@ -13,7 +13,7 @@
             "type": "bitmap",
             "file": "magic:icons/brushes/clone.png",
             "ascent": 4,
-            "height": 15,
+            "height": 16,
             "chars": [
                 "\ue801"
             ]
@@ -22,7 +22,7 @@
             "type": "bitmap",
             "file": "magic:icons/brushes/copy.png",
             "ascent": 4,
-            "height": 15,
+            "height": 16,
             "chars": [
                 "\ue802"
             ]
@@ -31,7 +31,7 @@
             "type": "bitmap",
             "file": "magic:icons/brushes/erase.png",
             "ascent": 4,
-            "height": 15,
+            "height": 16,
             "chars": [
                 "\ue803"
             ]
@@ -40,7 +40,7 @@
             "type": "bitmap",
             "file": "magic:icons/brushes/map.png",
             "ascent": 4,
-            "height": 15,
+            "height": 16,
             "chars": [
                 "\ue804"
             ]
@@ -49,7 +49,7 @@
             "type": "bitmap",
             "file": "magic:icons/brushes/replicate.png",
             "ascent": 4,
-            "height": 15,
+            "height": 16,
             "chars": [
                 "\ue805"
             ]
@@ -58,7 +58,7 @@
             "type": "bitmap",
             "file": "magic:icons/brushes/schematic.png",
             "ascent": 4,
-            "height": 15,
+            "height": 16,
             "chars": [
                 "\ue806"
             ]
