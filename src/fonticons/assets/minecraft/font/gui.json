@@ -37,7 +37,7 @@
       "height": 22
     },
     {
-      "file": "magic:gui/mana.png",
+      "file": "magic:gui/bar.png",
       "ascent": -10,
       "type": "bitmap",
       "chars": [
