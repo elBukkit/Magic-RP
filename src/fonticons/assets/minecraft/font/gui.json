@@ -14,7 +14,7 @@
       "ascent": 10,
       "type": "bitmap",
       "chars": [
-        "\uE710\uE70F\uE70E\uE70D\uE70C\uE70B\uE70A\uE709\uE708\uE707\uE706\uE705\uE704\uE703\uE702\uE701"
+        "\uE710\uE70F\uE70E\uE70D\uE70C\uE70B\uE70A\uE709\uE708\uE707\uE706\uE705\uE704\uE703\uE702\uE701\uE711"
       ],
       "height": 16
     },
@@ -73,7 +73,8 @@
         "\uE76D",
         "\uE76E",
         "\uE76F",
-        "\uE770"
+        "\uE770",
+        "\uE771"
       ],
       "height": 5
     }
