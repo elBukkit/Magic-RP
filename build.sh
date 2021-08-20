@@ -12,6 +12,7 @@ cp -R ../../src/default/* .
 cp -R ../../src/space/* .
 cp -R ../../src/fonticons/assets/magic/* ./assets/magic/
 php ../../merge_fonts.php ../../src/fonticons/assets/minecraft/font assets/minecraft/font/default.json
+mv assets/minecraft/font/default.json assets/minecraft/font/magic.json
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-RP-1.17.zip *
 cd ..
