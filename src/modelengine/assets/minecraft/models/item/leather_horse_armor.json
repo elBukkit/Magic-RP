@@ -1,5 +1,5 @@
 {
-  "data": 25,
+  "data": 32,
   "parent": "item/generated",
   "textures": {
     "layer0": "item/leather_horse_armor"
@@ -154,6 +154,48 @@
         "custom_model_data": 25
       },
       "model": "modelengine:kindletronsr/kindletronsr"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "modelengine:scarecrow/lleg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "modelengine:scarecrow/rleg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "modelengine:scarecrow/l_hand"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "modelengine:scarecrow/face"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "modelengine:scarecrow/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "model": "modelengine:scarecrow/r_hand"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "modelengine:scarecrow/body"
     }
   ]
 }
