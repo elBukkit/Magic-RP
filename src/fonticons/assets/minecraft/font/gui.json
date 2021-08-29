@@ -37,6 +37,33 @@
       "height": 22
     },
     {
+      "file": "magic:gui/actionbar.png",
+      "ascent": 0,
+      "type": "bitmap",
+      "chars": [
+        "\uE743"
+      ],
+      "height": 64
+    },
+    {
+      "file": "magic:gui/bossbar.png",
+      "ascent": 0,
+      "type": "bitmap",
+      "chars": [
+        "\uE744"
+      ],
+      "height": 64
+    },
+    {
+      "file": "magic:gui/nogui.png",
+      "ascent": 0,
+      "type": "bitmap",
+      "chars": [
+        "\uE745"
+      ],
+      "height": 64
+    },
+    {
       "file": "magic:gui/bar.png",
       "ascent": -10,
       "type": "bitmap",
