@@ -64,6 +64,15 @@
       "height": 64
     },
     {
+      "file": "magic:icons/other/nathanwolf.png",
+      "ascent": 10,
+      "type": "bitmap",
+      "chars": [
+        "\uE746"
+      ],
+      "height": 16
+    },
+    {
       "file": "magic:gui/bar.png",
       "ascent": -10,
       "type": "bitmap",

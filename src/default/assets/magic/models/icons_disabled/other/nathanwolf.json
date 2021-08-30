@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon_full_disabled",
+    "textures": {
+        "particle": "magic:icons/other/nathanwolf",
+        "texture": "magic:icons/other/nathanwolf"
+    }
+}
