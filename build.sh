@@ -112,7 +112,7 @@ mkdir httyd
 cd httyd
 cp -R ../../src/httyd/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-RP-httyd-1.17.zip *
+zip -q -X -r ../Magic-httyd-RP-1.17.zip *
 cd ..
 
 echo "** BUILDING BRAWL **"
@@ -121,7 +121,7 @@ mkdir brawl
 cd brawl
 cp -R ../../src/brawl/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-RP-brawl-1.17.zip *
+zip -q -X -r ../Magic-brawl-RP-1.17.zip *
 cd ..
 
 echo "** BUILDING ALL **"
