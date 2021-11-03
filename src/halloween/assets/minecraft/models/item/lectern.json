@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/lectern",
+
+  "overrides": [
+    {"predicate": {"custom_model_data": 1404001}, "model": "magic:thedarthfather/halloween/pumpkin_hat"}
+  ]
+}
