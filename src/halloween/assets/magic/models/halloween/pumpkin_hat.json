@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench by TheDarthFather",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "magic:thedarthfather/halloween/pumpkin_hat",
-		"2": "magic:thedarthfather/halloween/pumpkin_face",
-		"particle": "magic:thedarthfather/halloween/pumpkin_face"
+		"1": "magic:halloween/pumpkin_hat",
+		"2": "magic:halloween/pumpkin_face",
+		"particle": "magic:halloween/pumpkin_face"
 	},
 	"elements": [
 		{

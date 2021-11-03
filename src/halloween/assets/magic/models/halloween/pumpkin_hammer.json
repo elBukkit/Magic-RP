@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench by HattoriHanz0",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "magic:thedarthfather/halloween/pumpkin_spikes",
-		"4": "magic:thedarthfather/halloween/pumpkin_side",
-		"5": "magic:thedarthfather/halloween/pumpkin_jack",
-		"particle": "magic:thedarthfather/halloween/pumpkin_spikes"
+		"1": "magic:halloween/pumpkin_spikes",
+		"4": "magic:halloween/pumpkin_side",
+		"5": "magic:halloween/pumpkin_jack",
+		"particle": "magic:halloween/pumpkin_spikes"
 	},
 	"elements": [
 		{

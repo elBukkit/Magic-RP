@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench by TheRielJVL",
 	"textures": {
-		"2": "magic:thedarthfather/halloween/scyth_grip",
-		"3": "magic:thedarthfather/halloween/scyth_blade"
+		"2": "magic:halloween/scyth_grip",
+		"3": "magic:halloween/scyth_blade"
 	},
 	"elements": [
 		{

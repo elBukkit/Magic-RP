@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench by TheRielJVL",
 	"textures": {
-		"0": "magic:thedarthfather/halloween/hsword_grip",
-		"2": "magic:thedarthfather/halloween/pumpkin_face",
-		"3": "magic:thedarthfather/halloween/hsword_ruby",
-		"4": "magic:thedarthfather/halloween/hsword_black",
-		"particle": "magic:thedarthfather/halloween/hsword_grip"
+		"0": "magic:halloween/hsword_grip",
+		"2": "magic:halloween/pumpkin_face",
+		"3": "magic:halloween/hsword_ruby",
+		"4": "magic:halloween/hsword_black",
+		"particle": "magic:halloween/hsword_grip"
 	},
 	"elements": [
 		{

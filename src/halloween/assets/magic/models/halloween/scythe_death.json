@@ -1,10 +1,10 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench by TheDarthFather",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "magic:thedarthfather/halloween/scythe_black",
-		"1": "magic:thedarthfather/halloween/scythe_dark_red",
-		"particle": "magic:thedarthfather/halloween/scythe_black"
+		"0": "magic:halloween/scythe_black",
+		"1": "magic:halloween/scythe_dark_red",
+		"particle": "magic:halloween/scythe_black"
 	},
 	"elements": [
 		{

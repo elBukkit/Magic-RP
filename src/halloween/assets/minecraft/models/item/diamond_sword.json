@@ -4,9 +4,9 @@
     "layer0": "minecraft:item/diamond_sword"
   },
     "overrides": [
-        {"predicate": {"custom_model_data": 1404001}, "model": "magic:thedarthfather/halloween/pumpkin_hammer"},
-		{"predicate": {"custom_model_data": 1404002}, "model": "magic:thedarthfather/halloween/scyth_small"},
-		{"predicate": {"custom_model_data": 1404003}, "model": "magic:thedarthfather/halloween/hsword"},
-		{"predicate": {"custom_model_data": 1404004}, "model": "magic:thedarthfather/halloween/scythe_death"}
+        {"predicate": {"custom_model_data": 1404001}, "model": "magic:halloween/pumpkin_hammer"},
+		{"predicate": {"custom_model_data": 1404002}, "model": "magic:halloween/scyth_small"},
+		{"predicate": {"custom_model_data": 1404003}, "model": "magic:halloween/hsword"},
+		{"predicate": {"custom_model_data": 1404004}, "model": "magic:halloween/scythe_death"}
     ]
 }
