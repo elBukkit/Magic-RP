@@ -160,6 +160,17 @@ find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-modelengine-RP-1.17.zip *
 cd ..
 
+
+echo "** BUILDING HIRES-MODELENGINE **"
+
+mkdir hires-modelengine
+cd hires-modelengine
+cp -R ../modelengine/* .
+cp -R ../../src/hires/* .
+find . -name ".DS_Store" -type f -delete
+zip -q -X -r ../Magic-hires-modelengine-RP-1.17.zip *
+cd ..
+
 echo "** BUILDING SLIMEFUN **"
 
 mkdir slimefun
