@@ -1,29 +1,29 @@
 {
-  "halloween.ghost_breath": {
+  "magic.ghost_breath": {
     "sounds": [
       "magic:halloween/ghost_breath"
     ],
     "category": "player"
   },
-  "halloween.scarecrow": {
+  "magic.scarecrow": {
     "sounds": [
       "magic:halloween/scarecrow"
     ],
     "category": "player"
   },
-  "halloween.swipe": {
+  "magic.swipe": {
     "sounds": [
       "magic:halloween/swipe"
     ],
     "category": "player"
   },
-  "halloween.igor": {
+  "magic.igor": {
     "sounds": [
       "magic:halloween/igor"
     ],
     "category": "player"
   },
-  "halloween.werewolf": {
+  "magic.werewolf": {
     "sounds": [
       "magic:halloween/werewolf"
     ],
