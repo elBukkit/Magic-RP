@@ -9,21 +9,19 @@ echo "** BUILDING DEFAULT **"
 mkdir default
 cd default
 cp -R ../../src/default/* .
+
+# Negative Space
 cp -R ../../src/space/* .
 
-# Some juggling here to merge sounds.json without overwriting
-sed -e '$ d' ../../src/default/assets/minecraft/sounds.json > assets/minecraft/sounds_build.json
-echo , >> assets/minecraft/sounds_build.json
-tail -n +2 ../../src/halloween/assets/minecraft/sounds.json >> assets/minecraft/sounds_build.json
-
-# Copy halloween example, then use merged sounds
-cp -R ../../src/halloween/* .
-mv assets/minecraft/sounds_build.json assets/minecraft/sounds.json
+# Halloween
+../../merge_folder.php ../../src/halloween .
 
 # Copy glyph icons
 cp -R ../../src/fonticons/assets/magic/* ./assets/magic/
 php ../../merge_fonts.php ../../src/fonticons/assets/minecraft/font assets/minecraft/font/default.json
 mv assets/minecraft/font/default.json assets/minecraft/font/magic.json
+
+# Clean and zip
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-RP-1.17.zip *
 cd ..
