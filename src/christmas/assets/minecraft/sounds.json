@@ -1,0 +1,32 @@
+{
+  "magic.ghost_breath": {
+    "sounds": [
+      "magic:halloween/ghost_breath"
+    ],
+    "category": "player"
+  },
+  "magic.scarecrow": {
+    "sounds": [
+      "magic:halloween/scarecrow"
+    ],
+    "category": "player"
+  },
+  "magic.swipe": {
+    "sounds": [
+      "magic:halloween/swipe"
+    ],
+    "category": "player"
+  },
+  "magic.igor": {
+    "sounds": [
+      "magic:halloween/igor"
+    ],
+    "category": "player"
+  },
+  "magic.werewolf": {
+    "sounds": [
+      "magic:halloween/werewolf"
+    ],
+    "category": "player"
+  }
+}
