@@ -1,4 +1,0 @@
-{
-  "parent": "minecraft:block/lectern",  
-  "overrides": [{"predicate": {"custom_model_data": 1405001}, "model": "magic:chrismas/chrismas_hat"}]
-}
