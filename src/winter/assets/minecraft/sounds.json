@@ -1,0 +1,8 @@
+{
+  "magic.ghost_breath": {
+    "sounds": [
+      "magic:winter/test"
+    ],
+    "category": "player"
+  }
+}
