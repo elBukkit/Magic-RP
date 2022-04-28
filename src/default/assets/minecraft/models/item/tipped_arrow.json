@@ -35,6 +35,8 @@
     {"predicate": { "custom_model_data": 18026}, "model": "magic:icons/spells/arrow10"},
     {"predicate": { "custom_model_data": 18027}, "model": "magic:icons_disabled/spells/arrow10"},
     {"predicate": { "custom_model_data": 18028}, "model": "magic:icons/spells/arrowrain"},
-    {"predicate": { "custom_model_data": 18029}, "model": "magic:icons_disabled/spells/arrowrain"}
+    {"predicate": { "custom_model_data": 18029}, "model": "magic:icons_disabled/spells/arrowrain"},
+
+    {"predicate": { "custom_model_data": 18100}, "model": "magic:wands/hookshot"}
   ]
 }

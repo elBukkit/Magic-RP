@@ -12,6 +12,7 @@ https://github.com/elBukkit/MagicPlugin/wiki
   - Phantom
   - Night
   - Toffy
+  - Atrelyu
   - Lix3nn (https://sketchfab.com/Lix3nn/models)
 
 - 2D Artists:
