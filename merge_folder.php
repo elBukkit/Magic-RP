@@ -153,6 +153,20 @@ function mergeFolder($fromFolder, $toFolder) {
         if (!$fromJSON) {
             continue;
         }
+        
+        if (endsWith($fromFile, 'assets/minecraft/atlases/blocks.json')) {
+            foreach ($fromJSON as $key => $value) {
+                if ($key == "sources" ) {
+                    foreach($value as $atlas => $atlasDefinition) {
+                        if(!in_array($atlasDefinition, $toJSON["sources"])){
+                            array_push($toJSON["sources"],$atlasDefinition);
+                        }
+                    }
+                }
+            }
+            file_put_contents($toFile, json_encode($toJSON, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
+            continue;
+        }
 
         if (endsWith($fromFile, 'assets/minecraft/sounds.json')) {
             foreach ($fromJSON as $key => $sound) {
