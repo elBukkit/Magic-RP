@@ -200,7 +200,7 @@ function mergeFolder($fromFolder, $toFolder) {
                 if (isset($predicate['custom_model_data'])) {
                     $hasCustomModelData[$predicate['custom_model_data']] = true;
                 } else if (isset($predicate['damage'])) {
-                    $hasDamage[$predicate['damage']] = true;
+                    $hasDamage['' . $predicate['damage']] = true;
                 } else {
                     ksort($predicate);
                     $hasPredicate[json_encode($predicate)] = true;
@@ -220,7 +220,7 @@ function mergeFolder($fromFolder, $toFolder) {
                         array_push($toOverrides, $override);
                     }
                 } else if (isset($predicate['damage'])) {
-                    if (isset($hasDamage[$predicate['custom_model_data']])) {
+                    if (isset($hasDamage['' . $predicate['damage']])) {
                         echo("    Skipping duplicate override from: " . $fromFile . ":" . $predicate['damage'] . "\n");
                     } else {
                         array_push($toOverrides, $override);
