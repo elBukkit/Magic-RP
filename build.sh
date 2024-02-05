@@ -208,3 +208,13 @@ cp -R ../../src/hires/* .
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-hires-RP-1.20.4.zip *
 cd ..
+
+echo "** BUILDING VANILLA **"
+
+mkdir vanilla
+cd vanilla
+cp -R ../default/* .
+cp -R ../../src/vanilla/* .
+find . -name ".DS_Store" -type f -delete
+zip -q -X -r ../Magic-vanilla-RP-1.20.4.zip *
+cd ..
