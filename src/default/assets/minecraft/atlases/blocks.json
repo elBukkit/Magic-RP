@@ -22,6 +22,11 @@
     },
     {
       "type": "directory",
+      "source": "gui",
+      "prefix": "gui/"
+    },
+    {
+      "type": "directory",
       "source": "broomsticks",
       "prefix": "broomsticks/"
     },
