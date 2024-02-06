@@ -2280,6 +2280,30 @@
                 "custom_model_data": 18380
             },
             "model": "magic:icons_disabled/spells/floodfill"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18381
+            },
+            "model": "magic:icons/spells/capture"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18382
+            },
+            "model": "magic:icons_disabled/spells/capture"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18383
+            },
+            "model": "magic:icons/spells/sparkle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18384
+            },
+            "model": "magic:icons_disabled/spells/sparkle"
         }
     ]
 }
