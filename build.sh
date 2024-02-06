@@ -45,8 +45,6 @@ rm -R assets/magic/textures/icons/brushes
 rm -R assets/magic/models/icons/spells
 rm -R assets/magic/models/icons_disabled/spells
 rm -R assets/magic/models/icons/brushes
-rm assets/minecraft/models/item/diamond_axe.json
-rm assets/minecraft/models/item/diamond_hoe.json
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-skulls-RP-1.20.4.zip *
 cd ..
