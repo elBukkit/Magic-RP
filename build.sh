@@ -35,16 +35,10 @@ echo "** BUILDING SKULLS **"
 
 mkdir default-skulls
 cd default-skulls
-mkdir assets
-cd assets
-cp -R ../../../src/skulls/assets/* .
-cd ..
-cp -R ../default/* .
-rm -R assets/magic/textures/icons/spells
-rm -R assets/magic/textures/icons/brushes
-rm -R assets/magic/models/icons/spells
-rm -R assets/magic/models/icons_disabled/spells
-rm -R assets/magic/models/icons/brushes
+cp -R ../../src/skulls/* .
+mkdir assets/magic
+cp -R ../default/assets/magic/sounds assets/magic/.
+cp -R ../default/assets/minecraft/sounds.json assets/minecraft/.
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-skulls-RP-1.20.4.zip *
 cd ..
