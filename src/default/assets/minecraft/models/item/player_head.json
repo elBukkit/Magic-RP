@@ -2304,6 +2304,42 @@
                 "custom_model_data": 18384
             },
             "model": "magic:icons_disabled/spells/sparkle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18385
+            },
+            "model": "magic:icons/brushes/erase"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18386
+            },
+            "model": "magic:icons/brushes/replicate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18387
+            },
+            "model": "magic:icons/brushes/schematic"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18388
+            },
+            "model": "magic:icons/brushes/map"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18389
+            },
+            "model": "magic:icons/brushes/clone"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18390
+            },
+            "model": "magic:icons/brushes/copy"
         }
     ]
 }

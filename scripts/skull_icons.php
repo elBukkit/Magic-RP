@@ -16,6 +16,7 @@ $example = $argv[3];
 
 // Prepare path to models, to output player skull
 $minecraftModelsFolder = "$rpFolder/src/default/assets/minecraft/models/item";
+$vanillaModelsFolder = "$rpFolder/src/vanilla/assets/minecraft/models/item";
 
 // Load player_head file
 $headFilename = "$minecraftModelsFolder/player_head.json";
@@ -100,10 +101,15 @@ function loadItemModel($itemKey) {
 function loadModel($item, $data) {
     global $modelCache;
     global $minecraftModelsFolder;
+    global $vanillaModelsFolder;
+
     if (!isset($modelCache[$item])) {
         $filename = "$minecraftModelsFolder/$item.json";
         if (!file_exists($filename)) {
-            die("Can't load model file: $filename\n");
+            $filename = "$vanillaModelsFolder/$item.json";
+            if (!file_exists($filename)) {
+                die("Can't load model file: $filename\n");
+            }
         }
         $modelCache[$item] = json_decode(file_get_contents($filename), true);
     }
@@ -143,8 +149,8 @@ foreach ($iconFiles as $fileInfo) {
     }
     $spellKey = array_key_first($iconConfig);
     $iconConfig = $iconConfig[$spellKey];
-    if (!isset($iconConfig['type']) || $iconConfig['type'] !== 'spell') {
-        echo "Skipping non-spell icon: $fileName\n";
+    if (!isset($iconConfig['type']) || ($iconConfig['type'] !== 'spell' && $iconConfig['type'] !== 'brush')) {
+        echo "Skipping non-spell/brush icon: $fileName\n";
         continue;
     }
     if (!isset($iconConfig['item'])) {
