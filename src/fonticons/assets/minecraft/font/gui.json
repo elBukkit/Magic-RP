@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "space:font/space_split.png",
+      "file": "magic:gui/empty.png",
       "ascent": 10,
       "height": 16,
       "chars": [
