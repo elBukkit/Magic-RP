@@ -15,8 +15,8 @@ cp -R ../../src/default/* .
 
 # Copy glyph icons
 cp -R ../../src/fonticons/assets/magic/* ./assets/magic/
-php ../../merge_fonts.php ../../src/fonticons/assets/minecraft/font assets/minecraft/font/default.json
-mv assets/minecraft/font/default.json assets/minecraft/font/magic.json
+mkdir ./assets/minecraft/font
+php ../../merge_fonts.php ../../src/fonticons/assets/magic/font ./assets/minecraft/font/magic.json
 
 # Clean and zip
 find . -name ".DS_Store" -type f -delete
@@ -206,4 +206,24 @@ cp -R ../default/* .
 cp -R ../../src/vanilla/* .
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-vanilla-RP-1.20.4.zip *
+cd ..
+
+echo "** BUILDING VANILLA-ALL **"
+
+mkdir vanilla-all
+cd vanilla-all
+cp -R ../all/* .
+cp -R ../../src/vanilla/* .
+find . -name ".DS_Store" -type f -delete
+zip -q -X -r ../Magic-vanilla-all-RP-1.20.4.zip *
+cd ..
+
+echo "** BUILDING VANILLA-ROBES **"
+
+mkdir vanilla-robes
+cd vanilla-robes
+cp -R ../robes/* .
+cp -R ../../src/vanilla/* .
+find . -name ".DS_Store" -type f -delete
+zip -q -X -r ../Magic-vanilla-robes-RP-1.20.4.zip *
 cd ..
