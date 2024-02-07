@@ -10,9 +10,6 @@ mkdir default
 cd default
 cp -R ../../src/default/* .
 
-# Negative Space
-cp -R ../../src/space/* .
-
 # Halloween
 ../../merge_folder.php ../../src/halloween .
 
