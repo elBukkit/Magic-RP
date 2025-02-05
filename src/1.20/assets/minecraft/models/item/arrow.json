@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minecraft:item/arrow"
+    },
+
+  "overrides": [
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/arrow"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/arrow"}
+  ]
+}

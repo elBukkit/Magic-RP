@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon_disabled",
+    "textures": {
+        "particle": "magic:icons/spells/chop",
+        "texture": "magic:icons/spells/chop"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_skull",
+  "overrides": [
+    {"predicate": {"custom_model_data": 18001}, "model": "magic:icons/spells/wither"},
+    {"predicate": {"custom_model_data": 18002}, "model": "magic:icons_disabled/spells/wither"}
+  ]
+}

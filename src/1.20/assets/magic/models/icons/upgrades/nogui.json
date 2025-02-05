@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:gui/nogui",
+        "texture": "magic:gui/nogui"
+    }
+}

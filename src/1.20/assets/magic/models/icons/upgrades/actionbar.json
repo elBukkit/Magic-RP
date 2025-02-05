@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:gui/actionbar",
+        "texture": "magic:gui/actionbar"
+    }
+}

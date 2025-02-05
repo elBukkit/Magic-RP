@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:icons/upgrades/silent",
+        "texture": "magic:icons/upgrades/silent"
+    }
+}

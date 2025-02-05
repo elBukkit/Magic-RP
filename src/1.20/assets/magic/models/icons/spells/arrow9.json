@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:icons/spells/arrow9",
+        "texture": "magic:icons/spells/arrow9"
+    }
+}

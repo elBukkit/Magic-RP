@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/emerald"
+  },
+
+  "overrides": [
+    {"predicate": {"custom_model_data": 18001}, "model": "magic:wands/crystalball"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons/spells/shuriken"},
+    {"predicate": { "custom_model_data": 18003}, "model": "magic:icons_disabled/spells/shuriken"}
+  ]
+}

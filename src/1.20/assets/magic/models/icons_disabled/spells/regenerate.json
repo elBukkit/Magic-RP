@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon_disabled",
+    "textures": {
+        "particle": "magic:icons/spells/regenerate",
+        "texture": "magic:icons/spells/regenerate"
+    }
+}

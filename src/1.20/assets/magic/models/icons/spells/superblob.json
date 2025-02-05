@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:icons/spells/superblob",
+        "texture": "magic:icons/spells/superblob"
+    }
+}

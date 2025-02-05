@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon_full",
+    "textures": {
+        "particle": "magic:icons/classes/fighter",
+        "texture": "magic:icons/classes/fighter"
+    }
+}

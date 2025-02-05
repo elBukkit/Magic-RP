@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/acacia_sapling"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 18001}, "model": "magic:broomsticks/broomstick"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons/spells/broom"},
+    {"predicate": { "custom_model_data": 18003}, "model": "magic:icons_disabled/spells/broom"}
+  ]
+}

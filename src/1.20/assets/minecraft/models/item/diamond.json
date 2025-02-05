@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/diamond"
+  },
+
+  "overrides": [
+    {"predicate": {"custom_model_data": 18001}, "model": "magic:icons/spells/wand"},
+    {"predicate": {"custom_model_data": 18002}, "model": "magic:icons_disabled/spells/wand"},
+    {"predicate": {"custom_model_data": 18003}, "model": "magic:wands/crystalball"}
+  ]
+}

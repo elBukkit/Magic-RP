@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:icons/spells/boomstown",
+        "texture": "magic:icons/spells/boomstown"
+    }
+}

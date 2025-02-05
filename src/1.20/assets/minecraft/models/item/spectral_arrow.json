@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/spectral_arrow"
+  },
+
+  "overrides": [
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:arrows/normal"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:arrows/blink"},
+    {"predicate": { "custom_model_data": 18003}, "model": "magic:arrows/bomb"},
+    {"predicate": { "custom_model_data": 18004}, "model": "magic:arrows/fire"},
+    {"predicate": { "custom_model_data": 18005}, "model": "magic:arrows/grapple"},
+    {"predicate": { "custom_model_data": 18006}, "model": "magic:arrows/ice"},
+    {"predicate": { "custom_model_data": 18007}, "model": "magic:arrows/light"},
+    {"predicate": { "custom_model_data": 18008}, "model": "magic:arrows/poison"},
+    {"predicate": { "custom_model_data": 18009}, "model": "magic:arrows/shock"},
+
+    {"predicate": { "custom_model_data": 18010}, "model": "magic:icons/spells/arrow2"},
+    {"predicate": { "custom_model_data": 18011}, "model": "magic:icons_disabled/spells/arrow2"},
+    {"predicate": { "custom_model_data": 18012}, "model": "magic:icons/spells/arrow3"},
+    {"predicate": { "custom_model_data": 18013}, "model": "magic:icons_disabled/spells/arrow3"},
+    {"predicate": { "custom_model_data": 18014}, "model": "magic:icons/spells/arrow4"},
+    {"predicate": { "custom_model_data": 18015}, "model": "magic:icons_disabled/spells/arrow4"},
+    {"predicate": { "custom_model_data": 18016}, "model": "magic:icons/spells/arrow5"},
+    {"predicate": { "custom_model_data": 18017}, "model": "magic:icons_disabled/spells/arrow5"},
+    {"predicate": { "custom_model_data": 18018}, "model": "magic:icons/spells/arrow6"},
+    {"predicate": { "custom_model_data": 18019}, "model": "magic:icons_disabled/spells/arrow6"},
+    {"predicate": { "custom_model_data": 18020}, "model": "magic:icons/spells/arrow7"},
+    {"predicate": { "custom_model_data": 18021}, "model": "magic:icons_disabled/spells/arrow7"},
+    {"predicate": { "custom_model_data": 18022}, "model": "magic:icons/spells/arrow8"},
+    {"predicate": { "custom_model_data": 18023}, "model": "magic:icons_disabled/spells/arrow8"},
+    {"predicate": { "custom_model_data": 18024}, "model": "magic:icons/spells/arrow9"},
+    {"predicate": { "custom_model_data": 18025}, "model": "magic:icons_disabled/spells/arrow9"},
+    {"predicate": { "custom_model_data": 18026}, "model": "magic:icons/spells/arrow10"},
+    {"predicate": { "custom_model_data": 18027}, "model": "magic:icons_disabled/spells/arrow10"},
+    {"predicate": { "custom_model_data": 18028}, "model": "magic:icons/spells/arrowrain"},
+    {"predicate": { "custom_model_data": 18029}, "model": "magic:icons_disabled/spells/arrowrain"}
+  ]
+}

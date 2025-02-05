@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:other/no",
+        "texture": "magic:other/no"
+    }
+}

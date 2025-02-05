@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:icons/brushes/erase",
+        "texture": "magic:icons/brushes/erase"
+    }
+}

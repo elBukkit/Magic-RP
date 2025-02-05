@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:icons/spells/dragonball",
+        "texture": "magic:icons/spells/dragonball"
+    }
+}

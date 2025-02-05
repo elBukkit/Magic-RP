@@ -1,0 +1,69 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "custom",
+      "prefix": "custom/"
+    },
+    {
+      "type": "directory",
+      "source": "arrows",
+      "prefix": "arrows/"
+    },
+    {
+      "type": "directory",
+      "source": "bending",
+      "prefix": "bending/"
+    },
+    {
+      "type": "directory",
+      "source": "bows",
+      "prefix": "bows/"
+    },
+    {
+      "type": "directory",
+      "source": "gui",
+      "prefix": "gui/"
+    },
+    {
+      "type": "directory",
+      "source": "broomsticks",
+      "prefix": "broomsticks/"
+    },
+    {
+      "type": "directory",
+      "source": "icons",
+      "prefix": "icons/"
+    },
+    {
+      "type": "directory",
+      "source": "halloween",
+      "prefix": "halloween/"
+    },
+    {
+      "type": "directory",
+      "source": "mobs",
+      "prefix": "mobs/"
+    },
+    {
+      "type": "directory",
+      "source": "other",
+      "prefix": "other/"
+    },
+    {
+      "type": "directory",
+      "source": "sabers",
+      "prefix": "sabers/"
+    },
+    {
+      "type": "directory",
+      "source": "wands",
+      "prefix": "wands/"
+    },
+    {
+      "type": "directory",
+      "source": "war",
+      "prefix": "war/"
+    }
+  ]
+}

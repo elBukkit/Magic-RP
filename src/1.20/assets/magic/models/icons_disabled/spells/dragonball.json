@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon_disabled",
+    "textures": {
+        "particle": "magic:icons/spells/dragonball",
+        "texture": "magic:icons/spells/dragonball"
+    }
+}

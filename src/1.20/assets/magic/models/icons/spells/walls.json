@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:icons/spells/walls",
+        "texture": "magic:icons/spells/walls"
+    }
+}

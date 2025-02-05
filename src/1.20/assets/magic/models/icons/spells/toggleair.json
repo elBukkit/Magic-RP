@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:icons/spells/toggleair",
+        "texture": "magic:icons/spells/toggleair"
+    }
+}

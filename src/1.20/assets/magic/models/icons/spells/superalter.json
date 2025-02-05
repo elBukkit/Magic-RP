@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:icons/spells/superalter",
+        "texture": "magic:icons/spells/superalter"
+    }
+}

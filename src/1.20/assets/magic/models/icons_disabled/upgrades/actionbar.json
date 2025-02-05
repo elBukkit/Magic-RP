@@ -1,0 +1,7 @@
+{
+    "parent" : "magic:base/icon_disabled",
+    "textures": {
+        "particle": "magic:gui/actionbar",
+        "texture": "magic:gui/actionbar"
+    }
+}
