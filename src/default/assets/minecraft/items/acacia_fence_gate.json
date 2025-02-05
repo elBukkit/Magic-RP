@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18017,
+                "model": {
+                    "type": "model",
+                    "model": "magic:other/hat_eye"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/acacia_fence_gate"
+        }
+    }
+}

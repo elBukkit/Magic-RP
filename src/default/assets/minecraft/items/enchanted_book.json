@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:wands/enchantedbook"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/enchanted_book"
+        }
+    }
+}

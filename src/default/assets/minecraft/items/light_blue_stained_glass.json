@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:other/divinghelmet"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/light_blue_stained_glass"
+        }
+    }
+}

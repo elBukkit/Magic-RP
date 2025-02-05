@@ -1,0 +1,2742 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/pull"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/pull"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/flamethrower"
+                }
+            },
+            {
+                "threshold": 18004,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/flamethrower"
+                }
+            },
+            {
+                "threshold": 18005,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/chainlightning"
+                }
+            },
+            {
+                "threshold": 18006,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/chainlightning"
+                }
+            },
+            {
+                "threshold": 18007,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/meteor"
+                }
+            },
+            {
+                "threshold": 18008,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/meteor"
+                }
+            },
+            {
+                "threshold": 18009,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/arrow10"
+                }
+            },
+            {
+                "threshold": 18010,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/arrow10"
+                }
+            },
+            {
+                "threshold": 18011,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/disintegrate"
+                }
+            },
+            {
+                "threshold": 18012,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/disintegrate"
+                }
+            },
+            {
+                "threshold": 18013,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/fireball"
+                }
+            },
+            {
+                "threshold": 18014,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/fireball"
+                }
+            },
+            {
+                "threshold": 18015,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/peek"
+                }
+            },
+            {
+                "threshold": 18016,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/peek"
+                }
+            },
+            {
+                "threshold": 18017,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/reflect"
+                }
+            },
+            {
+                "threshold": 18018,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/reflect"
+                }
+            },
+            {
+                "threshold": 18019,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/pillar"
+                }
+            },
+            {
+                "threshold": 18020,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/pillar"
+                }
+            },
+            {
+                "threshold": 18021,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/glide"
+                }
+            },
+            {
+                "threshold": 18022,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/glide"
+                }
+            },
+            {
+                "threshold": 18023,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/neutron"
+                }
+            },
+            {
+                "threshold": 18024,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/neutron"
+                }
+            },
+            {
+                "threshold": 18025,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/protection_fire"
+                }
+            },
+            {
+                "threshold": 18026,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/protection_fire"
+                }
+            },
+            {
+                "threshold": 18027,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/flare"
+                }
+            },
+            {
+                "threshold": 18028,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/flare"
+                }
+            },
+            {
+                "threshold": 18029,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/phase"
+                }
+            },
+            {
+                "threshold": 18030,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/phase"
+                }
+            },
+            {
+                "threshold": 18031,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/sharpen_sword"
+                }
+            },
+            {
+                "threshold": 18032,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/sharpen_sword"
+                }
+            },
+            {
+                "threshold": 18033,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/night"
+                }
+            },
+            {
+                "threshold": 18034,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/night"
+                }
+            },
+            {
+                "threshold": 18035,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/tame"
+                }
+            },
+            {
+                "threshold": 18036,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/tame"
+                }
+            },
+            {
+                "threshold": 18037,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/shuriken"
+                }
+            },
+            {
+                "threshold": 18038,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/shuriken"
+                }
+            },
+            {
+                "threshold": 18039,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/arrowrain"
+                }
+            },
+            {
+                "threshold": 18040,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/arrowrain"
+                }
+            },
+            {
+                "threshold": 18041,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/familiar"
+                }
+            },
+            {
+                "threshold": 18042,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/familiar"
+                }
+            },
+            {
+                "threshold": 18043,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/tendril"
+                }
+            },
+            {
+                "threshold": 18044,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/tendril"
+                }
+            },
+            {
+                "threshold": 18045,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/earthquake"
+                }
+            },
+            {
+                "threshold": 18046,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/earthquake"
+                }
+            },
+            {
+                "threshold": 18047,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/broom"
+                }
+            },
+            {
+                "threshold": 18048,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/broom"
+                }
+            },
+            {
+                "threshold": 18049,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/torture"
+                }
+            },
+            {
+                "threshold": 18050,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/torture"
+                }
+            },
+            {
+                "threshold": 18051,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/polymorph"
+                }
+            },
+            {
+                "threshold": 18052,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/polymorph"
+                }
+            },
+            {
+                "threshold": 18053,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/gather"
+                }
+            },
+            {
+                "threshold": 18054,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/gather"
+                }
+            },
+            {
+                "threshold": 18055,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/monster"
+                }
+            },
+            {
+                "threshold": 18056,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/monster"
+                }
+            },
+            {
+                "threshold": 18057,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/silence"
+                }
+            },
+            {
+                "threshold": 18058,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/silence"
+                }
+            },
+            {
+                "threshold": 18059,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/rubberize"
+                }
+            },
+            {
+                "threshold": 18060,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/rubberize"
+                }
+            },
+            {
+                "threshold": 18061,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/protection_physical"
+                }
+            },
+            {
+                "threshold": 18062,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/protection_physical"
+                }
+            },
+            {
+                "threshold": 18063,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/dragonball"
+                }
+            },
+            {
+                "threshold": 18064,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/dragonball"
+                }
+            },
+            {
+                "threshold": 18065,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/airscooter"
+                }
+            },
+            {
+                "threshold": 18066,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/airscooter"
+                }
+            },
+            {
+                "threshold": 18067,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/arrow6"
+                }
+            },
+            {
+                "threshold": 18068,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/arrow6"
+                }
+            },
+            {
+                "threshold": 18069,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/blink"
+                }
+            },
+            {
+                "threshold": 18070,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/blink"
+                }
+            },
+            {
+                "threshold": 18071,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/poison"
+                }
+            },
+            {
+                "threshold": 18072,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/poison"
+                }
+            },
+            {
+                "threshold": 18073,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/wolf"
+                }
+            },
+            {
+                "threshold": 18074,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/wolf"
+                }
+            },
+            {
+                "threshold": 18075,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superkill"
+                }
+            },
+            {
+                "threshold": 18076,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superkill"
+                }
+            },
+            {
+                "threshold": 18077,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/sandblast"
+                }
+            },
+            {
+                "threshold": 18078,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/sandblast"
+                }
+            },
+            {
+                "threshold": 18079,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/fury"
+                }
+            },
+            {
+                "threshold": 18080,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/fury"
+                }
+            },
+            {
+                "threshold": 18081,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/blob"
+                }
+            },
+            {
+                "threshold": 18082,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/blob"
+                }
+            },
+            {
+                "threshold": 18083,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/cat"
+                }
+            },
+            {
+                "threshold": 18084,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/cat"
+                }
+            },
+            {
+                "threshold": 18085,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/portal"
+                }
+            },
+            {
+                "threshold": 18086,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/portal"
+                }
+            },
+            {
+                "threshold": 18087,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/anvil"
+                }
+            },
+            {
+                "threshold": 18088,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/anvil"
+                }
+            },
+            {
+                "threshold": 18089,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/wave"
+                }
+            },
+            {
+                "threshold": 18090,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/wave"
+                }
+            },
+            {
+                "threshold": 18091,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/emp"
+                }
+            },
+            {
+                "threshold": 18092,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/emp"
+                }
+            },
+            {
+                "threshold": 18093,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/sweep"
+                }
+            },
+            {
+                "threshold": 18094,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/sweep"
+                }
+            },
+            {
+                "threshold": 18095,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/rocket"
+                }
+            },
+            {
+                "threshold": 18096,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/rocket"
+                }
+            },
+            {
+                "threshold": 18097,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/singularity"
+                }
+            },
+            {
+                "threshold": 18098,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/singularity"
+                }
+            },
+            {
+                "threshold": 18099,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/ghast"
+                }
+            },
+            {
+                "threshold": 18100,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/ghast"
+                }
+            },
+            {
+                "threshold": 18101,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/counterspell"
+                }
+            },
+            {
+                "threshold": 18102,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/counterspell"
+                }
+            },
+            {
+                "threshold": 18103,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/testdummy"
+                }
+            },
+            {
+                "threshold": 18104,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/testdummy"
+                }
+            },
+            {
+                "threshold": 18105,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/projectile"
+                }
+            },
+            {
+                "threshold": 18106,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/projectile"
+                }
+            },
+            {
+                "threshold": 18107,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/railgun"
+                }
+            },
+            {
+                "threshold": 18108,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/railgun"
+                }
+            },
+            {
+                "threshold": 18109,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/arrow9"
+                }
+            },
+            {
+                "threshold": 18110,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/arrow9"
+                }
+            },
+            {
+                "threshold": 18111,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/mob"
+                }
+            },
+            {
+                "threshold": 18112,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/mob"
+                }
+            },
+            {
+                "threshold": 18113,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/vengeance"
+                }
+            },
+            {
+                "threshold": 18114,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/vengeance"
+                }
+            },
+            {
+                "threshold": 18115,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/sticky"
+                }
+            },
+            {
+                "threshold": 18116,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/sticky"
+                }
+            },
+            {
+                "threshold": 18117,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/arrow7"
+                }
+            },
+            {
+                "threshold": 18118,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/arrow7"
+                }
+            },
+            {
+                "threshold": 18119,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/growth"
+                }
+            },
+            {
+                "threshold": 18120,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/growth"
+                }
+            },
+            {
+                "threshold": 18121,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/push"
+                }
+            },
+            {
+                "threshold": 18122,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/push"
+                }
+            },
+            {
+                "threshold": 18123,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/workbench"
+                }
+            },
+            {
+                "threshold": 18124,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/workbench"
+                }
+            },
+            {
+                "threshold": 18125,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/wand"
+                }
+            },
+            {
+                "threshold": 18126,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/wand"
+                }
+            },
+            {
+                "threshold": 18127,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/cure"
+                }
+            },
+            {
+                "threshold": 18128,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/cure"
+                }
+            },
+            {
+                "threshold": 18129,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/fling"
+                }
+            },
+            {
+                "threshold": 18130,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/fling"
+                }
+            },
+            {
+                "threshold": 18131,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/wound"
+                }
+            },
+            {
+                "threshold": 18132,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/wound"
+                }
+            },
+            {
+                "threshold": 18133,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/lockpick"
+                }
+            },
+            {
+                "threshold": 18134,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/lockpick"
+                }
+            },
+            {
+                "threshold": 18135,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/gasp"
+                }
+            },
+            {
+                "threshold": 18136,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/gasp"
+                }
+            },
+            {
+                "threshold": 18137,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/blessing"
+                }
+            },
+            {
+                "threshold": 18138,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/blessing"
+                }
+            },
+            {
+                "threshold": 18139,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/torch"
+                }
+            },
+            {
+                "threshold": 18140,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/supertorch"
+                }
+            },
+            {
+                "threshold": 18141,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/bubble"
+                }
+            },
+            {
+                "threshold": 18142,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/bubble"
+                }
+            },
+            {
+                "threshold": 18143,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/mine"
+                }
+            },
+            {
+                "threshold": 18144,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/mine"
+                }
+            },
+            {
+                "threshold": 18145,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/harden"
+                }
+            },
+            {
+                "threshold": 18146,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/harden"
+                }
+            },
+            {
+                "threshold": 18147,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/protection_explosions"
+                }
+            },
+            {
+                "threshold": 18148,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/protection_explosions"
+                }
+            },
+            {
+                "threshold": 18149,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/curse"
+                }
+            },
+            {
+                "threshold": 18150,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/curse"
+                }
+            },
+            {
+                "threshold": 18151,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/protection_falling"
+                }
+            },
+            {
+                "threshold": 18152,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/protection_falling"
+                }
+            },
+            {
+                "threshold": 18153,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/tornado"
+                }
+            },
+            {
+                "threshold": 18154,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/tornado"
+                }
+            },
+            {
+                "threshold": 18155,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/breach"
+                }
+            },
+            {
+                "threshold": 18156,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/breach"
+                }
+            },
+            {
+                "threshold": 18157,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/laser"
+                }
+            },
+            {
+                "threshold": 18158,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/laser"
+                }
+            },
+            {
+                "threshold": 18159,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/secure"
+                }
+            },
+            {
+                "threshold": 18160,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/secure"
+                }
+            },
+            {
+                "threshold": 18161,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/arrow4"
+                }
+            },
+            {
+                "threshold": 18162,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/arrow4"
+                }
+            },
+            {
+                "threshold": 18163,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/shrink"
+                }
+            },
+            {
+                "threshold": 18164,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/shrink"
+                }
+            },
+            {
+                "threshold": 18165,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/tag"
+                }
+            },
+            {
+                "threshold": 18166,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/tag"
+                }
+            },
+            {
+                "threshold": 18167,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/grenade"
+                }
+            },
+            {
+                "threshold": 18168,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/grenade"
+                }
+            },
+            {
+                "threshold": 18169,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/recall"
+                }
+            },
+            {
+                "threshold": 18170,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/recall"
+                }
+            },
+            {
+                "threshold": 18171,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/music"
+                }
+            },
+            {
+                "threshold": 18172,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/music"
+                }
+            },
+            {
+                "threshold": 18173,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/whip"
+                }
+            },
+            {
+                "threshold": 18174,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/whip"
+                }
+            },
+            {
+                "threshold": 18175,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/walls"
+                }
+            },
+            {
+                "threshold": 18176,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/walls"
+                }
+            },
+            {
+                "threshold": 18177,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/sponge"
+                }
+            },
+            {
+                "threshold": 18178,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/sponge"
+                }
+            },
+            {
+                "threshold": 18179,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/blind"
+                }
+            },
+            {
+                "threshold": 18180,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/blind"
+                }
+            },
+            {
+                "threshold": 18181,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/arrow2"
+                }
+            },
+            {
+                "threshold": 18182,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/arrow2"
+                }
+            },
+            {
+                "threshold": 18183,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/arrow8"
+                }
+            },
+            {
+                "threshold": 18184,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/arrow8"
+                }
+            },
+            {
+                "threshold": 18185,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/arrow"
+                }
+            },
+            {
+                "threshold": 18186,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/arrow"
+                }
+            },
+            {
+                "threshold": 18187,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/upgrades"
+                }
+            },
+            {
+                "threshold": 18188,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/upgrades"
+                }
+            },
+            {
+                "threshold": 18189,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/volley"
+                }
+            },
+            {
+                "threshold": 18190,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/volley"
+                }
+            },
+            {
+                "threshold": 18191,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/platform"
+                }
+            },
+            {
+                "threshold": 18192,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/platform"
+                }
+            },
+            {
+                "threshold": 18193,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/heal"
+                }
+            },
+            {
+                "threshold": 18194,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/heal"
+                }
+            },
+            {
+                "threshold": 18195,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/lift"
+                }
+            },
+            {
+                "threshold": 18196,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/lift"
+                }
+            },
+            {
+                "threshold": 18197,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/cloak"
+                }
+            },
+            {
+                "threshold": 18198,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/cloak"
+                }
+            },
+            {
+                "threshold": 18199,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/frost"
+                }
+            },
+            {
+                "threshold": 18200,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/frost"
+                }
+            },
+            {
+                "threshold": 18201,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/gatling"
+                }
+            },
+            {
+                "threshold": 18202,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/gatling"
+                }
+            },
+            {
+                "threshold": 18203,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/lightning"
+                }
+            },
+            {
+                "threshold": 18204,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/lightning"
+                }
+            },
+            {
+                "threshold": 18205,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/weather"
+                }
+            },
+            {
+                "threshold": 18206,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/weather"
+                }
+            },
+            {
+                "threshold": 18207,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/toss"
+                }
+            },
+            {
+                "threshold": 18208,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/toss"
+                }
+            },
+            {
+                "threshold": 18209,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/tracking"
+                }
+            },
+            {
+                "threshold": 18210,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/tracking"
+                }
+            },
+            {
+                "threshold": 18211,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/stream"
+                }
+            },
+            {
+                "threshold": 18212,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/stream"
+                }
+            },
+            {
+                "threshold": 18213,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/horse"
+                }
+            },
+            {
+                "threshold": 18214,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/horse"
+                }
+            },
+            {
+                "threshold": 18215,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/chop"
+                }
+            },
+            {
+                "threshold": 18216,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/chop"
+                }
+            },
+            {
+                "threshold": 18217,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/cage"
+                }
+            },
+            {
+                "threshold": 18218,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/cage"
+                }
+            },
+            {
+                "threshold": 18219,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/arrow5"
+                }
+            },
+            {
+                "threshold": 18220,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/arrow5"
+                }
+            },
+            {
+                "threshold": 18221,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/lava"
+                }
+            },
+            {
+                "threshold": 18222,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/lava"
+                }
+            },
+            {
+                "threshold": 18223,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/blast"
+                }
+            },
+            {
+                "threshold": 18224,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/blast"
+                }
+            },
+            {
+                "threshold": 18225,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/bow"
+                }
+            },
+            {
+                "threshold": 18226,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/bow"
+                }
+            },
+            {
+                "threshold": 18227,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/tent"
+                }
+            },
+            {
+                "threshold": 18228,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/tent"
+                }
+            },
+            {
+                "threshold": 18229,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/levitate"
+                }
+            },
+            {
+                "threshold": 18230,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/levitate"
+                }
+            },
+            {
+                "threshold": 18231,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/kill"
+                }
+            },
+            {
+                "threshold": 18232,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/kill"
+                }
+            },
+            {
+                "threshold": 18233,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/bomb"
+                }
+            },
+            {
+                "threshold": 18234,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/bomb"
+                }
+            },
+            {
+                "threshold": 18235,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/cluster"
+                }
+            },
+            {
+                "threshold": 18236,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/cluster"
+                }
+            },
+            {
+                "threshold": 18237,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/grow"
+                }
+            },
+            {
+                "threshold": 18238,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/grow"
+                }
+            },
+            {
+                "threshold": 18239,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/admission"
+                }
+            },
+            {
+                "threshold": 18240,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/admission"
+                }
+            },
+            {
+                "threshold": 18241,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/stash"
+                }
+            },
+            {
+                "threshold": 18242,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/stash"
+                }
+            },
+            {
+                "threshold": 18243,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/hat"
+                }
+            },
+            {
+                "threshold": 18244,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/hat"
+                }
+            },
+            {
+                "threshold": 18245,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/homing"
+                }
+            },
+            {
+                "threshold": 18246,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/homing"
+                }
+            },
+            {
+                "threshold": 18247,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/day"
+                }
+            },
+            {
+                "threshold": 18248,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/day"
+                }
+            },
+            {
+                "threshold": 18249,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/collapse"
+                }
+            },
+            {
+                "threshold": 18250,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/collapse"
+                }
+            },
+            {
+                "threshold": 18251,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/entangle"
+                }
+            },
+            {
+                "threshold": 18252,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/entangle"
+                }
+            },
+            {
+                "threshold": 18253,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/protection_all"
+                }
+            },
+            {
+                "threshold": 18254,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/protection_all"
+                }
+            },
+            {
+                "threshold": 18255,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/missile"
+                }
+            },
+            {
+                "threshold": 18256,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/missile"
+                }
+            },
+            {
+                "threshold": 18257,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/time"
+                }
+            },
+            {
+                "threshold": 18258,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/time"
+                }
+            },
+            {
+                "threshold": 18259,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/paste"
+                }
+            },
+            {
+                "threshold": 18260,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/paste"
+                }
+            },
+            {
+                "threshold": 18261,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/force"
+                }
+            },
+            {
+                "threshold": 18262,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/force"
+                }
+            },
+            {
+                "threshold": 18263,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/protection_projectiles"
+                }
+            },
+            {
+                "threshold": 18264,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/protection_projectiles"
+                }
+            },
+            {
+                "threshold": 18265,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/boon"
+                }
+            },
+            {
+                "threshold": 18266,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/boon"
+                }
+            },
+            {
+                "threshold": 18267,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/mount"
+                }
+            },
+            {
+                "threshold": 18268,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/mount"
+                }
+            },
+            {
+                "threshold": 18269,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/pollinate"
+                }
+            },
+            {
+                "threshold": 18270,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/pollinate"
+                }
+            },
+            {
+                "threshold": 18271,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/icbm"
+                }
+            },
+            {
+                "threshold": 18272,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/icbm"
+                }
+            },
+            {
+                "threshold": 18273,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/petrify"
+                }
+            },
+            {
+                "threshold": 18274,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/petrify"
+                }
+            },
+            {
+                "threshold": 18275,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/flashbang"
+                }
+            },
+            {
+                "threshold": 18276,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/flashbang"
+                }
+            },
+            {
+                "threshold": 18277,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/farm"
+                }
+            },
+            {
+                "threshold": 18278,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/farm"
+                }
+            },
+            {
+                "threshold": 18279,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/invincible"
+                }
+            },
+            {
+                "threshold": 18280,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/invincible"
+                }
+            },
+            {
+                "threshold": 18281,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/pickpocket"
+                }
+            },
+            {
+                "threshold": 18282,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/pickpocket"
+                }
+            },
+            {
+                "threshold": 18283,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/stun"
+                }
+            },
+            {
+                "threshold": 18284,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/stun"
+                }
+            },
+            {
+                "threshold": 18285,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/nuke"
+                }
+            },
+            {
+                "threshold": 18286,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/nuke"
+                }
+            },
+            {
+                "threshold": 18287,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/boom"
+                }
+            },
+            {
+                "threshold": 18288,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/boom"
+                }
+            },
+            {
+                "threshold": 18289,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/boomstown"
+                }
+            },
+            {
+                "threshold": 18290,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/boomstown"
+                }
+            },
+            {
+                "threshold": 18291,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/fire"
+                }
+            },
+            {
+                "threshold": 18292,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/fire"
+                }
+            },
+            {
+                "threshold": 18293,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/shell"
+                }
+            },
+            {
+                "threshold": 18294,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/shell"
+                }
+            },
+            {
+                "threshold": 18295,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/disarm"
+                }
+            },
+            {
+                "threshold": 18296,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/disarm"
+                }
+            },
+            {
+                "threshold": 18297,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/recurse"
+                }
+            },
+            {
+                "threshold": 18298,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/recurse"
+                }
+            },
+            {
+                "threshold": 18299,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superalter"
+                }
+            },
+            {
+                "threshold": 18300,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superalter"
+                }
+            },
+            {
+                "threshold": 18301,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superbox"
+                }
+            },
+            {
+                "threshold": 18302,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superbox"
+                }
+            },
+            {
+                "threshold": 18303,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/flatten"
+                }
+            },
+            {
+                "threshold": 18304,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/flatten"
+                }
+            },
+            {
+                "threshold": 18305,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/convert"
+                }
+            },
+            {
+                "threshold": 18306,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/convert"
+                }
+            },
+            {
+                "threshold": 18307,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/box"
+                }
+            },
+            {
+                "threshold": 18308,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/box"
+                }
+            },
+            {
+                "threshold": 18309,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superregenerate"
+                }
+            },
+            {
+                "threshold": 18310,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superregenerate"
+                }
+            },
+            {
+                "threshold": 18311,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/supercylinder"
+                }
+            },
+            {
+                "threshold": 18312,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/supercylinder"
+                }
+            },
+            {
+                "threshold": 18313,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superdome"
+                }
+            },
+            {
+                "threshold": 18314,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superdome"
+                }
+            },
+            {
+                "threshold": 18315,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/repair"
+                }
+            },
+            {
+                "threshold": 18316,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/repair"
+                }
+            },
+            {
+                "threshold": 18317,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superlaser"
+                }
+            },
+            {
+                "threshold": 18318,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superlaser"
+                }
+            },
+            {
+                "threshold": 18319,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/light"
+                }
+            },
+            {
+                "threshold": 18320,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/light"
+                }
+            },
+            {
+                "threshold": 18321,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superdisc"
+                }
+            },
+            {
+                "threshold": 18322,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superdisc"
+                }
+            },
+            {
+                "threshold": 18323,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/supercube"
+                }
+            },
+            {
+                "threshold": 18324,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/supercube"
+                }
+            },
+            {
+                "threshold": 18325,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/raise"
+                }
+            },
+            {
+                "threshold": 18326,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/raise"
+                }
+            },
+            {
+                "threshold": 18327,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/fill"
+                }
+            },
+            {
+                "threshold": 18328,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/fill"
+                }
+            },
+            {
+                "threshold": 18329,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superrepair"
+                }
+            },
+            {
+                "threshold": 18330,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superrepair"
+                }
+            },
+            {
+                "threshold": 18331,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/supershell"
+                }
+            },
+            {
+                "threshold": 18332,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/supershell"
+                }
+            },
+            {
+                "threshold": 18333,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/supercollapse"
+                }
+            },
+            {
+                "threshold": 18334,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/supercollapse"
+                }
+            },
+            {
+                "threshold": 18335,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/absorb"
+                }
+            },
+            {
+                "threshold": 18336,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/absorb"
+                }
+            },
+            {
+                "threshold": 18337,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superblast"
+                }
+            },
+            {
+                "threshold": 18338,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superblast"
+                }
+            },
+            {
+                "threshold": 18339,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/tree"
+                }
+            },
+            {
+                "threshold": 18340,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/tree"
+                }
+            },
+            {
+                "threshold": 18341,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/bridge"
+                }
+            },
+            {
+                "threshold": 18342,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/bridge"
+                }
+            },
+            {
+                "threshold": 18343,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/paint"
+                }
+            },
+            {
+                "threshold": 18344,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/paint"
+                }
+            },
+            {
+                "threshold": 18345,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/supercylinder"
+                }
+            },
+            {
+                "threshold": 18346,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/supercylinder"
+                }
+            },
+            {
+                "threshold": 18347,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/forest"
+                }
+            },
+            {
+                "threshold": 18348,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/forest"
+                }
+            },
+            {
+                "threshold": 18349,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/tunnel"
+                }
+            },
+            {
+                "threshold": 18350,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/tunnel"
+                }
+            },
+            {
+                "threshold": 18351,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/regenerate"
+                }
+            },
+            {
+                "threshold": 18352,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/regenerate"
+                }
+            },
+            {
+                "threshold": 18353,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/alter"
+                }
+            },
+            {
+                "threshold": 18354,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/alter"
+                }
+            },
+            {
+                "threshold": 18355,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/commit"
+                }
+            },
+            {
+                "threshold": 18356,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/commit"
+                }
+            },
+            {
+                "threshold": 18357,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/backup"
+                }
+            },
+            {
+                "threshold": 18358,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/backup"
+                }
+            },
+            {
+                "threshold": 18359,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/rollback"
+                }
+            },
+            {
+                "threshold": 18360,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/rollback"
+                }
+            },
+            {
+                "threshold": 18361,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superblob"
+                }
+            },
+            {
+                "threshold": 18362,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superblob"
+                }
+            },
+            {
+                "threshold": 18363,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superbackup"
+                }
+            },
+            {
+                "threshold": 18364,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superbackup"
+                }
+            },
+            {
+                "threshold": 18365,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superring"
+                }
+            },
+            {
+                "threshold": 18366,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superring"
+                }
+            },
+            {
+                "threshold": 18367,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superfly"
+                }
+            },
+            {
+                "threshold": 18368,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superfly"
+                }
+            },
+            {
+                "threshold": 18369,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superpyramid"
+                }
+            },
+            {
+                "threshold": 18370,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superpyramid"
+                }
+            },
+            {
+                "threshold": 18371,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/place"
+                }
+            },
+            {
+                "threshold": 18372,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/place"
+                }
+            },
+            {
+                "threshold": 18373,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/iterate"
+                }
+            },
+            {
+                "threshold": 18374,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/iterate"
+                }
+            },
+            {
+                "threshold": 18375,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superconvert"
+                }
+            },
+            {
+                "threshold": 18376,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superconvert"
+                }
+            },
+            {
+                "threshold": 18377,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/brushselect"
+                }
+            },
+            {
+                "threshold": 18378,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/brushselect"
+                }
+            },
+            {
+                "threshold": 18379,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/floodfill"
+                }
+            },
+            {
+                "threshold": 18380,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/floodfill"
+                }
+            },
+            {
+                "threshold": 18381,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/capture"
+                }
+            },
+            {
+                "threshold": 18382,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/capture"
+                }
+            },
+            {
+                "threshold": 18383,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/sparkle"
+                }
+            },
+            {
+                "threshold": 18384,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/sparkle"
+                }
+            },
+            {
+                "threshold": 18385,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/brushes/erase"
+                }
+            },
+            {
+                "threshold": 18386,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/brushes/replicate"
+                }
+            },
+            {
+                "threshold": 18387,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/brushes/schematic"
+                }
+            },
+            {
+                "threshold": 18388,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/brushes/map"
+                }
+            },
+            {
+                "threshold": 18389,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/brushes/clone"
+                }
+            },
+            {
+                "threshold": 18390,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/brushes/copy"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/player_head"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18017,
+                "model": {
+                    "type": "model",
+                    "model": "magic:other/magic_hat"
+                }
+            },
+            {
+                "threshold": 18018,
+                "model": {
+                    "type": "model",
+                    "model": "magic:armor/foxhelmet"
+                }
+            },
+            {
+                "threshold": 18019,
+                "model": {
+                    "type": "model",
+                    "model": "magic:armor/arcticfoxhelmet"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/lectern"
+        }
+    }
+}

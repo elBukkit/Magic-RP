@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18017,
+                "model": {
+                    "type": "model",
+                    "model": "magic:other/hat_cloak"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/blackstone_stairs"
+        }
+    }
+}

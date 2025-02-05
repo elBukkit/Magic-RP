@@ -1,0 +1,159 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/fling"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/fling"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/levitate"
+                }
+            },
+            {
+                "threshold": 18004,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/levitate"
+                }
+            },
+            {
+                "threshold": 18005,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superfly"
+                }
+            },
+            {
+                "threshold": 18006,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superfly"
+                }
+            },
+            {
+                "threshold": 18007,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_wing_red_left"
+                }
+            },
+            {
+                "threshold": 18008,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_body_red"
+                }
+            },
+            {
+                "threshold": 18009,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_wing_red_right"
+                }
+            },
+            {
+                "threshold": 18010,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_wing_blue_left"
+                }
+            },
+            {
+                "threshold": 18011,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_body_blue"
+                }
+            },
+            {
+                "threshold": 18012,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_wing_blue_right"
+                }
+            },
+            {
+                "threshold": 18013,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_wing_green_left"
+                }
+            },
+            {
+                "threshold": 18014,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_body_green"
+                }
+            },
+            {
+                "threshold": 18015,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_wing_green_right"
+                }
+            },
+            {
+                "threshold": 18016,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_wing_grey_left"
+                }
+            },
+            {
+                "threshold": 18017,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_body_grey"
+                }
+            },
+            {
+                "threshold": 18018,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_wing_grey_right"
+                }
+            },
+            {
+                "threshold": 18019,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_wing_purple_left"
+                }
+            },
+            {
+                "threshold": 18020,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_body_purple"
+                }
+            },
+            {
+                "threshold": 18021,
+                "model": {
+                    "type": "model",
+                    "model": "magic:mobs/bigdragon/dragon_wing_purple_right"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/feather"
+        }
+    }
+}

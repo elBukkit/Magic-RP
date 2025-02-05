@@ -1,0 +1,110 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:bows/egypt/egypt"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:bows/skinny/bow"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:bows/longbow/longbow_standby"
+                }
+            },
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:bows/egypt/egypt_pulling_0"
+                }
+            },
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:bows/egypt/egypt_pulling_1"
+                }
+            },
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:bows/egypt/egypt_pulling_2"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:bows/skinny/bow_pulling_0"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:bows/skinny/bow_pulling_1"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:bows/skinny/bow_pulling_2"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:bows/longbow/longbow_pulling_0"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:bows/longbow/longbow_pulling_1"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:bows/longbow/longbow_pulling_2"
+                }
+            },
+            {
+                "threshold": 18010,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/bow"
+                }
+            },
+            {
+                "threshold": 18011,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/bow"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/bow"
+        }
+    }
+}

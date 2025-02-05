@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:broomsticks/broomstick2"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/birch_sapling"
+        }
+    }
+}
