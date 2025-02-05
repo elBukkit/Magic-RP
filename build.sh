@@ -20,7 +20,7 @@ php ../../merge_fonts.php ../../src/fonticons/assets/magic/font ./assets/minecra
 
 # Clean and zip
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-RP-1.21.zip *
+zip -q -X -r ../Magic-RP-1.21.4.zip *
 cd ..
 
 if [ -n "$1" ]
@@ -37,7 +37,7 @@ mkdir assets/magic
 cp -R ../default/assets/magic/sounds assets/magic/.
 cp -R ../default/assets/minecraft/sounds.json assets/minecraft/.
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-skulls-RP-1.21.zip *
+zip -q -X -r ../Magic-skulls-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING FLAT SKULLS **"
@@ -57,7 +57,7 @@ cd painterly
 cp -R ../default/* .
 cp -R ../../src/painterly/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-painterly-RP-1.21.zip *
+zip -q -X -r ../Magic-painterly-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING LOW-RES **"
@@ -67,7 +67,7 @@ cd lowres
 cp -R ../default/* .
 cp -R ../../src/lowres/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-lowres-RP-1.21.zip *
+zip -q -X -r ../Magic-lowres-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING POTTER **"
@@ -77,7 +77,7 @@ cd potter
 cp -R ../default/* .
 cp -R ../../src/potter/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-potter-RP-1.21.zip *
+zip -q -X -r ../Magic-potter-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING WAR **"
@@ -90,7 +90,7 @@ echo , >> assets/minecraft/sounds.json
 tail -n +2 ../../src/war/assets/minecraft/sound-overrides.json >> assets/minecraft/sounds.json
 rm assets/minecraft/sound-overrides.json
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-war-RP-1.21.zip *
+zip -q -X -r ../Magic-war-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING ROBES **"
@@ -101,7 +101,7 @@ cp -R ../default/* .
 mkdir assets/minecraft/textures/
 cp -R ../../src/chainmail/assets/minecraft/textures/* assets/minecraft/textures/
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-robes-RP-1.21.zip *
+zip -q -X -r ../Magic-robes-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING HTTYD **"
@@ -110,7 +110,7 @@ mkdir httyd
 cd httyd
 cp -R ../../src/httyd/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-httyd-RP-1.21.zip *
+zip -q -X -r ../Magic-httyd-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING BRAWL **"
@@ -119,7 +119,7 @@ mkdir brawl
 cd brawl
 cp -R ../../src/brawl/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-brawl-RP-1.21.zip *
+zip -q -X -r ../Magic-brawl-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING ALL **"
@@ -134,7 +134,7 @@ echo , >> assets/minecraft/sounds.json
 tail -n +2 ../default/assets/minecraft/sounds.json >> assets/minecraft/sounds.json
 ../../merge_folder.php ../../src/httyd .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-all-RP-1.21.zip *
+zip -q -X -r ../Magic-all-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING MODEL ENGINE **"
@@ -144,7 +144,7 @@ cd modelengine
 cp -R ../all/* .
 ../../merge_folder.php ../../src/modelengine .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-modelengine-RP-1.21.zip *
+zip -q -X -r ../Magic-modelengine-RP-1.21.4.zip *
 cd ..
 
 
@@ -155,7 +155,7 @@ cd hires-modelengine
 cp -R ../modelengine/* .
 cp -R ../../src/hires/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-hires-modelengine-RP-1.21.zip *
+zip -q -X -r ../Magic-hires-modelengine-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING SLIMEFUN **"
@@ -165,7 +165,7 @@ cd slimefun
 cp -R ../all/* .
 ../../merge_folder.php ../../src/slimefun .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-slimefun-RP-1.21.zip *
+zip -q -X -r ../Magic-slimefun-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING HIRES-ALL **"
@@ -175,7 +175,7 @@ cd hires-all
 cp -R ../all/* .
 cp -R ../../src/hires/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-hires-all-RP-1.21.zip *
+zip -q -X -r ../Magic-hires-all-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING HIRES-ROBES **"
@@ -185,7 +185,7 @@ cd hires-robes
 cp -R ../robes/* .
 cp -R ../../src/hires/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-hires-robes-RP-1.21.zip *
+zip -q -X -r ../Magic-hires-robes-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING HIRES **"
@@ -195,7 +195,7 @@ cd hires
 cp -R ../default/* .
 cp -R ../../src/hires/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-hires-RP-1.21.zip *
+zip -q -X -r ../Magic-hires-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING VANILLA **"
@@ -205,7 +205,7 @@ cd vanilla
 cp -R ../default/* .
 cp -R ../../src/vanilla/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-vanilla-RP-1.21.zip *
+zip -q -X -r ../Magic-vanilla-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING VANILLA-ALL **"
@@ -215,7 +215,7 @@ cd vanilla-all
 cp -R ../all/* .
 cp -R ../../src/vanilla/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-vanilla-all-RP-1.21.zip *
+zip -q -X -r ../Magic-vanilla-all-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING VANILLA-ROBES **"
@@ -225,5 +225,5 @@ cd vanilla-robes
 cp -R ../robes/* .
 cp -R ../../src/vanilla/* .
 find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-vanilla-robes-RP-1.21.zip *
+zip -q -X -r ../Magic-vanilla-robes-RP-1.21.4.zip *
 cd ..
