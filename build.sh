@@ -227,3 +227,6 @@ cp -R ../../src/vanilla/* .
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-vanilla-robes-RP-1.21.4.zip *
 cd ..
+
+echo "** COPYING TO MINECRAFT **"
+cp *.zip ~/Library/Application\ Support/minecraft/resourcepacks/
