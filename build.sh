@@ -147,7 +147,6 @@ find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-modelengine-RP-1.21.4.zip *
 cd ..
 
-
 echo "** BUILDING HIRES-MODELENGINE **"
 
 mkdir hires-modelengine
@@ -156,16 +155,6 @@ cp -R ../modelengine/* .
 cp -R ../../src/hires/* .
 find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-hires-modelengine-RP-1.21.4.zip *
-cd ..
-
-echo "** BUILDING SLIMEFUN **"
-
-mkdir slimefun
-cd slimefun
-cp -R ../all/* .
-../../merge_folder.php ../../src/slimefun .
-find . -name ".DS_Store" -type f -delete
-zip -q -X -r ../Magic-slimefun-RP-1.21.4.zip *
 cd ..
 
 echo "** BUILDING HIRES-ALL **"
