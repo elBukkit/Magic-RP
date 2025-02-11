@@ -6,43 +6,91 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "model",
-                    "model": "magic:other/mirror_shield"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "model",
+                        "model": "magic:other/mirror_shield"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "magic:other/mirror_shield_blocking"
+                    }
                 }
             },
             {
                 "threshold": 18002,
                 "model": {
-                    "type": "model",
-                    "model": "magic:sabers/lightsaber_green"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "model",
+                        "model": "magic:sabers/lightsaber_green"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "magic:sabers/lightsaber_green_blocking"
+                    }
                 }
             },
             {
                 "threshold": 18003,
                 "model": {
-                    "type": "model",
-                    "model": "magic:sabers/lightsaber_blue"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "model",
+                        "model": "magic:sabers/lightsaber_blue"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "magic:sabers/lightsaber_blue_blocking"
+                    }
                 }
             },
             {
                 "threshold": 18004,
                 "model": {
-                    "type": "model",
-                    "model": "magic:sabers/lightsaber_red"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "model",
+                        "model": "magic:sabers/lightsaber_red"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "magic:sabers/lightsaber_red_blocking"
+                    }
                 }
             },
             {
                 "threshold": 18005,
                 "model": {
-                    "type": "model",
-                    "model": "magic:sabers/lightsaber_orange"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "model",
+                        "model": "magic:sabers/lightsaber_orange"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "magic:sabers/lightsaber_orange_blocking"
+                    }
                 }
             },
             {
                 "threshold": 18006,
                 "model": {
-                    "type": "model",
-                    "model": "magic:sabers/lightsaber_purple"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "model",
+                        "model": "magic:sabers/lightsaber_purple"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "magic:sabers/lightsaber_purple_blocking"
+                    }
                 }
             },
             {
@@ -127,48 +175,6 @@
                 "model": {
                     "type": "model",
                     "model": "magic:icons_disabled/spells/protection_projectiles"
-                }
-            },
-            {
-                "threshold": 18001,
-                "model": {
-                    "type": "model",
-                    "model": "magic:other/mirror_shield_blocking"
-                }
-            },
-            {
-                "threshold": 18002,
-                "model": {
-                    "type": "model",
-                    "model": "magic:sabers/lightsaber_green_blocking"
-                }
-            },
-            {
-                "threshold": 18003,
-                "model": {
-                    "type": "model",
-                    "model": "magic:sabers/lightsaber_blue_blocking"
-                }
-            },
-            {
-                "threshold": 18004,
-                "model": {
-                    "type": "model",
-                    "model": "magic:sabers/lightsaber_red_blocking"
-                }
-            },
-            {
-                "threshold": 18005,
-                "model": {
-                    "type": "model",
-                    "model": "magic:sabers/lightsaber_orange_blocking"
-                }
-            },
-            {
-                "threshold": 18006,
-                "model": {
-                    "type": "model",
-                    "model": "magic:sabers/lightsaber_purple_blocking"
                 }
             }
         ],
