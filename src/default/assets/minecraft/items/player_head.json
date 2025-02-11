@@ -2735,8 +2735,12 @@
             }
         ],
         "fallback": {
-            "type": "model",
-            "model": "item/player_head"
+            "type": "minecraft:special",
+            "base": "minecraft:item/template_skull",
+            "model": {
+                "type": "minecraft:head",
+                "kind": "player"
+            }
         }
     }
 }
