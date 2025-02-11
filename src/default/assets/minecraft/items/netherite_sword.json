@@ -6,111 +6,111 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:weapons/emerald_sword"
                 }
             },
             {
                 "threshold": 18002,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/sword_master"
                 }
             },
             {
                 "threshold": 18003,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:sabers/lightsaber_green"
                 }
             },
             {
                 "threshold": 18004,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:sabers/lightsaber_blue"
                 }
             },
             {
                 "threshold": 18005,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:sabers/lightsaber_red"
                 }
             },
             {
                 "threshold": 18006,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:sabers/lightsaber_orange"
                 }
             },
             {
                 "threshold": 18007,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:sabers/lightsaber_purple"
                 }
             },
             {
                 "threshold": 18008,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:weapons/emerald_sword"
                 }
             },
             {
                 "threshold": 18009,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/valkglow"
                 }
             },
             {
                 "threshold": 18010,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/whitedagger"
                 }
             },
             {
                 "threshold": 18011,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:weapons/demon_sword"
                 }
             },
             {
                 "threshold": 18012,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/felmglow"
                 }
             },
             {
                 "threshold": 18013,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/rivenglow"
                 }
             },
             {
                 "threshold": 18014,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/silver"
                 }
             },
             {
                 "threshold": 18015,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/lavad"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/netherite_sword"
         }
     }

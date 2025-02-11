@@ -6,20 +6,20 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/arrow"
                 }
             },
             {
                 "threshold": 18002,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/arrow"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/arrow"
         }
     }

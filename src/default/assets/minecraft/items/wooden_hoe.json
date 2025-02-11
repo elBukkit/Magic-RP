@@ -6,13 +6,13 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/old_survival_wand1"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/wooden_hoe"
         }
     }

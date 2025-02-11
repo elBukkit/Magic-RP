@@ -6,13 +6,13 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:broomsticks/broomstick2"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/birch_sapling"
         }
     }

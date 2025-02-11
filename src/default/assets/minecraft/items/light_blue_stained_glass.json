@@ -6,13 +6,13 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/divinghelmet"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/light_blue_stained_glass"
         }
     }

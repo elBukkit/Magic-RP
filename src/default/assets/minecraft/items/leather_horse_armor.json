@@ -6,34 +6,34 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:mobs/dragon/dragon_base"
                 }
             },
             {
                 "threshold": 18002,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:mobs/dragon/dragon_wing_left"
                 }
             },
             {
                 "threshold": 18003,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:mobs/dragon/dragon_wing_right"
                 }
             },
             {
                 "threshold": 18004,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/staff_survival_colorable"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/leather_horse_armor"
         }
     }

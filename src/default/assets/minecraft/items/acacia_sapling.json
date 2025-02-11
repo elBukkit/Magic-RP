@@ -6,27 +6,27 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:broomsticks/broomstick"
                 }
             },
             {
                 "threshold": 18002,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/broom"
                 }
             },
             {
                 "threshold": 18003,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/broom"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/acacia_sapling"
         }
     }

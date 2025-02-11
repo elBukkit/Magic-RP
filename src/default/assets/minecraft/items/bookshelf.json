@@ -6,20 +6,20 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/atm"
                 }
             },
             {
                 "threshold": 18002,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/atm2"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/bookshelf"
         }
     }

@@ -6,27 +6,27 @@
             {
                 "threshold": 18017,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/magic_hat"
                 }
             },
             {
                 "threshold": 18018,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:armor/foxhelmet"
                 }
             },
             {
                 "threshold": 18019,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:armor/arcticfoxhelmet"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/lectern"
         }
     }

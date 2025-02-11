@@ -9,11 +9,11 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_false": {
-                        "type": "model",
+                        "type": "minecraft:model",
                         "model": "magic:other/mirror_shield"
                     },
                     "on_true": {
-                        "type": "model",
+                        "type": "minecraft:model",
                         "model": "magic:other/mirror_shield_blocking"
                     }
                 }
@@ -24,11 +24,11 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_false": {
-                        "type": "model",
+                        "type": "minecraft:model",
                         "model": "magic:sabers/lightsaber_green"
                     },
                     "on_true": {
-                        "type": "model",
+                        "type": "minecraft:model",
                         "model": "magic:sabers/lightsaber_green_blocking"
                     }
                 }
@@ -39,11 +39,11 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_false": {
-                        "type": "model",
+                        "type": "minecraft:model",
                         "model": "magic:sabers/lightsaber_blue"
                     },
                     "on_true": {
-                        "type": "model",
+                        "type": "minecraft:model",
                         "model": "magic:sabers/lightsaber_blue_blocking"
                     }
                 }
@@ -54,11 +54,11 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_false": {
-                        "type": "model",
+                        "type": "minecraft:model",
                         "model": "magic:sabers/lightsaber_red"
                     },
                     "on_true": {
-                        "type": "model",
+                        "type": "minecraft:model",
                         "model": "magic:sabers/lightsaber_red_blocking"
                     }
                 }
@@ -69,11 +69,11 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_false": {
-                        "type": "model",
+                        "type": "minecraft:model",
                         "model": "magic:sabers/lightsaber_orange"
                     },
                     "on_true": {
-                        "type": "model",
+                        "type": "minecraft:model",
                         "model": "magic:sabers/lightsaber_orange_blocking"
                     }
                 }
@@ -84,11 +84,11 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_false": {
-                        "type": "model",
+                        "type": "minecraft:model",
                         "model": "magic:sabers/lightsaber_purple"
                     },
                     "on_true": {
-                        "type": "model",
+                        "type": "minecraft:model",
                         "model": "magic:sabers/lightsaber_purple_blocking"
                     }
                 }
@@ -96,84 +96,84 @@
             {
                 "threshold": 18010,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/protection_all"
                 }
             },
             {
                 "threshold": 18011,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/protection_all"
                 }
             },
             {
                 "threshold": 18012,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/protection_explosions"
                 }
             },
             {
                 "threshold": 18013,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/protection_explosions"
                 }
             },
             {
                 "threshold": 18014,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/protection_falling"
                 }
             },
             {
                 "threshold": 18015,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/protection_falling"
                 }
             },
             {
                 "threshold": 18016,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/protection_fire"
                 }
             },
             {
                 "threshold": 18017,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/protection_fire"
                 }
             },
             {
                 "threshold": 18018,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/protection_physical"
                 }
             },
             {
                 "threshold": 18019,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/protection_physical"
                 }
             },
             {
                 "threshold": 18020,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/protection_projectiles"
                 }
             },
             {
                 "threshold": 18021,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/protection_projectiles"
                 }
             }

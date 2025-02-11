@@ -6,13 +6,13 @@
             {
                 "threshold": 18017,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/hat_cloak"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/blackstone_stairs"
         }
     }

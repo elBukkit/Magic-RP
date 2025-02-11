@@ -6,27 +6,27 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/wand"
                 }
             },
             {
                 "threshold": 18002,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/wand"
                 }
             },
             {
                 "threshold": 18003,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/crystalball"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/diamond"
         }
     }

@@ -6,342 +6,342 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/old_survival_wand1"
                 }
             },
             {
                 "threshold": 18002,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/old_survival_wand2"
                 }
             },
             {
                 "threshold": 18003,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/survival_wand1"
                 }
             },
             {
                 "threshold": 18004,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/survival_wand2"
                 }
             },
             {
                 "threshold": 18005,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/staff_survival1"
                 }
             },
             {
                 "threshold": 18006,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/staff_gandalf"
                 }
             },
             {
                 "threshold": 18007,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/staff_wolf"
                 }
             },
             {
                 "threshold": 18008,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/wolf_wand"
                 }
             },
             {
                 "threshold": 18009,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/staff_magicka"
                 }
             },
             {
                 "threshold": 18010,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/moon_wand"
                 }
             },
             {
                 "threshold": 18011,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:broomsticks/broomstick"
                 }
             },
             {
                 "threshold": 18012,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:weapons/blaster"
                 }
             },
             {
                 "threshold": 18013,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:sabers/lightsaber_hilt"
                 }
             },
             {
                 "threshold": 18014,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:sabers/lightsaber_hilt"
                 }
             },
             {
                 "threshold": 18015,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/hat_cloak"
                 }
             },
             {
                 "threshold": 18016,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/hat_eye"
                 }
             },
             {
                 "threshold": 18017,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/magic_hat"
                 }
             },
             {
                 "threshold": 18018,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/ocarina"
                 }
             },
             {
                 "threshold": 18019,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:bending/airbending"
                 }
             },
             {
                 "threshold": 18020,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:bending/waterbending"
                 }
             },
             {
                 "threshold": 18021,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:bending/earthbending"
                 }
             },
             {
                 "threshold": 18022,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:bending/firebending"
                 }
             },
             {
                 "threshold": 18023,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:bending/avatar"
                 }
             },
             {
                 "threshold": 18024,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/flat/skinny"
                 }
             },
             {
                 "threshold": 18025,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/flat/black"
                 }
             },
             {
                 "threshold": 18026,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/flat/brown"
                 }
             },
             {
                 "threshold": 18027,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/flat/elder"
                 }
             },
             {
                 "threshold": 18028,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/flat/wolf"
                 }
             },
             {
                 "threshold": 18029,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:broomsticks/broomstick2"
                 }
             },
             {
                 "threshold": 18030,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/crystalball"
                 }
             },
             {
                 "threshold": 18031,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/enchantedbook"
                 }
             },
             {
                 "threshold": 18032,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/extinguisher"
                 }
             },
             {
                 "threshold": 18033,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:bending/air_glider"
                 }
             },
             {
                 "threshold": 18034,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:bending/air_staff"
                 }
             },
             {
                 "threshold": 18035,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/riverglow"
                 }
             },
             {
                 "threshold": 18036,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/lixwglow"
                 }
             },
             {
                 "threshold": 18037,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/wandb"
                 }
             },
             {
                 "threshold": 18038,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/sortinghat"
                 }
             },
             {
                 "threshold": 18039,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/staff_survival2"
                 }
             },
             {
                 "threshold": 18040,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/totem"
                 }
             },
             {
                 "threshold": 18041,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/green_wand"
                 }
             },
             {
                 "threshold": 18042,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/nothing"
                 }
             },
             {
                 "threshold": 18043,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:other/gauntlet"
                 }
             },
             {
                 "threshold": 18044,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/magmawand"
                 }
             },
             {
                 "threshold": 18045,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/wand"
                 }
             },
             {
                 "threshold": 18046,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/wand"
                 }
             },
             {
                 "threshold": 18047,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/laser"
                 }
             },
             {
                 "threshold": 18048,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/laser"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/blaze_rod"
         }
     }

@@ -6,216 +6,216 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:arrows/normal"
                 }
             },
             {
                 "threshold": 18002,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:arrows/blink"
                 }
             },
             {
                 "threshold": 18003,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:arrows/bomb"
                 }
             },
             {
                 "threshold": 18004,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:arrows/fire"
                 }
             },
             {
                 "threshold": 18005,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:arrows/grapple"
                 }
             },
             {
                 "threshold": 18006,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:arrows/ice"
                 }
             },
             {
                 "threshold": 18007,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:arrows/light"
                 }
             },
             {
                 "threshold": 18008,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:arrows/poison"
                 }
             },
             {
                 "threshold": 18009,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:arrows/shock"
                 }
             },
             {
                 "threshold": 18010,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/arrow2"
                 }
             },
             {
                 "threshold": 18011,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/arrow2"
                 }
             },
             {
                 "threshold": 18012,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/arrow3"
                 }
             },
             {
                 "threshold": 18013,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/arrow3"
                 }
             },
             {
                 "threshold": 18014,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/arrow4"
                 }
             },
             {
                 "threshold": 18015,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/arrow4"
                 }
             },
             {
                 "threshold": 18016,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/arrow5"
                 }
             },
             {
                 "threshold": 18017,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/arrow5"
                 }
             },
             {
                 "threshold": 18018,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/arrow6"
                 }
             },
             {
                 "threshold": 18019,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/arrow6"
                 }
             },
             {
                 "threshold": 18020,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/arrow7"
                 }
             },
             {
                 "threshold": 18021,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/arrow7"
                 }
             },
             {
                 "threshold": 18022,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/arrow8"
                 }
             },
             {
                 "threshold": 18023,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/arrow8"
                 }
             },
             {
                 "threshold": 18024,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/arrow9"
                 }
             },
             {
                 "threshold": 18025,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/arrow9"
                 }
             },
             {
                 "threshold": 18026,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/arrow10"
                 }
             },
             {
                 "threshold": 18027,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/arrow10"
                 }
             },
             {
                 "threshold": 18028,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons/spells/arrowrain"
                 }
             },
             {
                 "threshold": 18029,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/arrowrain"
                 }
             },
             {
                 "threshold": 18100,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "magic:wands/hookshot"
                 }
             }
         ],
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "item/tipped_arrow"
         }
     }
