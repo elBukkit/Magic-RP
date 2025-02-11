@@ -105,6 +105,12 @@ function overrideSorter($a, $b) {
     return 0;
 }
 
+function modelEntrySorter($a, $b) {
+    if ($a['threshold'] < $b['threshold']) return -1;
+    if ($a['threshold'] > $b['threshold']) return 1;
+    return 0;
+}
+
 function copyFile($fromFile, $toFile) {
     $path = pathinfo($toFile);
     if (!file_exists($path['dirname'])) {
@@ -178,72 +184,116 @@ function mergeFolder($fromFolder, $toFolder) {
             continue;
         }
 
-        if (!isset($fromJSON['overrides'])) {
-            continue;
+        $modified = false;
+        if (isset($fromJSON['overrides'])) {
+            mergeOverrides($fromJSON, $toJSON, $fromFile);
+            $modified = true;
         }
 
-        $fromOverrides = $fromJSON['overrides'];
-        if (!isset($toJSON['overrides'])) {
-            $toJSON['overrides'] = $fromOverrides;
+        if (isset($fromJSON['model'])) {
+            mergeModel($fromJSON, $toJSON, $fromFile, $toFile);
+            $modified = true;
+        }
+
+        if ($modified) {
             file_put_contents($toFile, json_encode($toJSON, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
-            return;
         }
+    }
+}
 
-        $toOverrides = $toJSON['overrides'];
-        $hasCustomModelData = array();
-        $hasDamage = array();
-        $hasPredicate = array();
-        for ($i = 0; $i < count($toOverrides); $i++) {
-            $override = $toOverrides[$i];
-            if (isset($override['predicate'])) {
-                $predicate = $override['predicate'];
-                if (isset($predicate['custom_model_data'])) {
-                    $hasCustomModelData[$predicate['custom_model_data']] = true;
-                } else if (isset($predicate['damage'])) {
-                    $hasDamage['' . $predicate['damage']] = true;
-                } else {
-                    ksort($predicate);
-                    $hasPredicate[json_encode($predicate)] = true;
-                }
+function mergeModel(&$fromJSON, &$toJSON, $fromFile, $toFile)
+{
+    $fromModel = $fromJSON['model'];
+    if (!isset($toJSON['model'])) {
+        $toJSON['model'] = $fromModel;
+        return;
+    }
+    if (!isset($fromModel['type']) || $fromModel['type'] != 'range_dispatch' || !isset($fromModel['entries'])) {
+        echo "Skipping $fromFile, is not using range_dispatch\n";
+        return;
+    }
+    if (!isset($fromModel['property']) || $fromModel['property'] != 'custom_model_data') {
+        echo "Skipping $fromFile, is not using custom_model_data\n";
+        return;
+    }
+
+    $toModel = $toJSON['model'];
+    if (!isset($toModel['type']) || $toModel['type'] != 'range_dispatch' || !isset($toModel['entries'])) {
+        echo "Skipping $toFile, is not using range_dispatch\n";
+        return;
+    }
+    if (!isset($toModel['property']) || $toModel['property'] != 'custom_model_data') {
+        echo "Skipping $toFile, is not using custom_model_data\n";
+        return;
+    }
+
+    $fromEntries = $fromModel['entries'];
+    $toEntries = $toModel['entries'];
+    $toEntries = array_merge($toEntries, $fromEntries);
+    usort($toEntries, 'modelEntrySorter');
+    $toJSON['model']['entries'] = $toEntries;
+}
+
+function mergeOverrides(&$fromJSON, &$toJSON, $fromFile) {
+    $fromOverrides = $fromJSON['overrides'];
+    if (!isset($toJSON['overrides'])) {
+        $toJSON['overrides'] = $fromOverrides;
+        return;
+    }
+
+    $toOverrides = $toJSON['overrides'];
+    $hasCustomModelData = array();
+    $hasDamage = array();
+    $hasPredicate = array();
+    for ($i = 0; $i < count($toOverrides); $i++) {
+        $override = $toOverrides[$i];
+        if (isset($override['predicate'])) {
+            $predicate = $override['predicate'];
+            if (isset($predicate['custom_model_data'])) {
+                $hasCustomModelData[$predicate['custom_model_data']] = true;
+            } else if (isset($predicate['damage'])) {
+                $hasDamage['' . $predicate['damage']] = true;
+            } else {
+                ksort($predicate);
+                $hasPredicate[json_encode($predicate)] = true;
             }
         }
+    }
 
-        for ($i = 0; $i < count($fromOverrides); $i++) {
-            $override = $fromOverrides[$i];
-            if (isset($override['predicate'])) {
-                $predicate = $override['predicate'];
-                ksort($predicate);
-                if (isset($predicate['custom_model_data'])) {
-                    if (isset($hasCustomModelData[$predicate['custom_model_data']])) {
-                        echo("    Skipping duplicate override from: " . $fromFile . "{CustomModelData:" . $predicate['custom_model_data'] . "}\n");
-                    } else {
-                        array_push($toOverrides, $override);
-                    }
-                } else if (isset($predicate['damage'])) {
-                    if (isset($hasDamage['' . $predicate['damage']])) {
-                        echo("    Skipping duplicate override from: " . $fromFile . ":" . $predicate['damage'] . "\n");
-                    } else {
-                        array_push($toOverrides, $override);
-                    }
-                } else if ($hasPredicate[json_encode($predicate)]) {
-                    echo "    Skipping override with duplicate predicate: " . json_encode($predicate) . "\n";
+    for ($i = 0; $i < count($fromOverrides); $i++) {
+        $override = $fromOverrides[$i];
+        if (isset($override['predicate'])) {
+            $predicate = $override['predicate'];
+            ksort($predicate);
+            if (isset($predicate['custom_model_data'])) {
+                if (isset($hasCustomModelData[$predicate['custom_model_data']])) {
+                    echo("    Skipping duplicate override from: " . $fromFile . "{CustomModelData:" . $predicate['custom_model_data'] . "}\n");
                 } else {
-                    if (!isset($predicate['pulling']) && !isset($predicate['pull']) && !isset($predicate['blocking'])) {
-                        echo("    Adding unknown override predicate type from: " . $fromFile . ": " . json_encode($predicate) . "}\n");
-                    }
                     array_push($toOverrides, $override);
                 }
+            } else if (isset($predicate['damage'])) {
+                if (isset($hasDamage['' . $predicate['damage']])) {
+                    echo("    Skipping duplicate override from: " . $fromFile . ":" . $predicate['damage'] . "\n");
+                } else {
+                    array_push($toOverrides, $override);
+                }
+            } else if ($hasPredicate[json_encode($predicate)]) {
+                echo "    Skipping override with duplicate predicate: " . json_encode($predicate) . "\n";
             } else {
-                echo("Adding unknown override type from: " . $fromFile . ": " . json_encode($override) . "}\n");
+                if (!isset($predicate['pulling']) && !isset($predicate['pull']) && !isset($predicate['blocking'])) {
+                    echo("    Adding unknown override predicate type from: " . $fromFile . ": " . json_encode($predicate) . "}\n");
+                }
                 array_push($toOverrides, $override);
             }
+        } else {
+            echo("Adding unknown override type from: " . $fromFile . ": " . json_encode($override) . "}\n");
+            array_push($toOverrides, $override);
         }
-
-        usort($toOverrides, 'overrideSorter');
-
-        $toJSON['overrides'] = $toOverrides;
-        file_put_contents($toFile, json_encode($toJSON, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
     }
+
+    usort($toOverrides, 'overrideSorter');
+
+    $toJSON['overrides'] = $toOverrides;
 }
 
 echo "  Merging $fromFolder into $toFolder\n";
