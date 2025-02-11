@@ -1,0 +1,40 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 39001,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:weapons/gronckle_sword"
+                }
+            },
+            {
+                "threshold": 39010,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:weapons/dragonsword"
+                }
+            },
+            {
+                "threshold": 39011,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:weapons/dragonswordfire"
+                }
+            },
+            {
+                "threshold": 39012,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:weapons/dragonswordsparks"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/diamond_sword"
+        }
+    }
+}

@@ -1,0 +1,313 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 39001,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/gronckle/gronckle"
+                }
+            },
+            {
+                "threshold": 39002,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/groncklenest"
+                }
+            },
+            {
+                "threshold": 39010,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/nadder/nadderbody"
+                }
+            },
+            {
+                "threshold": 39011,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/nadder/nadderleftwing"
+                }
+            },
+            {
+                "threshold": 39012,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/nadder/nadderrightwing"
+                }
+            },
+            {
+                "threshold": 39013,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/naddernest"
+                }
+            },
+            {
+                "threshold": 39020,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/nightfury/nightfurybody"
+                }
+            },
+            {
+                "threshold": 39021,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/nightfury/nightfuryleftwing"
+                }
+            },
+            {
+                "threshold": 39022,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/nightfury/nightfuryrightwing"
+                }
+            },
+            {
+                "threshold": 39023,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/nightfurynest"
+                }
+            },
+            {
+                "threshold": 39030,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/nightmare/nightmarebody"
+                }
+            },
+            {
+                "threshold": 39031,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/nightmare/nightmareleftwing"
+                }
+            },
+            {
+                "threshold": 39032,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/nightmare/nightmarerightwing"
+                }
+            },
+            {
+                "threshold": 39033,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/nightmarenest"
+                }
+            },
+            {
+                "threshold": 39040,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/zippleback/zippleback"
+                }
+            },
+            {
+                "threshold": 39041,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/zipplebacknest"
+                }
+            },
+            {
+                "threshold": 39042,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:miscitems/canister"
+                }
+            },
+            {
+                "threshold": 39050,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/terror/terror"
+                }
+            },
+            {
+                "threshold": 39060,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/skrill/skrillbody"
+                }
+            },
+            {
+                "threshold": 39061,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/skrill/skrillleftwing"
+                }
+            },
+            {
+                "threshold": 39062,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/skrill/skrillrightwing"
+                }
+            },
+            {
+                "threshold": 39063,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/skrillnest"
+                }
+            },
+            {
+                "threshold": 39070,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/deathsong/deathsongbody"
+                }
+            },
+            {
+                "threshold": 39071,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/deathsong/deathsongleftwing"
+                }
+            },
+            {
+                "threshold": 39072,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/deathsong/deathsongrightwing"
+                }
+            },
+            {
+                "threshold": 39073,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/deathsongnest"
+                }
+            },
+            {
+                "threshold": 39080,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/razorwhip/razorwhipbody"
+                }
+            },
+            {
+                "threshold": 39081,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/razorwhip/razorwhipleftwing"
+                }
+            },
+            {
+                "threshold": 39082,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/razorwhip/razorwhiprightwing"
+                }
+            },
+            {
+                "threshold": 39083,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/razorwhipnest"
+                }
+            },
+            {
+                "threshold": 39090,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/scauldron/scauldronbody"
+                }
+            },
+            {
+                "threshold": 39091,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/scauldron/scauldronleftwing"
+                }
+            },
+            {
+                "threshold": 39092,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/scauldron/scauldronrightwing"
+                }
+            },
+            {
+                "threshold": 39093,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/scauldronnest"
+                }
+            },
+            {
+                "threshold": 39100,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/stormcutter/stormcutterbody"
+                }
+            },
+            {
+                "threshold": 39101,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/stormcutter/stormcutterleftwing"
+                }
+            },
+            {
+                "threshold": 39102,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/stormcutter/stormcutterrightwing"
+                }
+            },
+            {
+                "threshold": 39103,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/stormcutternest"
+                }
+            },
+            {
+                "threshold": 39110,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/changewing/changewingbody"
+                }
+            },
+            {
+                "threshold": 39111,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/changewing/changewingleftwing"
+                }
+            },
+            {
+                "threshold": 39112,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/changewing/changewingrightwing"
+                }
+            },
+            {
+                "threshold": 39113,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/changewingnest"
+                }
+            },
+            {
+                "threshold": 39120,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/thunderdrum/thunderdrumbody"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/leather_horse_armor"
+        }
+    }
+}

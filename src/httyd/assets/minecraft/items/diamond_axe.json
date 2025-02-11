@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 39001,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:weapons/gronckle_axe"
+                }
+            },
+            {
+                "threshold": 39010,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:weapons/stormcutterstaff"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/diamond_axe"
+        }
+    }
+}

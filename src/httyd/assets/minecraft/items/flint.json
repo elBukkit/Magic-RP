@@ -1,0 +1,89 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 39001,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/gronckleegg"
+                }
+            },
+            {
+                "threshold": 39010,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/nadderegg"
+                }
+            },
+            {
+                "threshold": 39020,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/nightfuryegg"
+                }
+            },
+            {
+                "threshold": 39030,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/nightmareegg"
+                }
+            },
+            {
+                "threshold": 39040,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/zipplebackegg"
+                }
+            },
+            {
+                "threshold": 39060,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/skrillegg"
+                }
+            },
+            {
+                "threshold": 39070,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/deathsongegg"
+                }
+            },
+            {
+                "threshold": 39080,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/razorwhipegg"
+                }
+            },
+            {
+                "threshold": 39090,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/scauldronegg"
+                }
+            },
+            {
+                "threshold": 39100,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/stormcutteregg"
+                }
+            },
+            {
+                "threshold": 39110,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:eggs/changewingegg"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/flint"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 39001,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/dragonmeat"
+                }
+            },
+            {
+                "threshold": 39002,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/cookeddragonmeat"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/cooked_mutton"
+        }
+    }
+}

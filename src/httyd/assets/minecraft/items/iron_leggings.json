@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 39001,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:helmets/nadderhelmet"
+                }
+            },
+            {
+                "threshold": 39002,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:helmets/zipplebackhelmet"
+                }
+            },
+            {
+                "threshold": 39003,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:helmets/nightmarehelmet"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/iron_leggings"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 39001,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:weapons/nadderpike"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/stone_hoe"
+        }
+    }
+}

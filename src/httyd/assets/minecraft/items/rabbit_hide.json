@@ -1,0 +1,166 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 39001,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/zipplebackgas"
+                }
+            },
+            {
+                "threshold": 39002,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/nadderspine"
+                }
+            },
+            {
+                "threshold": 39003,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/nightmaregel"
+                }
+            },
+            {
+                "threshold": 39004,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/gronckleironingot"
+                }
+            },
+            {
+                "threshold": 39005,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/gronckleiron"
+                }
+            },
+            {
+                "threshold": 39006,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/nightmaretalon"
+                }
+            },
+            {
+                "threshold": 39010,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:miscitems/coinpouch"
+                }
+            },
+            {
+                "threshold": 39011,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:miscitems/scalecoin"
+                }
+            },
+            {
+                "threshold": 39012,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:miscitems/diamondshard"
+                }
+            },
+            {
+                "threshold": 39020,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/nightmare/nightmarehorn"
+                }
+            },
+            {
+                "threshold": 39021,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/nadder/nadderhorn"
+                }
+            },
+            {
+                "threshold": 39022,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:dragons/zippleback/zipplebackhorn"
+                }
+            },
+            {
+                "threshold": 39030,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:miscitems/dragoneye"
+                }
+            },
+            {
+                "threshold": 39031,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:miscitems/dragoneyelens"
+                }
+            },
+            {
+                "threshold": 39040,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:miscitems/goldhorn"
+                }
+            },
+            {
+                "threshold": 39050,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/dragonhide"
+                }
+            },
+            {
+                "threshold": 39051,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/dragonbone"
+                }
+            },
+            {
+                "threshold": 39060,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/deathsongamber"
+                }
+            },
+            {
+                "threshold": 39070,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/razorwhipmetal"
+                }
+            },
+            {
+                "threshold": 39071,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/razorwhipmetalingot"
+                }
+            },
+            {
+                "threshold": 39080,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:weapons/turret"
+                }
+            },
+            {
+                "threshold": 39090,
+                "model": {
+                    "type": "model",
+                    "model": "httyd:drops/stormcutterclaw"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/rabbit_hide"
+        }
+    }
+}
