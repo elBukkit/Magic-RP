@@ -1,0 +1,40 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 1404001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:halloween/pumpkin_hammer"
+                }
+            },
+            {
+                "threshold": 1404002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:halloween/scyth_small"
+                }
+            },
+            {
+                "threshold": 1404003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:halloween/hsword"
+                }
+            },
+            {
+                "threshold": 1404004,
+                "model": {
+                    "type": "model",
+                    "model": "magic:halloween/scythe_death"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/diamond_sword"
+        }
+    }
+}
