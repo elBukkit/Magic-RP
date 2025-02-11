@@ -21,7 +21,8 @@ foreach ($inputFiles as $fileInfo) {
     $entries = array();
 
     if (!isset($inputFile['overrides'])) {
-        die("$inputFilename doesn't have any overrides\n");
+        echo "$inputFilename doesn't have any overrides\n";
+        continue;
     }
 
     foreach ($inputFile['overrides'] as $override) {
