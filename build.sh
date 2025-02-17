@@ -128,6 +128,7 @@ mkdir all
 cd all
 cp -R ../robes/* .
 cp -R ../../src/war/assets/magic/* assets/magic/
+mkdir -p assets/minecraft/models/item/
 cp ../../src/war/assets/minecraft/models/item/diamond_pickaxe.json assets/minecraft/models/item/
 sed -e '$ d' ../../src/default/assets/minecraft/sounds.json > assets/minecraft/sounds.json
 echo , >> assets/minecraft/sounds.json
