@@ -13,7 +13,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/acacia_fence_gate"
+            "model": "minecraft:block/acacia_fence_gate"
         }
     }
 }

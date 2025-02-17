@@ -82,8 +82,8 @@
             }
         ],
         "fallback": {
-            "type": "model",
-            "model": "item/flint"
+            "type": "minecraft:model",
+            "model": "minecraft:item/flint"
         }
     }
 }

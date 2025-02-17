@@ -13,7 +13,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/birch_sapling"
+            "model": "minecraft:item/birch_sapling"
         }
     }
 }

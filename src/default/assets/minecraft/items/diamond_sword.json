@@ -146,7 +146,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/diamond_sword"
+            "model": "minecraft:item/diamond_sword"
         }
     }
 }

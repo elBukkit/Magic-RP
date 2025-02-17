@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/melon_seeds"
+            "model": "minecraft:item/melon_seeds"
         }
     }
 }

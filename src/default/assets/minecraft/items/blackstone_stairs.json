@@ -13,7 +13,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/blackstone_stairs"
+            "model": "minecraft:block/blackstone_stairs"
         }
     }
 }

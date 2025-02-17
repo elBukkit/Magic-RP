@@ -12,8 +12,8 @@
             }
         ],
         "fallback": {
-            "type": "model",
-            "model": "item/iron_sword"
+            "type": "minecraft:model",
+            "model": "minecraft:item/iron_sword"
         }
     }
 }

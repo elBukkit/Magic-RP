@@ -111,7 +111,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/golden_sword"
+            "model": "minecraft:item/golden_sword"
         }
     }
 }

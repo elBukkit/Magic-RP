@@ -19,8 +19,8 @@
             }
         ],
         "fallback": {
-            "type": "model",
-            "model": "item/cooked_mutton"
+            "type": "minecraft:model",
+            "model": "minecraft:item/cooked_mutton"
         }
     }
 }

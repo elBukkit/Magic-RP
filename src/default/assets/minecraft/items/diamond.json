@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/diamond"
+            "model": "minecraft:item/diamond"
         }
     }
 }

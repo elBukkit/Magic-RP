@@ -342,7 +342,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/blaze_rod"
+            "model": "minecraft:item/blaze_rod"
         }
     }
 }

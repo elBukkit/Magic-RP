@@ -13,7 +13,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/light_blue_stained_glass"
+            "model": "minecraft:block/light_blue_stained_glass"
         }
     }
 }

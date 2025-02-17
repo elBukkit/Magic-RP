@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/acacia_sapling"
+            "model": "minecraft:item/acacia_sapling"
         }
     }
 }

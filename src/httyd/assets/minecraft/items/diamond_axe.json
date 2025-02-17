@@ -19,8 +19,8 @@
             }
         ],
         "fallback": {
-            "type": "model",
-            "model": "item/diamond_axe"
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_axe"
         }
     }
 }

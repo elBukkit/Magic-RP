@@ -153,7 +153,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/feather"
+            "model": "minecraft:item/feather"
         }
     }
 }

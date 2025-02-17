@@ -159,8 +159,8 @@
             }
         ],
         "fallback": {
-            "type": "model",
-            "model": "item/rabbit_hide"
+            "type": "minecraft:model",
+            "model": "minecraft:item/rabbit_hide"
         }
     }
 }

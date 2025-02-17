@@ -34,7 +34,13 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/leather_horse_armor"
+            "model": "minecraft:item/leather_horse_armor",
+            "tints": [
+                {
+                    "type": "minecraft:dye",
+                    "default": -6265536
+                }
+            ]
         }
     }
 }

@@ -216,7 +216,13 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/tipped_arrow"
+            "model": "minecraft:item/tipped_arrow",
+            "tints": [
+                {
+                    "type": "minecraft:potion",
+                    "default": -13083194
+                }
+            ]
         }
     }
 }

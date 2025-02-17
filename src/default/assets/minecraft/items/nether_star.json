@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/nether_star"
+            "model": "minecraft:item/nether_star"
         }
     }
 }

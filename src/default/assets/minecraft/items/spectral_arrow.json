@@ -209,7 +209,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/spectral_arrow"
+            "model": "minecraft:item/spectral_arrow"
         }
     }
 }

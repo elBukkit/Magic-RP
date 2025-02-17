@@ -12,8 +12,8 @@
             }
         ],
         "fallback": {
-            "type": "model",
-            "model": "item/lectern"
+            "type": "minecraft:model",
+            "model": "minecraft:block/lectern"
         }
     }
 }

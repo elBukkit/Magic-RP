@@ -13,7 +13,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/heart_of_the_sea"
+            "model": "minecraft:item/heart_of_the_sea"
         }
     }
 }
