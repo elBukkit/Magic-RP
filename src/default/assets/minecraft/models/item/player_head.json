@@ -1,0 +1,2345 @@
+{
+    "parent": "minecraft:item/template_skull",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 18001
+            },
+            "model": "magic:icons/spells/pull"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18002
+            },
+            "model": "magic:icons_disabled/spells/pull"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18003
+            },
+            "model": "magic:icons/spells/flamethrower"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18004
+            },
+            "model": "magic:icons_disabled/spells/flamethrower"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18005
+            },
+            "model": "magic:icons/spells/chainlightning"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18006
+            },
+            "model": "magic:icons_disabled/spells/chainlightning"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18007
+            },
+            "model": "magic:icons/spells/meteor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18008
+            },
+            "model": "magic:icons_disabled/spells/meteor"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18009
+            },
+            "model": "magic:icons/spells/arrow10"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18010
+            },
+            "model": "magic:icons_disabled/spells/arrow10"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18011
+            },
+            "model": "magic:icons/spells/disintegrate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18012
+            },
+            "model": "magic:icons_disabled/spells/disintegrate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18013
+            },
+            "model": "magic:icons/spells/fireball"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18014
+            },
+            "model": "magic:icons_disabled/spells/fireball"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18015
+            },
+            "model": "magic:icons/spells/peek"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18016
+            },
+            "model": "magic:icons_disabled/spells/peek"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18017
+            },
+            "model": "magic:icons/spells/reflect"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18018
+            },
+            "model": "magic:icons_disabled/spells/reflect"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18019
+            },
+            "model": "magic:icons/spells/pillar"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18020
+            },
+            "model": "magic:icons_disabled/spells/pillar"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18021
+            },
+            "model": "magic:icons/spells/glide"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18022
+            },
+            "model": "magic:icons_disabled/spells/glide"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18023
+            },
+            "model": "magic:icons/spells/neutron"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18024
+            },
+            "model": "magic:icons_disabled/spells/neutron"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18025
+            },
+            "model": "magic:icons/spells/protection_fire"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18026
+            },
+            "model": "magic:icons_disabled/spells/protection_fire"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18027
+            },
+            "model": "magic:icons/spells/flare"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18028
+            },
+            "model": "magic:icons_disabled/spells/flare"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18029
+            },
+            "model": "magic:icons/spells/phase"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18030
+            },
+            "model": "magic:icons_disabled/spells/phase"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18031
+            },
+            "model": "magic:icons/spells/sharpen_sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18032
+            },
+            "model": "magic:icons_disabled/spells/sharpen_sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18033
+            },
+            "model": "magic:icons/spells/night"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18034
+            },
+            "model": "magic:icons_disabled/spells/night"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18035
+            },
+            "model": "magic:icons/spells/tame"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18036
+            },
+            "model": "magic:icons_disabled/spells/tame"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18037
+            },
+            "model": "magic:icons/spells/shuriken"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18038
+            },
+            "model": "magic:icons_disabled/spells/shuriken"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18039
+            },
+            "model": "magic:icons/spells/arrowrain"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18040
+            },
+            "model": "magic:icons_disabled/spells/arrowrain"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18041
+            },
+            "model": "magic:icons/spells/familiar"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18042
+            },
+            "model": "magic:icons_disabled/spells/familiar"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18043
+            },
+            "model": "magic:icons/spells/tendril"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18044
+            },
+            "model": "magic:icons_disabled/spells/tendril"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18045
+            },
+            "model": "magic:icons/spells/earthquake"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18046
+            },
+            "model": "magic:icons_disabled/spells/earthquake"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18047
+            },
+            "model": "magic:icons/spells/broom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18048
+            },
+            "model": "magic:icons_disabled/spells/broom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18049
+            },
+            "model": "magic:icons/spells/torture"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18050
+            },
+            "model": "magic:icons_disabled/spells/torture"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18051
+            },
+            "model": "magic:icons/spells/polymorph"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18052
+            },
+            "model": "magic:icons_disabled/spells/polymorph"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18053
+            },
+            "model": "magic:icons/spells/gather"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18054
+            },
+            "model": "magic:icons_disabled/spells/gather"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18055
+            },
+            "model": "magic:icons/spells/monster"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18056
+            },
+            "model": "magic:icons_disabled/spells/monster"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18057
+            },
+            "model": "magic:icons/spells/silence"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18058
+            },
+            "model": "magic:icons_disabled/spells/silence"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18059
+            },
+            "model": "magic:icons/spells/rubberize"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18060
+            },
+            "model": "magic:icons_disabled/spells/rubberize"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18061
+            },
+            "model": "magic:icons/spells/protection_physical"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18062
+            },
+            "model": "magic:icons_disabled/spells/protection_physical"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18063
+            },
+            "model": "magic:icons/spells/dragonball"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18064
+            },
+            "model": "magic:icons_disabled/spells/dragonball"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18065
+            },
+            "model": "magic:icons/spells/airscooter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18066
+            },
+            "model": "magic:icons_disabled/spells/airscooter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18067
+            },
+            "model": "magic:icons/spells/arrow6"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18068
+            },
+            "model": "magic:icons_disabled/spells/arrow6"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18069
+            },
+            "model": "magic:icons/spells/blink"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18070
+            },
+            "model": "magic:icons_disabled/spells/blink"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18071
+            },
+            "model": "magic:icons/spells/poison"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18072
+            },
+            "model": "magic:icons_disabled/spells/poison"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18073
+            },
+            "model": "magic:icons/spells/wolf"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18074
+            },
+            "model": "magic:icons_disabled/spells/wolf"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18075
+            },
+            "model": "magic:icons/spells/superkill"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18076
+            },
+            "model": "magic:icons_disabled/spells/superkill"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18077
+            },
+            "model": "magic:icons/spells/sandblast"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18078
+            },
+            "model": "magic:icons_disabled/spells/sandblast"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18079
+            },
+            "model": "magic:icons/spells/fury"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18080
+            },
+            "model": "magic:icons_disabled/spells/fury"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18081
+            },
+            "model": "magic:icons/spells/blob"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18082
+            },
+            "model": "magic:icons_disabled/spells/blob"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18083
+            },
+            "model": "magic:icons/spells/cat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18084
+            },
+            "model": "magic:icons_disabled/spells/cat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18085
+            },
+            "model": "magic:icons/spells/portal"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18086
+            },
+            "model": "magic:icons_disabled/spells/portal"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18087
+            },
+            "model": "magic:icons/spells/anvil"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18088
+            },
+            "model": "magic:icons_disabled/spells/anvil"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18089
+            },
+            "model": "magic:icons/spells/wave"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18090
+            },
+            "model": "magic:icons_disabled/spells/wave"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18091
+            },
+            "model": "magic:icons/spells/emp"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18092
+            },
+            "model": "magic:icons_disabled/spells/emp"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18093
+            },
+            "model": "magic:icons/spells/sweep"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18094
+            },
+            "model": "magic:icons_disabled/spells/sweep"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18095
+            },
+            "model": "magic:icons/spells/rocket"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18096
+            },
+            "model": "magic:icons_disabled/spells/rocket"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18097
+            },
+            "model": "magic:icons/spells/singularity"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18098
+            },
+            "model": "magic:icons_disabled/spells/singularity"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18099
+            },
+            "model": "magic:icons/spells/ghast"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18100
+            },
+            "model": "magic:icons_disabled/spells/ghast"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18101
+            },
+            "model": "magic:icons/spells/counterspell"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18102
+            },
+            "model": "magic:icons_disabled/spells/counterspell"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18103
+            },
+            "model": "magic:icons/spells/testdummy"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18104
+            },
+            "model": "magic:icons_disabled/spells/testdummy"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18105
+            },
+            "model": "magic:icons/spells/projectile"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18106
+            },
+            "model": "magic:icons_disabled/spells/projectile"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18107
+            },
+            "model": "magic:icons/spells/railgun"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18108
+            },
+            "model": "magic:icons_disabled/spells/railgun"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18109
+            },
+            "model": "magic:icons/spells/arrow9"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18110
+            },
+            "model": "magic:icons_disabled/spells/arrow9"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18111
+            },
+            "model": "magic:icons/spells/mob"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18112
+            },
+            "model": "magic:icons_disabled/spells/mob"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18113
+            },
+            "model": "magic:icons/spells/vengeance"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18114
+            },
+            "model": "magic:icons_disabled/spells/vengeance"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18115
+            },
+            "model": "magic:icons/spells/sticky"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18116
+            },
+            "model": "magic:icons_disabled/spells/sticky"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18117
+            },
+            "model": "magic:icons/spells/arrow7"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18118
+            },
+            "model": "magic:icons_disabled/spells/arrow7"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18119
+            },
+            "model": "magic:icons/spells/growth"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18120
+            },
+            "model": "magic:icons_disabled/spells/growth"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18121
+            },
+            "model": "magic:icons/spells/push"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18122
+            },
+            "model": "magic:icons_disabled/spells/push"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18123
+            },
+            "model": "magic:icons/spells/workbench"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18124
+            },
+            "model": "magic:icons_disabled/spells/workbench"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18125
+            },
+            "model": "magic:icons/spells/wand"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18126
+            },
+            "model": "magic:icons_disabled/spells/wand"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18127
+            },
+            "model": "magic:icons/spells/cure"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18128
+            },
+            "model": "magic:icons_disabled/spells/cure"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18129
+            },
+            "model": "magic:icons/spells/fling"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18130
+            },
+            "model": "magic:icons_disabled/spells/fling"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18131
+            },
+            "model": "magic:icons/spells/wound"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18132
+            },
+            "model": "magic:icons_disabled/spells/wound"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18133
+            },
+            "model": "magic:icons/spells/lockpick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18134
+            },
+            "model": "magic:icons_disabled/spells/lockpick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18135
+            },
+            "model": "magic:icons/spells/gasp"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18136
+            },
+            "model": "magic:icons_disabled/spells/gasp"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18137
+            },
+            "model": "magic:icons/spells/blessing"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18138
+            },
+            "model": "magic:icons_disabled/spells/blessing"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18139
+            },
+            "model": "magic:icons/spells/torch"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18140
+            },
+            "model": "magic:icons_disabled/spells/supertorch"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18141
+            },
+            "model": "magic:icons/spells/bubble"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18142
+            },
+            "model": "magic:icons_disabled/spells/bubble"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18143
+            },
+            "model": "magic:icons/spells/mine"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18144
+            },
+            "model": "magic:icons_disabled/spells/mine"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18145
+            },
+            "model": "magic:icons/spells/harden"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18146
+            },
+            "model": "magic:icons_disabled/spells/harden"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18147
+            },
+            "model": "magic:icons/spells/protection_explosions"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18148
+            },
+            "model": "magic:icons_disabled/spells/protection_explosions"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18149
+            },
+            "model": "magic:icons/spells/curse"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18150
+            },
+            "model": "magic:icons_disabled/spells/curse"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18151
+            },
+            "model": "magic:icons/spells/protection_falling"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18152
+            },
+            "model": "magic:icons_disabled/spells/protection_falling"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18153
+            },
+            "model": "magic:icons/spells/tornado"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18154
+            },
+            "model": "magic:icons_disabled/spells/tornado"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18155
+            },
+            "model": "magic:icons/spells/breach"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18156
+            },
+            "model": "magic:icons_disabled/spells/breach"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18157
+            },
+            "model": "magic:icons/spells/laser"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18158
+            },
+            "model": "magic:icons_disabled/spells/laser"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18159
+            },
+            "model": "magic:icons/spells/secure"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18160
+            },
+            "model": "magic:icons_disabled/spells/secure"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18161
+            },
+            "model": "magic:icons/spells/arrow4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18162
+            },
+            "model": "magic:icons_disabled/spells/arrow4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18163
+            },
+            "model": "magic:icons/spells/shrink"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18164
+            },
+            "model": "magic:icons_disabled/spells/shrink"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18165
+            },
+            "model": "magic:icons/spells/tag"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18166
+            },
+            "model": "magic:icons_disabled/spells/tag"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18167
+            },
+            "model": "magic:icons/spells/grenade"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18168
+            },
+            "model": "magic:icons_disabled/spells/grenade"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18169
+            },
+            "model": "magic:icons/spells/recall"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18170
+            },
+            "model": "magic:icons_disabled/spells/recall"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18171
+            },
+            "model": "magic:icons/spells/music"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18172
+            },
+            "model": "magic:icons_disabled/spells/music"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18173
+            },
+            "model": "magic:icons/spells/whip"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18174
+            },
+            "model": "magic:icons_disabled/spells/whip"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18175
+            },
+            "model": "magic:icons/spells/walls"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18176
+            },
+            "model": "magic:icons_disabled/spells/walls"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18177
+            },
+            "model": "magic:icons/spells/sponge"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18178
+            },
+            "model": "magic:icons_disabled/spells/sponge"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18179
+            },
+            "model": "magic:icons/spells/blind"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18180
+            },
+            "model": "magic:icons_disabled/spells/blind"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18181
+            },
+            "model": "magic:icons/spells/arrow2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18182
+            },
+            "model": "magic:icons_disabled/spells/arrow2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18183
+            },
+            "model": "magic:icons/spells/arrow8"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18184
+            },
+            "model": "magic:icons_disabled/spells/arrow8"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18185
+            },
+            "model": "magic:icons/spells/arrow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18186
+            },
+            "model": "magic:icons_disabled/spells/arrow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18187
+            },
+            "model": "magic:icons/spells/upgrades"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18188
+            },
+            "model": "magic:icons_disabled/spells/upgrades"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18189
+            },
+            "model": "magic:icons/spells/volley"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18190
+            },
+            "model": "magic:icons_disabled/spells/volley"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18191
+            },
+            "model": "magic:icons/spells/platform"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18192
+            },
+            "model": "magic:icons_disabled/spells/platform"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18193
+            },
+            "model": "magic:icons/spells/heal"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18194
+            },
+            "model": "magic:icons_disabled/spells/heal"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18195
+            },
+            "model": "magic:icons/spells/lift"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18196
+            },
+            "model": "magic:icons_disabled/spells/lift"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18197
+            },
+            "model": "magic:icons/spells/cloak"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18198
+            },
+            "model": "magic:icons_disabled/spells/cloak"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18199
+            },
+            "model": "magic:icons/spells/frost"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18200
+            },
+            "model": "magic:icons_disabled/spells/frost"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18201
+            },
+            "model": "magic:icons/spells/gatling"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18202
+            },
+            "model": "magic:icons_disabled/spells/gatling"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18203
+            },
+            "model": "magic:icons/spells/lightning"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18204
+            },
+            "model": "magic:icons_disabled/spells/lightning"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18205
+            },
+            "model": "magic:icons/spells/weather"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18206
+            },
+            "model": "magic:icons_disabled/spells/weather"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18207
+            },
+            "model": "magic:icons/spells/toss"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18208
+            },
+            "model": "magic:icons_disabled/spells/toss"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18209
+            },
+            "model": "magic:icons/spells/tracking"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18210
+            },
+            "model": "magic:icons_disabled/spells/tracking"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18211
+            },
+            "model": "magic:icons/spells/stream"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18212
+            },
+            "model": "magic:icons_disabled/spells/stream"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18213
+            },
+            "model": "magic:icons/spells/horse"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18214
+            },
+            "model": "magic:icons_disabled/spells/horse"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18215
+            },
+            "model": "magic:icons/spells/chop"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18216
+            },
+            "model": "magic:icons_disabled/spells/chop"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18217
+            },
+            "model": "magic:icons/spells/cage"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18218
+            },
+            "model": "magic:icons_disabled/spells/cage"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18219
+            },
+            "model": "magic:icons/spells/arrow5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18220
+            },
+            "model": "magic:icons_disabled/spells/arrow5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18221
+            },
+            "model": "magic:icons/spells/lava"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18222
+            },
+            "model": "magic:icons_disabled/spells/lava"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18223
+            },
+            "model": "magic:icons/spells/blast"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18224
+            },
+            "model": "magic:icons_disabled/spells/blast"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18225
+            },
+            "model": "magic:icons/spells/bow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18226
+            },
+            "model": "magic:icons_disabled/spells/bow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18227
+            },
+            "model": "magic:icons/spells/tent"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18228
+            },
+            "model": "magic:icons_disabled/spells/tent"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18229
+            },
+            "model": "magic:icons/spells/levitate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18230
+            },
+            "model": "magic:icons_disabled/spells/levitate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18231
+            },
+            "model": "magic:icons/spells/kill"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18232
+            },
+            "model": "magic:icons_disabled/spells/kill"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18233
+            },
+            "model": "magic:icons/spells/bomb"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18234
+            },
+            "model": "magic:icons_disabled/spells/bomb"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18235
+            },
+            "model": "magic:icons/spells/cluster"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18236
+            },
+            "model": "magic:icons_disabled/spells/cluster"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18237
+            },
+            "model": "magic:icons/spells/grow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18238
+            },
+            "model": "magic:icons_disabled/spells/grow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18239
+            },
+            "model": "magic:icons/spells/admission"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18240
+            },
+            "model": "magic:icons_disabled/spells/admission"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18241
+            },
+            "model": "magic:icons/spells/stash"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18242
+            },
+            "model": "magic:icons_disabled/spells/stash"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18243
+            },
+            "model": "magic:icons/spells/hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18244
+            },
+            "model": "magic:icons_disabled/spells/hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18245
+            },
+            "model": "magic:icons/spells/homing"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18246
+            },
+            "model": "magic:icons_disabled/spells/homing"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18247
+            },
+            "model": "magic:icons/spells/day"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18248
+            },
+            "model": "magic:icons_disabled/spells/day"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18249
+            },
+            "model": "magic:icons/spells/collapse"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18250
+            },
+            "model": "magic:icons_disabled/spells/collapse"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18251
+            },
+            "model": "magic:icons/spells/entangle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18252
+            },
+            "model": "magic:icons_disabled/spells/entangle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18253
+            },
+            "model": "magic:icons/spells/protection_all"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18254
+            },
+            "model": "magic:icons_disabled/spells/protection_all"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18255
+            },
+            "model": "magic:icons/spells/missile"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18256
+            },
+            "model": "magic:icons_disabled/spells/missile"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18257
+            },
+            "model": "magic:icons/spells/time"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18258
+            },
+            "model": "magic:icons_disabled/spells/time"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18259
+            },
+            "model": "magic:icons/spells/paste"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18260
+            },
+            "model": "magic:icons_disabled/spells/paste"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18261
+            },
+            "model": "magic:icons/spells/force"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18262
+            },
+            "model": "magic:icons_disabled/spells/force"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18263
+            },
+            "model": "magic:icons/spells/protection_projectiles"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18264
+            },
+            "model": "magic:icons_disabled/spells/protection_projectiles"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18265
+            },
+            "model": "magic:icons/spells/boon"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18266
+            },
+            "model": "magic:icons_disabled/spells/boon"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18267
+            },
+            "model": "magic:icons/spells/mount"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18268
+            },
+            "model": "magic:icons_disabled/spells/mount"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18269
+            },
+            "model": "magic:icons/spells/pollinate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18270
+            },
+            "model": "magic:icons_disabled/spells/pollinate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18271
+            },
+            "model": "magic:icons/spells/icbm"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18272
+            },
+            "model": "magic:icons_disabled/spells/icbm"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18273
+            },
+            "model": "magic:icons/spells/petrify"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18274
+            },
+            "model": "magic:icons_disabled/spells/petrify"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18275
+            },
+            "model": "magic:icons/spells/flashbang"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18276
+            },
+            "model": "magic:icons_disabled/spells/flashbang"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18277
+            },
+            "model": "magic:icons/spells/farm"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18278
+            },
+            "model": "magic:icons_disabled/spells/farm"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18279
+            },
+            "model": "magic:icons/spells/invincible"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18280
+            },
+            "model": "magic:icons_disabled/spells/invincible"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18281
+            },
+            "model": "magic:icons/spells/pickpocket"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18282
+            },
+            "model": "magic:icons_disabled/spells/pickpocket"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18283
+            },
+            "model": "magic:icons/spells/stun"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18284
+            },
+            "model": "magic:icons_disabled/spells/stun"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18285
+            },
+            "model": "magic:icons/spells/nuke"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18286
+            },
+            "model": "magic:icons_disabled/spells/nuke"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18287
+            },
+            "model": "magic:icons/spells/boom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18288
+            },
+            "model": "magic:icons_disabled/spells/boom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18289
+            },
+            "model": "magic:icons/spells/boomstown"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18290
+            },
+            "model": "magic:icons_disabled/spells/boomstown"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18291
+            },
+            "model": "magic:icons/spells/fire"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18292
+            },
+            "model": "magic:icons_disabled/spells/fire"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18293
+            },
+            "model": "magic:icons/spells/shell"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18294
+            },
+            "model": "magic:icons_disabled/spells/shell"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18295
+            },
+            "model": "magic:icons/spells/disarm"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18296
+            },
+            "model": "magic:icons_disabled/spells/disarm"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18297
+            },
+            "model": "magic:icons/spells/recurse"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18298
+            },
+            "model": "magic:icons_disabled/spells/recurse"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18299
+            },
+            "model": "magic:icons/spells/superalter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18300
+            },
+            "model": "magic:icons_disabled/spells/superalter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18301
+            },
+            "model": "magic:icons/spells/superbox"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18302
+            },
+            "model": "magic:icons_disabled/spells/superbox"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18303
+            },
+            "model": "magic:icons/spells/flatten"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18304
+            },
+            "model": "magic:icons_disabled/spells/flatten"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18305
+            },
+            "model": "magic:icons/spells/convert"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18306
+            },
+            "model": "magic:icons_disabled/spells/convert"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18307
+            },
+            "model": "magic:icons/spells/box"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18308
+            },
+            "model": "magic:icons_disabled/spells/box"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18309
+            },
+            "model": "magic:icons/spells/superregenerate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18310
+            },
+            "model": "magic:icons_disabled/spells/superregenerate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18311
+            },
+            "model": "magic:icons/spells/supercylinder"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18312
+            },
+            "model": "magic:icons_disabled/spells/supercylinder"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18313
+            },
+            "model": "magic:icons/spells/superdome"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18314
+            },
+            "model": "magic:icons_disabled/spells/superdome"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18315
+            },
+            "model": "magic:icons/spells/repair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18316
+            },
+            "model": "magic:icons_disabled/spells/repair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18317
+            },
+            "model": "magic:icons/spells/superlaser"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18318
+            },
+            "model": "magic:icons_disabled/spells/superlaser"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18319
+            },
+            "model": "magic:icons/spells/light"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18320
+            },
+            "model": "magic:icons_disabled/spells/light"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18321
+            },
+            "model": "magic:icons/spells/superdisc"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18322
+            },
+            "model": "magic:icons_disabled/spells/superdisc"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18323
+            },
+            "model": "magic:icons/spells/supercube"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18324
+            },
+            "model": "magic:icons_disabled/spells/supercube"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18325
+            },
+            "model": "magic:icons/spells/raise"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18326
+            },
+            "model": "magic:icons_disabled/spells/raise"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18327
+            },
+            "model": "magic:icons/spells/fill"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18328
+            },
+            "model": "magic:icons_disabled/spells/fill"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18329
+            },
+            "model": "magic:icons/spells/superrepair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18330
+            },
+            "model": "magic:icons_disabled/spells/superrepair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18331
+            },
+            "model": "magic:icons/spells/supershell"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18332
+            },
+            "model": "magic:icons_disabled/spells/supershell"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18333
+            },
+            "model": "magic:icons/spells/supercollapse"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18334
+            },
+            "model": "magic:icons_disabled/spells/supercollapse"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18335
+            },
+            "model": "magic:icons/spells/absorb"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18336
+            },
+            "model": "magic:icons_disabled/spells/absorb"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18337
+            },
+            "model": "magic:icons/spells/superblast"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18338
+            },
+            "model": "magic:icons_disabled/spells/superblast"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18339
+            },
+            "model": "magic:icons/spells/tree"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18340
+            },
+            "model": "magic:icons_disabled/spells/tree"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18341
+            },
+            "model": "magic:icons/spells/bridge"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18342
+            },
+            "model": "magic:icons_disabled/spells/bridge"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18343
+            },
+            "model": "magic:icons/spells/paint"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18344
+            },
+            "model": "magic:icons_disabled/spells/paint"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18345
+            },
+            "model": "magic:icons/spells/supercylinder"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18346
+            },
+            "model": "magic:icons_disabled/spells/supercylinder"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18347
+            },
+            "model": "magic:icons/spells/forest"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18348
+            },
+            "model": "magic:icons_disabled/spells/forest"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18349
+            },
+            "model": "magic:icons/spells/tunnel"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18350
+            },
+            "model": "magic:icons_disabled/spells/tunnel"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18351
+            },
+            "model": "magic:icons/spells/regenerate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18352
+            },
+            "model": "magic:icons_disabled/spells/regenerate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18353
+            },
+            "model": "magic:icons/spells/alter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18354
+            },
+            "model": "magic:icons_disabled/spells/alter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18355
+            },
+            "model": "magic:icons/spells/commit"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18356
+            },
+            "model": "magic:icons_disabled/spells/commit"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18357
+            },
+            "model": "magic:icons/spells/backup"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18358
+            },
+            "model": "magic:icons_disabled/spells/backup"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18359
+            },
+            "model": "magic:icons/spells/rollback"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18360
+            },
+            "model": "magic:icons_disabled/spells/rollback"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18361
+            },
+            "model": "magic:icons/spells/superblob"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18362
+            },
+            "model": "magic:icons_disabled/spells/superblob"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18363
+            },
+            "model": "magic:icons/spells/superbackup"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18364
+            },
+            "model": "magic:icons_disabled/spells/superbackup"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18365
+            },
+            "model": "magic:icons/spells/superring"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18366
+            },
+            "model": "magic:icons_disabled/spells/superring"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18367
+            },
+            "model": "magic:icons/spells/superfly"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18368
+            },
+            "model": "magic:icons_disabled/spells/superfly"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18369
+            },
+            "model": "magic:icons/spells/superpyramid"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18370
+            },
+            "model": "magic:icons_disabled/spells/superpyramid"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18371
+            },
+            "model": "magic:icons/spells/place"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18372
+            },
+            "model": "magic:icons_disabled/spells/place"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18373
+            },
+            "model": "magic:icons/spells/iterate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18374
+            },
+            "model": "magic:icons_disabled/spells/iterate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18375
+            },
+            "model": "magic:icons/spells/superconvert"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18376
+            },
+            "model": "magic:icons_disabled/spells/superconvert"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18377
+            },
+            "model": "magic:icons/spells/brushselect"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18378
+            },
+            "model": "magic:icons_disabled/spells/brushselect"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18379
+            },
+            "model": "magic:icons/spells/floodfill"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18380
+            },
+            "model": "magic:icons_disabled/spells/floodfill"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18381
+            },
+            "model": "magic:icons/spells/capture"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18382
+            },
+            "model": "magic:icons_disabled/spells/capture"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18383
+            },
+            "model": "magic:icons/spells/sparkle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18384
+            },
+            "model": "magic:icons_disabled/spells/sparkle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18385
+            },
+            "model": "magic:icons/brushes/erase"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18386
+            },
+            "model": "magic:icons/brushes/replicate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18387
+            },
+            "model": "magic:icons/brushes/schematic"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18388
+            },
+            "model": "magic:icons/brushes/map"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18389
+            },
+            "model": "magic:icons/brushes/clone"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18390
+            },
+            "model": "magic:icons/brushes/copy"
+        }
+    ]
+}
