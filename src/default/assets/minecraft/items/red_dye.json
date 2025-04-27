@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/red_dye"
+  },
+
+  "overrides": [
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/torture"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/torture"}
+  ]
+}

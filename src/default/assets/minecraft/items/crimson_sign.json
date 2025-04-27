@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/crimson_sign"
+  },
+
+  "overrides": [
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/upgrades/organizer"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons/upgrades/quickcast_disable"},
+    {"predicate": { "custom_model_data": 18003}, "model": "magic:icons/other/nathanwolf"},
+    {"predicate": { "custom_model_data": 18004}, "model": "magic:icons_disabled/other/nathanwolf"},
+
+    {"predicate": { "custom_model_data": 18006}, "model": "magic:icons_disabled/upgrades/actionbar"},
+    {"predicate": { "custom_model_data": 18007}, "model": "magic:icons_disabled/upgrades/bossbar"},
+    {"predicate": { "custom_model_data": 18008}, "model": "magic:icons_disabled/upgrades/nogui"}
+  ]
+}
