@@ -1,17 +1,68 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/warped_sign"
-  },
-
-  "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/upgrades/alphabetizer"},
-    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons/upgrades/quickcast_enable"},
-    {"predicate": { "custom_model_data": 18003}, "model": "magic:icons/brushes/default"},
-    {"predicate": { "custom_model_data": 18004}, "model": "magic:icons/spells/superbackup"},
-    {"predicate": { "custom_model_data": 18005}, "model": "magic:icons_disabled/spells/superbackup"},
-    {"predicate": { "custom_model_data": 18006}, "model": "magic:icons/upgrades/actionbar"},
-    {"predicate": { "custom_model_data": 18007}, "model": "magic:icons/upgrades/bossbar"},
-    {"predicate": { "custom_model_data": 18008}, "model": "magic:icons/upgrades/nogui"}
-  ]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/upgrades/alphabetizer"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/upgrades/quickcast_enable"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/brushes/default"
+                }
+            },
+            {
+                "threshold": 18004,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superbackup"
+                }
+            },
+            {
+                "threshold": 18005,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superbackup"
+                }
+            },
+            {
+                "threshold": 18006,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/upgrades/actionbar"
+                }
+            },
+            {
+                "threshold": 18007,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/upgrades/bossbar"
+                }
+            },
+            {
+                "threshold": 18008,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/upgrades/nogui"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/warped_sign"
+        }
+    }
 }

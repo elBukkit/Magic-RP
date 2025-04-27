@@ -1,10 +1,19 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/music_disc_wait"
-  },
-
-  "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/upgrades/cyclemode"}
-  ]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/upgrades/cyclemode"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/music_disc_wait"
+        }
+    }
 }

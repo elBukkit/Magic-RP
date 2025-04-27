@@ -1,13 +1,40 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/oak_sign"
-  },
-
-  "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/upgrades/inventorymode"},
-    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons/upgrades/quickcast_normal"},
-    {"predicate": {"custom_model_data": 18003}, "model": "magic:icons/spells/tag"},
-    {"predicate": {"custom_model_data": 18004}, "model": "magic:icons_disabled/spells/tag"}
-  ]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/upgrades/inventorymode"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/upgrades/quickcast_normal"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/tag"
+                }
+            },
+            {
+                "threshold": 18004,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/tag"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/oak_sign"
+        }
+    }
 }

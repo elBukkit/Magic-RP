@@ -1,12 +1,33 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/music_disc_11"
-  },
-
-  "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/upgrades/silent"},
-    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons/spells/silence"},
-    {"predicate": { "custom_model_data": 18003}, "model": "magic:icons_disabled/spells/silence"}
-  ]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/upgrades/silent"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/silence"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/silence"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/music_disc_11"
+        }
+    }
 }

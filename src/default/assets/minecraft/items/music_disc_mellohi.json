@@ -1,11 +1,26 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/music_disc_mellohi"
-  },
-
-  "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/music"},
-    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/music"}
-  ]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/music"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/music"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/music_disc_mellohi"
+        }
+    }
 }
