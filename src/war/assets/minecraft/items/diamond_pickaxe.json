@@ -1,0 +1,194 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/ak47"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/sniperrifle"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/deserteagle"
+                }
+            },
+            {
+                "threshold": 18004,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/shotgun"
+                }
+            },
+            {
+                "threshold": 18005,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/rpg"
+                }
+            },
+            {
+                "threshold": 18006,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/flashbang"
+                }
+            },
+            {
+                "threshold": 18007,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/remote"
+                }
+            },
+            {
+                "threshold": 18008,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/incendiary"
+                }
+            },
+            {
+                "threshold": 18009,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/rpgshell"
+                }
+            },
+            {
+                "threshold": 18010,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/model3"
+                }
+            },
+            {
+                "threshold": 18011,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/ferrari"
+                }
+            },
+            {
+                "threshold": 18012,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/train"
+                }
+            },
+            {
+                "threshold": 18013,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/model3_white"
+                }
+            },
+            {
+                "threshold": 18014,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/model3_silver"
+                }
+            },
+            {
+                "threshold": 18015,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/model3_black"
+                }
+            },
+            {
+                "threshold": 18016,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/model3_red"
+                }
+            },
+            {
+                "threshold": 18017,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/dmr"
+                }
+            },
+            {
+                "threshold": 18018,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/hawk_shotgun_12"
+                }
+            },
+            {
+                "threshold": 18019,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/pkp"
+                }
+            },
+            {
+                "threshold": 18020,
+                "model": {
+                    "type": "model",
+                    "model": "magic:iwar/thompson"
+                }
+            },
+            {
+                "threshold": 18021,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/mp5"
+                }
+            },
+            {
+                "threshold": 18022,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/glock"
+                }
+            },
+            {
+                "threshold": 18023,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/sawedoff"
+                }
+            },
+            {
+                "threshold": 18024,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/shotgun2"
+                }
+            },
+            {
+                "threshold": 18025,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/m4"
+                }
+            },
+            {
+                "threshold": 18028,
+                "model": {
+                    "type": "model",
+                    "model": "magic:war/ak47"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/diamond_pickaxe"
+        }
+    }
+}
