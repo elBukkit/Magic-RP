@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 84,
+    "min_format": [84,0],
+    "max_format": [84,0],
     "description": "Official elMakers Magic Resource Pack"
   }
 }
