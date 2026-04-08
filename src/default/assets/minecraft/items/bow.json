@@ -6,85 +6,109 @@
             {
                 "threshold": 18001,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "magic:bows/egypt/egypt"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "magic:bows/egypt/egypt"
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "entries": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "magic:bows/egypt/egypt_pulling_1"
+                                },
+                                "threshold": 0.65
+                            },
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "magic:bows/egypt/egypt_pulling_2"
+                                },
+                                "threshold": 0.9
+                            }
+                        ],
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "magic:bows/egypt/egypt_pulling_0"
+                        }
+                    }
                 }
             },
             {
                 "threshold": 18002,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "magic:bows/skinny/bow"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "magic:bows/skinny/bow"
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "entries": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "magic:bows/skinny/bow_pulling_1"
+                                },
+                                "threshold": 0.65
+                            },
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "magic:bows/skinny/bow_pulling_2"
+                                },
+                                "threshold": 0.9
+                            }
+                        ],
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "magic:bows/skinny/bow_pulling_0"
+                        }
+                    }
                 }
             },
             {
                 "threshold": 18003,
                 "model": {
-                    "type": "minecraft:model",
-                    "model": "magic:bows/longbow/longbow_standby"
-                }
-            },
-            {
-                "threshold": 18001,
-                "model": {
-                    "type": "minecraft:model",
-                    "model": "magic:bows/egypt/egypt_pulling_0"
-                }
-            },
-            {
-                "threshold": 18001,
-                "model": {
-                    "type": "minecraft:model",
-                    "model": "magic:bows/egypt/egypt_pulling_1"
-                }
-            },
-            {
-                "threshold": 18001,
-                "model": {
-                    "type": "minecraft:model",
-                    "model": "magic:bows/egypt/egypt_pulling_2"
-                }
-            },
-            {
-                "threshold": 18002,
-                "model": {
-                    "type": "minecraft:model",
-                    "model": "magic:bows/skinny/bow_pulling_0"
-                }
-            },
-            {
-                "threshold": 18002,
-                "model": {
-                    "type": "minecraft:model",
-                    "model": "magic:bows/skinny/bow_pulling_1"
-                }
-            },
-            {
-                "threshold": 18002,
-                "model": {
-                    "type": "minecraft:model",
-                    "model": "magic:bows/skinny/bow_pulling_2"
-                }
-            },
-            {
-                "threshold": 18003,
-                "model": {
-                    "type": "minecraft:model",
-                    "model": "magic:bows/longbow/longbow_pulling_0"
-                }
-            },
-            {
-                "threshold": 18003,
-                "model": {
-                    "type": "minecraft:model",
-                    "model": "magic:bows/longbow/longbow_pulling_1"
-                }
-            },
-            {
-                "threshold": 18003,
-                "model": {
-                    "type": "minecraft:model",
-                    "model": "magic:bows/longbow/longbow_pulling_2"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "magic:bows/longbow/longbow_standby"
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "entries": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "magic:bows/longbow/longbow_pulling_1"
+                                },
+                                "threshold": 0.65
+                            },
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "magic:bows/longbow/longbow_pulling_2"
+                                },
+                                "threshold": 0.9
+                            }
+                        ],
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "magic:bows/longbow/longbow_pulling_0"
+                        }
+                    }
                 }
             },
             {
