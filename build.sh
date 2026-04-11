@@ -218,5 +218,26 @@ find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-vanilla-robes-RP-26.1.zip *
 cd ..
 
+echo "** BUILDING VALHALLA **"
+
+if [ ! -f ../download/valhalla.zip ]; then
+  mkdir ../download
+  cd ../download
+  curl -L --output valhalla.zip https://github.com/user-attachments/files/22643432/ValhallaMMO_1.21.4%2B.zip
+  mkdir valhalla
+  cd valhalla
+  unzip ../valhalla.zip
+  cd ../../target
+fi
+
+mkdir valhalla
+cd valhalla
+cp -R ../default/* .
+cp -R ../../src/valhalla/* .
+../../merge_folder.php ../../download/valhalla .
+find . -name ".DS_Store" -type f -delete
+zip -q -X -r ../Magic-valhalla-RP-26.1.zip *
+cd ..
+
 echo "** COPYING TO MINECRAFT **"
 cp *.zip ~/Library/Application\ Support/minecraft/resourcepacks/
