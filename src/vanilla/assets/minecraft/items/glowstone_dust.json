@@ -1,0 +1,40 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superblast"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superblast"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/sparkle"
+                }
+            },
+            {
+                "threshold": 18004,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/sparkle"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/glowstone_dust"
+        }
+    }
+}

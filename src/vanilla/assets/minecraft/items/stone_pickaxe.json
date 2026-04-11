@@ -1,0 +1,40 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/repair"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/repair"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/regenerate"
+                }
+            },
+            {
+                "threshold": 18004,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/regenerate"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/stone_pickaxe"
+        }
+    }
+}

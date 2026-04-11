@@ -1,0 +1,11 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [],
+        "fallback": {
+            "type": "model",
+            "model": "item/diamond_hoe"
+        }
+    }
+}

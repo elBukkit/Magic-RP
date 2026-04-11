@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/poison"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/poison"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/fermented_spider_eye"
+        }
+    }
+}

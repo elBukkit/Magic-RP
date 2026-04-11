@@ -1,0 +1,54 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:food/sandwich"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:food/toasted_sandwich"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:food/bread_slice"
+                }
+            },
+            {
+                "threshold": 18004,
+                "model": {
+                    "type": "model",
+                    "model": "magic:food/toast"
+                }
+            },
+            {
+                "threshold": 18005,
+                "model": {
+                    "type": "model",
+                    "model": "magic:food/cheese"
+                }
+            },
+            {
+                "threshold": 18006,
+                "model": {
+                    "type": "model",
+                    "model": "magic:food/grilled_cheese"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/bread"
+        }
+    }
+}

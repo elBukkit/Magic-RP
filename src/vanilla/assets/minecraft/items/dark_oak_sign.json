@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/upgrades/mode_rightclick"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/dark_oak_sign"
+        }
+    }
+}

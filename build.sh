@@ -233,6 +233,7 @@ fi
 mkdir valhalla
 cd valhalla
 cp -R ../default/* .
+cp -R ../../src/vanilla/* .
 cp -R ../../src/valhalla/* .
 ../../merge_folder.php ../../download/valhalla .
 find . -name ".DS_Store" -type f -delete

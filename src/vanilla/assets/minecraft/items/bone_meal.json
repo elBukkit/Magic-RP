@@ -1,0 +1,68 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 18001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/airscooter"
+                }
+            },
+            {
+                "threshold": 18002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/airscooter"
+                }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/levitate"
+                }
+            },
+            {
+                "threshold": 18004,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/levitate"
+                }
+            },
+            {
+                "threshold": 18005,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/superfly"
+                }
+            },
+            {
+                "threshold": 18006,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/superfly"
+                }
+            },
+            {
+                "threshold": 18007,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons/spells/growth"
+                }
+            },
+            {
+                "threshold": 18008,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_disabled/spells/growth"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/bone_meal"
+        }
+    }
+}
