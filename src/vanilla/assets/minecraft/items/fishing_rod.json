@@ -16,6 +16,13 @@
                     "type": "model",
                     "model": "magic:icons_disabled/spells/pull"
                 }
+            },
+            {
+                "threshold": 18003,
+                "model": {
+                    "type": "model",
+                    "model": "item/fishing_rod"
+                }
             }
         ],
         "fallback": {
