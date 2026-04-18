@@ -1,0 +1,7 @@
+{
+    "parent": "magic:base/icon_enabled",
+    "textures": {
+        "particle": "magic:icons/spells/backup",
+        "texture": "magic:icons/spells/backup"
+    }
+}

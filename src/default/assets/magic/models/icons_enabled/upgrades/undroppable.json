@@ -1,0 +1,7 @@
+{
+    "parent": "magic:base/icon_enabled",
+    "textures": {
+        "particle": "magic:icons/upgrades/undroppable",
+        "texture": "magic:icons/upgrades/undroppable"
+    }
+}
