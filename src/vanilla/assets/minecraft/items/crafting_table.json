@@ -20,7 +20,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/crafting_table"
+            "model": "minecraft:block/crafting_table"
         }
     }
 }
