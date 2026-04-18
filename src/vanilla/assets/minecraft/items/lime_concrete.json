@@ -9,6 +9,13 @@
                     "type": "model",
                     "model": "magic:icons/generic/yes"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/generic/yes"
+                }
             }
         ],
         "fallback": {

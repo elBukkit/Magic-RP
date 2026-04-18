@@ -30,6 +30,20 @@
                     "type": "model",
                     "model": "magic:icons_disabled/spells/boomstown"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/rocket"
+                }
+            },
+            {
+                "threshold": 19003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/boomstown"
+                }
             }
         ],
         "fallback": {

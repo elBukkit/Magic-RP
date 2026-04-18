@@ -16,6 +16,13 @@
                     "type": "model",
                     "model": "magic:icons_disabled/spells/toggleair"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/toggleair"
+                }
             }
         ],
         "fallback": {

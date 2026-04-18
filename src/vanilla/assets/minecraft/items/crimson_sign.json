@@ -51,6 +51,27 @@
                     "type": "model",
                     "model": "magic:icons_disabled/upgrades/nogui"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/upgrades/organizer"
+                }
+            },
+            {
+                "threshold": 19002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/upgrades/quickcast_disable"
+                }
+            },
+            {
+                "threshold": 19003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/other/nathanwolf"
+                }
             }
         ],
         "fallback": {

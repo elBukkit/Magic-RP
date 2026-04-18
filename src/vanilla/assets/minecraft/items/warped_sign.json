@@ -58,6 +58,55 @@
                     "type": "model",
                     "model": "magic:icons/upgrades/nogui"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/upgrades/alphabetizer"
+                }
+            },
+            {
+                "threshold": 19002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/upgrades/quickcast_enable"
+                }
+            },
+            {
+                "threshold": 19003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/brushes/default"
+                }
+            },
+            {
+                "threshold": 19004,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/superbackup"
+                }
+            },
+            {
+                "threshold": 19006,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/upgrades/actionbar"
+                }
+            },
+            {
+                "threshold": 19007,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/upgrades/bossbar"
+                }
+            },
+            {
+                "threshold": 19008,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/upgrades/nogui"
+                }
             }
         ],
         "fallback": {

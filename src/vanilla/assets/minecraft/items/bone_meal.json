@@ -58,6 +58,34 @@
                     "type": "model",
                     "model": "magic:icons_disabled/spells/growth"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/airscooter"
+                }
+            },
+            {
+                "threshold": 19003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/levitate"
+                }
+            },
+            {
+                "threshold": 19005,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/superfly"
+                }
+            },
+            {
+                "threshold": 19007,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/growth"
+                }
             }
         ],
         "fallback": {

@@ -23,6 +23,20 @@
                     "type": "model",
                     "model": "magic:icons_disabled/spells/silence"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/upgrades/silent"
+                }
+            },
+            {
+                "threshold": 19002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/silence"
+                }
             }
         ],
         "fallback": {

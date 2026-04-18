@@ -44,6 +44,27 @@
                     "type": "model",
                     "model": "magic:icons_disabled/spells/projectile"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/missile"
+                }
+            },
+            {
+                "threshold": 19003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/railgun"
+                }
+            },
+            {
+                "threshold": 19005,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/projectile"
+                }
             }
         ],
         "fallback": {

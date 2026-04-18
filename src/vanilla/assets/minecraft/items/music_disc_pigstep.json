@@ -16,6 +16,13 @@
                     "type": "model",
                     "model": "magic:icons_disabled/spells/counterspell"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/counterspell"
+                }
             }
         ],
         "fallback": {

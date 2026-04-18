@@ -30,6 +30,27 @@
                     "type": "model",
                     "model": "magic:icons_disabled/spells/tag"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/upgrades/inventorymode"
+                }
+            },
+            {
+                "threshold": 19002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/upgrades/quickcast_normal"
+                }
+            },
+            {
+                "threshold": 19003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/tag"
+                }
             }
         ],
         "fallback": {

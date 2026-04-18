@@ -16,6 +16,13 @@
                     "type": "model",
                     "model": "magic:icons_disabled/spells/cage"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/cage"
+                }
             }
         ],
         "fallback": {

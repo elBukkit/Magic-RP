@@ -30,6 +30,20 @@
                     "type": "model",
                     "model": "magic:icons_disabled/spells/no"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/grenade"
+                }
+            },
+            {
+                "threshold": 19003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/no"
+                }
             }
         ],
         "fallback": {

@@ -44,6 +44,48 @@
                     "type": "model",
                     "model": "magic:food/grilled_cheese"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:food/sandwich"
+                }
+            },
+            {
+                "threshold": 19002,
+                "model": {
+                    "type": "model",
+                    "model": "magic:food/toasted_sandwich"
+                }
+            },
+            {
+                "threshold": 19003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:food/bread_slice"
+                }
+            },
+            {
+                "threshold": 19004,
+                "model": {
+                    "type": "model",
+                    "model": "magic:food/toast"
+                }
+            },
+            {
+                "threshold": 19005,
+                "model": {
+                    "type": "model",
+                    "model": "magic:food/cheese"
+                }
+            },
+            {
+                "threshold": 19006,
+                "model": {
+                    "type": "model",
+                    "model": "magic:food/grilled_cheese"
+                }
             }
         ],
         "fallback": {

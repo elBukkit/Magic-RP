@@ -16,6 +16,13 @@
                     "type": "model",
                     "model": "magic:icons_disabled/spells/gatling"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/gatling"
+                }
             }
         ],
         "fallback": {

@@ -30,6 +30,20 @@
                     "type": "model",
                     "model": "magic:icons_disabled/spells/sparkle"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/superblast"
+                }
+            },
+            {
+                "threshold": 19003,
+                "model": {
+                    "type": "model",
+                    "model": "magic:icons_enabled/spells/sparkle"
+                }
             }
         ],
         "fallback": {
