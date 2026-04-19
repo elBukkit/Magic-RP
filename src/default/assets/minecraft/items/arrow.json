@@ -16,6 +16,13 @@
                     "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/arrow"
                 }
+            },
+            {
+                "threshold": 19001,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "magic:icons_enabled/spells/arrow"
+                }
             }
         ],
         "fallback": {

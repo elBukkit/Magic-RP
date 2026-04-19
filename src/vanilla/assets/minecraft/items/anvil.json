@@ -23,11 +23,18 @@
                     "type": "model",
                     "model": "magic:icons_enabled/spells/anvil"
                 }
+            },
+            {
+                "threshold": 20000,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/anvil"
+                }
             }
         ],
         "fallback": {
             "type": "model",
-            "model": "item/anvil"
+            "model": "minecraft:block/anvil"
         }
     }
 }

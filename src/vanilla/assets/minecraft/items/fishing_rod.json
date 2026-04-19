@@ -18,13 +18,6 @@
                 }
             },
             {
-                "threshold": 18003,
-                "model": {
-                    "type": "model",
-                    "model": "item/fishing_rod"
-                }
-            },
-            {
                 "threshold": 19001,
                 "model": {
                     "type": "model",
@@ -32,7 +25,7 @@
                 }
             },
             {
-                "threshold": 19003,
+                "threshold": 20000,
                 "model": {
                     "type": "model",
                     "model": "item/fishing_rod"
