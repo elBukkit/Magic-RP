@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/daylight_detector"
+            "model": "block/daylight_detector"
         }
     }
 }

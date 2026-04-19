@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/chain"
+            "model": "item/iron_chain"
         }
     }
 }

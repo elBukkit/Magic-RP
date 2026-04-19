@@ -26,8 +26,8 @@
             }
         ],
         "fallback": {
-            "type": "model",
-            "model": "minecraft:block/birch_fence"
+            "type": "minecraft:model",
+            "model": "minecraft:block/birch_fence_inventory"
         }
     }
 }
