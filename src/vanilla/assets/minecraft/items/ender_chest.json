@@ -23,11 +23,26 @@
                     "type": "model",
                     "model": "magic:icons_enabled/spells/stash"
                 }
+            },
+            {
+                "threshold": 20000,
+                "model": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/ender_chest",
+                    "model": {
+                        "type": "minecraft:chest",
+                        "texture": "minecraft:ender"
+                    }
+                }
             }
         ],
         "fallback": {
-            "type": "model",
-            "model": "item/ender_chest"
+            "type": "minecraft:special",
+            "base": "minecraft:item/ender_chest",
+            "model": {
+                "type": "minecraft:chest",
+                "texture": "minecraft:ender"
+            }
         }
     }
 }

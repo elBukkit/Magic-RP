@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/shroomlight"
+            "model": "minecraft:block/shroomlight"
         }
     }
 }

@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/blackstone_slab"
+            "model": "minecraft:block/blackstone_slab"
         }
     }
 }

@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/crying_obsidian"
+            "model": "minecraft:block/crying_obsidian"
         }
     }
 }

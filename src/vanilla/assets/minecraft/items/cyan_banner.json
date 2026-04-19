@@ -19,8 +19,8 @@
             }
         ],
         "fallback": {
-            "type": "model",
-            "model": "item/cyan_banner"
+            "type": "minecraft:banner",
+            "color": "cyan"
         }
     }
 }

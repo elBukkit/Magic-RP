@@ -20,7 +20,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/lime_concrete"
+            "model": "minecraft:block/lime_concrete"
         }
     }
 }

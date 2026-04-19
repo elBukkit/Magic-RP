@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/terracotta"
+            "model": "minecraft:block/terracotta"
         }
     }
 }

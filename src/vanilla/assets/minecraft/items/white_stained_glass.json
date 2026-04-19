@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/white_stained_glass"
+            "model": "minecraft:block/white_stained_glass"
         }
     }
 }

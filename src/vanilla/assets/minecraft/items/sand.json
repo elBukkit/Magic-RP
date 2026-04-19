@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/sand"
+            "model": "minecraft:block/sand"
         }
     }
 }

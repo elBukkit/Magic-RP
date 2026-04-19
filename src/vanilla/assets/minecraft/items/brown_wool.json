@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/brown_wool"
+            "model": "minecraft:block/brown_wool"
         }
     }
 }

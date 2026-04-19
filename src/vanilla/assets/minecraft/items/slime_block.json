@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/slime_block"
+            "model": "minecraft:block/slime_block"
         }
     }
 }

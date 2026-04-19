@@ -20,7 +20,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/red_concrete"
+            "model": "minecraft:block/red_concrete"
         }
     }
 }

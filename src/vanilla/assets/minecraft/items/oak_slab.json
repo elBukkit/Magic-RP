@@ -27,7 +27,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/oak_slab"
+            "model": "minecraft:block/oak_slab"
         }
     }
 }
