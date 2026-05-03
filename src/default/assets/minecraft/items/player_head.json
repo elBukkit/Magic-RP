@@ -980,7 +980,7 @@
                 "threshold": 18140,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "magic:icons_disabled/spells/supertorch"
+                    "model": "magic:icons_disabled/spells/torch"
                 }
             },
             {
@@ -2731,6 +2731,47 @@
                 "model": {
                     "type": "minecraft:model",
                     "model": "magic:icons/brushes/copy"
+                }
+            },
+            {
+                "threshold": 18391,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "magic:icons/other/nathanwolf"
+                }
+            },
+            {
+                "threshold": 19000,
+                "model": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/template_skull",
+                    "model": {
+                        "type": "minecraft:player_head"
+                    },
+                    "transformation": {
+                        "left_rotation": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            -0.0
+                        ],
+                        "right_rotation": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "translation": [
+                            0.5,
+                            0.0,
+                            0.5
+                        ]
+                    }
                 }
             }
         ],
