@@ -1,5 +1,5 @@
 {
     "parent": "item/generated",
-    "textures":{"layer0": "httyd:miscitems/diamondshard"}
+    "textures":{"layer0": "httyd:other/diamondshard"}
     }
 }

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "httyd:miscitems/dragoneyelens",
-		"particle": "httyd:miscitems/dragoneyelens"
+		"0": "httyd:other/dragoneyelens",
+		"particle": "httyd:other/dragoneyelens"
 	},
 	"elements": [
 		{
