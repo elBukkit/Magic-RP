@@ -140,7 +140,7 @@
                 "threshold": 18020,
                 "model": {
                     "type": "model",
-                    "model": "magic:iwar/thompson"
+                    "model": "magic:war/thompson"
                 }
             },
             {
