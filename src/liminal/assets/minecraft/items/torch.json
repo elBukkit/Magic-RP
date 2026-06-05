@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 8888,
+                "model": {
+                    "type": "model",
+                    "model": "liminal:creatures/leviathan"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/torch"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "music.creative": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.credits": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.game": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.menu": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.nether.basalt_deltas": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.nether.nether_wastes": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.overworld.badlands": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.overworld.deep_dark": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.overworld.desert": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.overworld.lush_caves": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.under_water": {
+    "replace": true,
+    "sounds": []
+  }
+}

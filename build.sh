@@ -240,5 +240,24 @@ find . -name ".DS_Store" -type f -delete
 zip -q -X -r ../Magic-valhalla-RP-26.1.zip *
 cd ..
 
+echo "** BUILDING LIMINAL **"
+
+mkdir liminal
+cd liminal
+cp -R ../../src/liminal/* .
+find . -name ".DS_Store" -type f -delete
+zip -q -X -r ../Magic-liminal-RP-26.1.zip *
+cd ..
+
+echo "** BUILDING LIMINAL-ALL **"
+
+mkdir liminal-all
+cd liminal-all
+cp -R ../all/* .
+../../merge_folder.php ../../src/liminal .
+find . -name ".DS_Store" -type f -delete
+zip -q -X -r ../Magic-liminal-all-RP-26.1.zip *
+cd ..
+
 echo "** COPYING TO MINECRAFT **"
 cp *.zip ~/Library/Application\ Support/minecraft/resourcepacks/
