@@ -2,6 +2,7 @@
 	"credit": "Designed by Lix3nn with Cubik Studio - https://cubik.studio. Edited by PhvntxmX using BlockBench.",
 	"parent": "magic:base/lit",
 	"textures": {
+		"particle": "magic:icons/spells/cloak",
 		"texture": "magic:icons/spells/cloak",
 		"texture1": "magic:icons/spells/iceshards",
 		"texture2": "magic:other/redpurple"

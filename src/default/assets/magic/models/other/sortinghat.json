@@ -2,7 +2,8 @@
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "parent" : "magic:base/lit",
     "textures": {
-        "0": "minecraft:block/black_wool"
+        "0": "minecraft:block/black_wool",
+        "particle": "minecraft:block/black_wool"
     },
     "elements": [
         {

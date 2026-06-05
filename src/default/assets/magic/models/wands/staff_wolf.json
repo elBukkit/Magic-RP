@@ -4,6 +4,7 @@
 	"ambientocclusion": false,
 	"textures": {
 		"texture": "magic:other/staff_wolf",
+		"particle": "magic:other/staff_wolf",
 		"staff_wolf_top": "magic:other/staff_wolf_top",
 		"staff_wolf_bottom": "magic:other/staff_wolf_bottom"
 	},

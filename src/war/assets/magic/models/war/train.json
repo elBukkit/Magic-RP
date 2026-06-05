@@ -2,7 +2,8 @@
 	"__comment": "Designed by NathanWolf with Cubik Studio - https://cubik.studio",
 	"parent": "magic:base/lit",
 	"textures": {
-		"atlas": "magic:war/train"
+		"atlas": "magic:war/train",
+		"particle": "magic:war/train"
 	},
 	  "display": {
 		"thirdperson_righthand": {

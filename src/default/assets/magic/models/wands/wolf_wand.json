@@ -3,7 +3,8 @@
 	"parent": "magic:base/lit",
 	"ambientocclusion": false,
 	"textures": {
-		"texture": "magic:other/wand_wolf"
+		"texture": "magic:other/wand_wolf",
+		"particle": "magic:other/wand_wolf"
 	},
 	"elements": [
 		{

@@ -5,7 +5,8 @@
 		"2": "magic:halloween/pumpkin_face",
 		"3": "magic:halloween/hsword_ruby",
 		"4": "magic:halloween/hsword_black",
-		"particle": "magic:halloween/hsword_grip"
+		"particle": "magic:halloween/hsword_grip",
+		"missing": "magic:halloween/hsword_grip"
 	},
 	"elements": [
 		{

@@ -1,6 +1,7 @@
 {
     "parent" : "magic:base/lit",
     "textures": {
+        "particle": "magic:icons/generic/black"
     },
     "elements": [
     ],

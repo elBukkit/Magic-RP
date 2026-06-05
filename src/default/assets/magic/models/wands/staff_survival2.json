@@ -1,6 +1,7 @@
 {
 	"parent": "magic:wands/staff_survival",
 	"textures": {
-		"1": "magic:other/survivalwand4"
+		"1": "magic:other/survivalwand4",
+		"particle": "magic:other/survivalwand4"
 	}
 }

@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "custom/dragons/nadder/nadderbody"
+		"1": "custom/dragons/nadder/nadderbody",
+		"particle": "custom/dragons/nadder/nadderbody"
 	},
 	"elements": [
 		{
