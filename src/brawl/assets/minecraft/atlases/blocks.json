@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "brawlers",
+      "prefix": "brawlers/"
+    },
+    {
+      "type": "directory",
+      "source": "weapons",
+      "prefix": "weapons/"
+    }
+  ]
+}

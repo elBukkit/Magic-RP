@@ -2,11 +2,6 @@
   "sources": [
     {
       "type": "directory",
-      "source": "custom",
-      "prefix": "custom/"
-    },
-    {
-      "type": "directory",
       "source": "arrows",
       "prefix": "arrows/"
     },
@@ -22,8 +17,8 @@
     },
     {
       "type": "directory",
-      "source": "gui",
-      "prefix": "gui/"
+      "source": "brawlers",
+      "prefix": "brawlers/"
     },
     {
       "type": "directory",
@@ -32,13 +27,48 @@
     },
     {
       "type": "directory",
-      "source": "icons",
-      "prefix": "icons/"
+      "source": "dragons",
+      "prefix": "dragons/"
+    },
+    {
+      "type": "directory",
+      "source": "drops",
+      "prefix": "drops/"
+    },
+    {
+      "type": "directory",
+      "source": "eggs",
+      "prefix": "eggs/"
+    },
+    {
+      "type": "directory",
+      "source": "entity",
+      "prefix": "entity/"
+    },
+    {
+      "type": "directory",
+      "source": "food",
+      "prefix": "food/"
     },
     {
       "type": "directory",
       "source": "halloween",
       "prefix": "halloween/"
+    },
+    {
+      "type": "directory",
+      "source": "helmets",
+      "prefix": "helmets/"
+    ,
+    {
+      "type": "directory",
+      "source": "icons",
+      "prefix": "icons/"
+    },
+    {
+      "type": "directory",
+      "source": "icons_disabled",
+      "prefix": "icons_disabled/"
     },
     {
       "type": "directory",
@@ -64,6 +94,11 @@
       "type": "directory",
       "source": "war",
       "prefix": "war/"
+    },
+    {
+      "type": "directory",
+      "source": "weapons",
+      "prefix": "weapons/"
     }
   ]
 }

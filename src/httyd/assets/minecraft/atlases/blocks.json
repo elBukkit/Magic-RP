@@ -1,0 +1,39 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "dragons",
+      "prefix": "dragons/"
+    },
+    {
+      "type": "directory",
+      "source": "drops",
+      "prefix": "drops/"
+    },
+    {
+      "type": "directory",
+      "source": "eggs",
+      "prefix": "eggs/"
+    },
+    {
+      "type": "directory",
+      "source": "food",
+      "prefix": "food/"
+    },
+    {
+      "type": "directory",
+      "source": "helmets",
+      "prefix": "helmets/"
+    },
+    {
+      "type": "directory",
+      "source": "other",
+      "prefix": "other/"
+    },
+    {
+      "type": "directory",
+      "source": "weapons",
+      "prefix": "weapons/"
+    }
+  ]
+}
