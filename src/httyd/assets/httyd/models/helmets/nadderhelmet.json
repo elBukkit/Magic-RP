@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"textures": {
-		"atlas": "custom/helmets/nadderhelmet",
-		"particle": "custom/helmets/nadderhelmet"
+		"atlas": "httyd:helmets/nadderhelmet",
+		"particle": "httyd:helmets/nadderhelmet"
 	},
 	"elements": [
 		{

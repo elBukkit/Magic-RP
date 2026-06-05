@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [256, 256],
 	"textures": {
-		"0": "custom/dragons/nightmare/nightmarebody",
-		"particle": "custom/dragons/nightmare/nightmarebody"
+		"0": "httyd:dragons/nightmare/nightmarebody",
+		"particle": "httyd:dragons/nightmare/nightmarebody"
 	},
 	"elements": [
 		{

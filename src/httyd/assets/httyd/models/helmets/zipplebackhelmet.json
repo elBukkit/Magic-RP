@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"textures": {
-		"atlas": "custom/helmets/zipplebackhelmet",
-		"particle": "custom/helmets/zipplebackhelmet"
+		"atlas": "httyd:helmets/zipplebackhelmet",
+		"particle": "httyd:helmets/zipplebackhelmet"
 	},
 	"elements": [
 		{

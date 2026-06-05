@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/dragons/changewing/changewingrightwing",
-		"particle": "custom/dragons/changewing/changewingrightwing"
+		"0": "httyd:dragons/changewing/changewingrightwing",
+		"particle": "httyd:dragons/changewing/changewingrightwing"
 	},
 	"elements": [
 		{

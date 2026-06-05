@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/dragons/nadder/nadderrightwing",
-		"particle": "custom/dragons/nadder/nadderrightwing"
+		"0": "httyd:dragons/nadder/nadderrightwing",
+		"particle": "httyd:dragons/nadder/nadderrightwing"
 	},
 	"elements": [
 		{

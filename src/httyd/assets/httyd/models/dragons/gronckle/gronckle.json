@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "custom/dragons/gronckle/groncklebody",
-		"1": "custom/dragons/gronckle/groncklewings",
-		"particle": "custom/dragons/gronckle/groncklebody"
+		"0": "httyd:dragons/gronckle/groncklebody",
+		"1": "httyd:dragons/gronckle/groncklewings",
+		"particle": "httyd:dragons/gronckle/groncklebody"
 	},
 	"elements": [
 		{

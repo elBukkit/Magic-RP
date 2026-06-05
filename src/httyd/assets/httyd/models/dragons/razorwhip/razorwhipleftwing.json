@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/dragons/razorwhip/razorwhipleftwing",
-		"particle": "custom/dragons/razorwhip/razorwhipleftwing"
+		"0": "httyd:dragons/razorwhip/razorwhipleftwing",
+		"particle": "httyd:dragons/razorwhip/razorwhipleftwing"
 	},
 	"elements": [
 		{

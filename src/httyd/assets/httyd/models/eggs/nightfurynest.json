@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "custom/eggs/eggnest",
-		"1": "custom/eggs/nightfuryegg",
-		"particle": "custom/eggs/eggnest"
+		"0": "httyd:eggs/eggnest",
+		"1": "httyd:eggs/nightfuryegg",
+		"particle": "httyd:eggs/eggnest"
 	},
 	"elements": [
 		{

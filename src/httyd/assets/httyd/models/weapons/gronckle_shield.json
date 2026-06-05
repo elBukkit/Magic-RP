@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/weapons/gronckle_shield",
-		"particle": "custom/weapons/gronckle_shield"
+		"0": "httyd:weapons/gronckle_shield",
+		"particle": "httyd:weapons/gronckle_shield"
 	},
 	"elements": [
 		{

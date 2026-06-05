@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "custom/dragons/deathsong/deathsongleftwing",
-		"particle": "custom/dragons/deathsong/deathsongleftwing"
+		"0": "httyd:dragons/deathsong/deathsongleftwing",
+		"particle": "httyd:dragons/deathsong/deathsongleftwing"
 	},
 	"elements": [
 		{

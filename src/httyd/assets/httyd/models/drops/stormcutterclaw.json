@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/drops/stormcutterclaw",
-		"particle": "custom/drops/stormcutterclaw"
+		"0": "httyd:drops/stormcutterclaw",
+		"particle": "httyd:drops/stormcutterclaw"
 	},
 	"elements": [
 		{

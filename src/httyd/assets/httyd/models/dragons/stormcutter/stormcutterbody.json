@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/dragons/stormcutter/stormcutterbody",
-		"particle": "custom/dragons/stormcutter/stormcutterbody"
+		"0": "httyd:dragons/stormcutter/stormcutterbody",
+		"particle": "httyd:dragons/stormcutter/stormcutterbody"
 	},
 	"elements": [
 		{

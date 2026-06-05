@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/weapons/dragonsword",
-		"1": "custom/weapons/dragonswordsparks",
-		"particle": "custom/weapons/dragonsword"
+		"0": "httyd:weapons/dragonsword",
+		"1": "httyd:weapons/dragonswordsparks",
+		"particle": "httyd:weapons/dragonsword"
 	},
 	"elements": [
 		{

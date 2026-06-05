@@ -1,5 +1,5 @@
 {
     "parent": "item/handheld",
-    "textures":{"layer0": "custom/drops/cookeddragonmeat"}
+    "textures":{"layer0": "httyd:drops/cookeddragonmeat"}
     }
 }

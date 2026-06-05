@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/dragons/scauldron/scauldronrightwing",
-		"particle": "custom/dragons/scauldron/scauldronrightwing"
+		"0": "httyd:dragons/scauldron/scauldronrightwing",
+		"particle": "httyd:dragons/scauldron/scauldronrightwing"
 	},
 	"elements": [
 		{

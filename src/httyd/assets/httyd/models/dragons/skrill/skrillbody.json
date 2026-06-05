@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/dragons/skrill/skrillbody",
-		"particle": "custom/dragons/skrill/skrillbody"
+		"0": "httyd:dragons/skrill/skrillbody",
+		"particle": "httyd:dragons/skrill/skrillbody"
 	},
 	"elements": [
 		{

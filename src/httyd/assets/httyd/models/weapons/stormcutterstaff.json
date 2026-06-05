@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "custom/weapons/stormcutterstaff",
-		"particle": "custom/weapons/stormcutterstaff"
+		"0": "httyd:weapons/stormcutterstaff",
+		"particle": "httyd:weapons/stormcutterstaff"
 	},
 	"elements": [
 		{

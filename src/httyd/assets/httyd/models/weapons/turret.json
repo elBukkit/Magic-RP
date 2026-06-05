@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "custom/weapons/turret",
-		"particle": "custom/weapons/turret"
+		"0": "httyd:weapons/turret",
+		"particle": "httyd:weapons/turret"
 	},
 	"elements": [
 		{

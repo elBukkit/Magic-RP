@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "custom/dragons/terror/terrorbody",
-		"1": "custom/dragons/terror/terrorwings",
-		"particle": "custom/dragons/terror/terrorbody"
+		"0": "httyd:dragons/terror/terrorbody",
+		"1": "httyd:dragons/terror/terrorwings",
+		"particle": "httyd:dragons/terror/terrorbody"
 	},
 	"elements": [
 		{

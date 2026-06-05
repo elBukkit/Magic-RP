@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/dragons/nightmare/nightmareleftwing",
-		"particle": "custom/dragons/nightmare/nightmareleftwing"
+		"0": "httyd:dragons/nightmare/nightmareleftwing",
+		"particle": "httyd:dragons/nightmare/nightmareleftwing"
 	},
 	"elements": [
 		{

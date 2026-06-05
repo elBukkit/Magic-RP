@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"textures": {
-		"0": "custom/drops/nightmaretalon",
-		"particle": "custom/drops/nightmaretalon"
+		"0": "httyd:drops/nightmaretalon",
+		"particle": "httyd:drops/nightmaretalon"
 	},
 	"elements": [
 		{

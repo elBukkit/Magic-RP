@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/weapons/nadderpike",
-		"particle": "custom/weapons/nadderpike"
+		"0": "httyd:weapons/nadderpike",
+		"particle": "httyd:weapons/nadderpike"
 	},
 	"elements": [
 		{

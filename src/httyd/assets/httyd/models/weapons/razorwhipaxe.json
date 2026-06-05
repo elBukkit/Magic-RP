@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "custom/weapons/razorwhipaxe",
-		"particle": "custom/weapons/razorwhipaxe"
+		"0": "httyd:weapons/razorwhipaxe",
+		"particle": "httyd:weapons/razorwhipaxe"
 	},
 	"elements": [
 		{

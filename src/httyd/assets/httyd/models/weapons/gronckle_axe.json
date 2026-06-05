@@ -1,5 +1,5 @@
 {
     "parent": "item/handheld",
-    "textures":{"layer0": "custom/weapons/gronckle_axe"}
+    "textures":{"layer0": "httyd:weapons/gronckle_axe"}
     }
 }

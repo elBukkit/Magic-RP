@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench by Night (NightScythe1)",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom/dragons/thunderdrum/thunderdrumbody",
-		"1": "custom/dragons/thunderdrum/thunderdrumwings",
-		"particle": "custom/dragons/thunderdrum/thunderdrumbody"
+		"0": "httyd:dragons/thunderdrum/thunderdrumbody",
+		"1": "httyd:dragons/thunderdrum/thunderdrumwings",
+		"particle": "httyd:dragons/thunderdrum/thunderdrumbody"
 	},
 	"elements": [
 		{
