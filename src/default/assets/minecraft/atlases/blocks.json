@@ -59,7 +59,7 @@
       "type": "directory",
       "source": "helmets",
       "prefix": "helmets/"
-    ,
+    },
     {
       "type": "directory",
       "source": "icons",
