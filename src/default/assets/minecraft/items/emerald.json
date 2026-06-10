@@ -23,6 +23,13 @@
                     "type": "minecraft:model",
                     "model": "magic:icons_disabled/spells/shuriken"
                 }
+            },
+            {
+                "threshold": 18004,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/emerald"
+                }
             }
         ],
         "fallback": {
