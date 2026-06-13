@@ -1,0 +1,7 @@
+{
+	"parent": "magic:war/model3",
+	"textures": {
+		"particle": "magic:war/model3_white",
+		"texture": "magic:war/model3_white"
+	}
+}

@@ -4,7 +4,7 @@
         "property": "custom_model_data",
         "entries": [
             {
-                "threshold": 8888,
+                "threshold": 19001,
                 "model": {
                     "type": "model",
                     "model": "liminal:creatures/leviathan"

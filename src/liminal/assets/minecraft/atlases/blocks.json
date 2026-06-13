@@ -4,6 +4,11 @@
       "type": "directory",
       "source": "creatures",
       "prefix": "creatures/"
+    },
+    {
+      "type": "directory",
+      "source": "war",
+      "prefix": "war/"
     }
   ]
 }
