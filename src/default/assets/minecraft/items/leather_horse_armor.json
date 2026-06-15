@@ -7,28 +7,52 @@
                 "threshold": 18001,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "magic:mobs/dragon/dragon_base"
+                    "model": "magic:mobs/dragon/dragon_base",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 18002,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "magic:mobs/dragon/dragon_wing_left"
+                    "model": "magic:mobs/dragon/dragon_wing_left",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 18003,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "magic:mobs/dragon/dragon_wing_right"
+                    "model": "magic:mobs/dragon/dragon_wing_right",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 18004,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "magic:wands/staff_survival_colorable"
+                    "model": "magic:wands/staff_survival_colorable",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             }
         ],

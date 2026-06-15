@@ -7,301 +7,559 @@
                 "threshold": 39001,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/gronckle/gronckle"
+                    "model": "httyd:dragons/gronckle/gronckle",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39002,
                 "model": {
                     "type": "model",
-                    "model": "httyd:eggs/groncklenest"
+                    "model": "httyd:eggs/groncklenest",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39010,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/nadder/nadderbody"
+                    "model": "httyd:dragons/nadder/nadderbody",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39011,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/nadder/nadderleftwing"
+                    "model": "httyd:dragons/nadder/nadderleftwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39012,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/nadder/nadderrightwing"
+                    "model": "httyd:dragons/nadder/nadderrightwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39013,
                 "model": {
                     "type": "model",
-                    "model": "httyd:eggs/naddernest"
+                    "model": "httyd:eggs/naddernest",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39020,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/nightfury/nightfurybody"
+                    "model": "httyd:dragons/nightfury/nightfurybody",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39021,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/nightfury/nightfuryleftwing"
+                    "model": "httyd:dragons/nightfury/nightfuryleftwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39022,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/nightfury/nightfuryrightwing"
+                    "model": "httyd:dragons/nightfury/nightfuryrightwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39023,
                 "model": {
                     "type": "model",
-                    "model": "httyd:eggs/nightfurynest"
+                    "model": "httyd:eggs/nightfurynest",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39030,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/nightmare/nightmarebody"
+                    "model": "httyd:dragons/nightmare/nightmarebody",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39031,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/nightmare/nightmareleftwing"
+                    "model": "httyd:dragons/nightmare/nightmareleftwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39032,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/nightmare/nightmarerightwing"
+                    "model": "httyd:dragons/nightmare/nightmarerightwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39033,
                 "model": {
                     "type": "model",
-                    "model": "httyd:eggs/nightmarenest"
+                    "model": "httyd:eggs/nightmarenest",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39040,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/zippleback/zippleback"
+                    "model": "httyd:dragons/zippleback/zippleback",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39041,
                 "model": {
                     "type": "model",
-                    "model": "httyd:eggs/zipplebacknest"
+                    "model": "httyd:eggs/zipplebacknest",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39042,
                 "model": {
                     "type": "model",
-                    "model": "httyd:miscitems/canister"
+                    "model": "httyd:miscitems/canister",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39050,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/terror/terror"
+                    "model": "httyd:dragons/terror/terror",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39060,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/skrill/skrillbody"
+                    "model": "httyd:dragons/skrill/skrillbody",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39061,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/skrill/skrillleftwing"
+                    "model": "httyd:dragons/skrill/skrillleftwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39062,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/skrill/skrillrightwing"
+                    "model": "httyd:dragons/skrill/skrillrightwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39063,
                 "model": {
                     "type": "model",
-                    "model": "httyd:eggs/skrillnest"
+                    "model": "httyd:eggs/skrillnest",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39070,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/deathsong/deathsongbody"
+                    "model": "httyd:dragons/deathsong/deathsongbody",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39071,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/deathsong/deathsongleftwing"
+                    "model": "httyd:dragons/deathsong/deathsongleftwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39072,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/deathsong/deathsongrightwing"
+                    "model": "httyd:dragons/deathsong/deathsongrightwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39073,
                 "model": {
                     "type": "model",
-                    "model": "httyd:eggs/deathsongnest"
+                    "model": "httyd:eggs/deathsongnest",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39080,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/razorwhip/razorwhipbody"
+                    "model": "httyd:dragons/razorwhip/razorwhipbody",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39081,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/razorwhip/razorwhipleftwing"
+                    "model": "httyd:dragons/razorwhip/razorwhipleftwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39082,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/razorwhip/razorwhiprightwing"
+                    "model": "httyd:dragons/razorwhip/razorwhiprightwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39083,
                 "model": {
                     "type": "model",
-                    "model": "httyd:eggs/razorwhipnest"
+                    "model": "httyd:eggs/razorwhipnest",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39090,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/scauldron/scauldronbody"
+                    "model": "httyd:dragons/scauldron/scauldronbody",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39091,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/scauldron/scauldronleftwing"
+                    "model": "httyd:dragons/scauldron/scauldronleftwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39092,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/scauldron/scauldronrightwing"
+                    "model": "httyd:dragons/scauldron/scauldronrightwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39093,
                 "model": {
                     "type": "model",
-                    "model": "httyd:eggs/scauldronnest"
+                    "model": "httyd:eggs/scauldronnest",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39100,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/stormcutter/stormcutterbody"
+                    "model": "httyd:dragons/stormcutter/stormcutterbody",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39101,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/stormcutter/stormcutterleftwing"
+                    "model": "httyd:dragons/stormcutter/stormcutterleftwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39102,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/stormcutter/stormcutterrightwing"
+                    "model": "httyd:dragons/stormcutter/stormcutterrightwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39103,
                 "model": {
                     "type": "model",
-                    "model": "httyd:eggs/stormcutternest"
+                    "model": "httyd:eggs/stormcutternest",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39110,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/changewing/changewingbody"
+                    "model": "httyd:dragons/changewing/changewingbody",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39111,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/changewing/changewingleftwing"
+                    "model": "httyd:dragons/changewing/changewingleftwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39112,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/changewing/changewingrightwing"
+                    "model": "httyd:dragons/changewing/changewingrightwing",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39113,
                 "model": {
                     "type": "model",
-                    "model": "httyd:eggs/changewingnest"
+                    "model": "httyd:eggs/changewingnest",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             },
             {
                 "threshold": 39120,
                 "model": {
                     "type": "model",
-                    "model": "httyd:dragons/thunderdrum/thunderdrumbody"
+                    "model": "httyd:dragons/thunderdrum/thunderdrumbody",
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": -6265536
+                        }
+                    ]
                 }
             }
         ],
