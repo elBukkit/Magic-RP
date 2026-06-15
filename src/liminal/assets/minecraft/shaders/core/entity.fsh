@@ -2,6 +2,7 @@
 
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
+#moj_import <grayscale.glsl>
 
 uniform sampler2D Sampler0;
 
@@ -20,6 +21,7 @@ in vec4 overlayColor;
 in vec2 texCoord0;
 
 out vec4 fragColor;
+in float grayscaleFactor;
 
 vec3 applyVibrance(vec3 color, float vibranceStrength) {
     float luminance = dot(color, vec3(0.3));
@@ -127,6 +129,8 @@ void main() {
     vec3 saturated = mix(vec3(intensity), brightened, 1.0);
 
     vec4 finalColor = vec4(saturated, color.a);
+
+    finalColor = grayscale(finalColor, grayscaleFactor);
 
     fragColor = apply_fog(
         finalColor,
