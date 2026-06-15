@@ -70,7 +70,7 @@
                 "threshold": 18010,
                 "model": {
                     "type": "model",
-                    "model": "magic:war/model3"
+                    "model": "magic:war/model3_blue"
                 }
             },
             {
