@@ -13,7 +13,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "item/stick"
+            "model": "item/salmon"
         }
     }
 }
