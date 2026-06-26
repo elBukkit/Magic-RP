@@ -34,6 +34,10 @@ Skybox:
 
 https://opengameart.org/content/sky-box-sunny-day#
 
+Bacteria BDEngine model by OsixD5_Stown:
+
+https://block-display.com/bd/295406/
+
 ## LICENSE
 
 This pack is licensed under Creative Commons 3.0, any re-use needs to fall under that license and
