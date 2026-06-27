@@ -1,63 +1,61 @@
 #version 330
 
 #moj_import <minecraft:fog.glsl>
-#moj_import <minecraft:matrix.glsl>
-#moj_import <minecraft:globals.glsl>
+#moj_import <minecraft:globals.glsl>          // GameTime
+#moj_import <minecraft:dynamictransforms.glsl> // ColorModulator (vanilla tint)
 
-uniform sampler2D Sampler0;
-uniform sampler2D Sampler1;
+uniform sampler2D Sampler0;                    // equirectangular skybox (end_sky.png)
 
-in vec4 texProj0;
+in vec3 worldDir;
 in float sphericalVertexDistance;
 in float cylindricalVertexDistance;
 
-const vec3[] COLORS = vec3[](
-    vec3(0.022087, 0.098399, 0.110818),
-    vec3(0.011892, 0.095924, 0.089485),
-    vec3(0.027636, 0.101689, 0.100326),
-    vec3(0.046564, 0.109883, 0.114838),
-    vec3(0.064901, 0.117696, 0.097189),
-    vec3(0.063761, 0.086895, 0.123646),
-    vec3(0.084817, 0.111994, 0.166380),
-    vec3(0.097489, 0.154120, 0.091064),
-    vec3(0.106152, 0.131144, 0.195191),
-    vec3(0.097721, 0.110188, 0.187229),
-    vec3(0.133516, 0.138278, 0.148582),
-    vec3(0.070006, 0.243332, 0.235792),
-    vec3(0.196766, 0.142899, 0.214696),
-    vec3(0.047281, 0.315338, 0.321970),
-    vec3(0.204675, 0.390010, 0.302066),
-    vec3(0.080955, 0.314821, 0.661491)
-);
-
-const mat4 SCALE_TRANSLATE = mat4(
-    0.5, 0.0, 0.0, 0.25,
-    0.0, 0.5, 0.0, 0.25,
-    0.0, 0.0, 1.0, 0.0,
-    0.0, 0.0, 0.0, 1.0
-);
-
-mat4 end_portal_layer(float layer) {
-    mat4 translate = mat4(
-        1.0, 0.0, 0.0, 17.0 / layer,
-        0.0, 1.0, 0.0, (2.0 + layer / 1.5) * (GameTime * 1.5),
-        0.0, 0.0, 1.0, 0.0,
-        0.0, 0.0, 0.0, 1.0
-    );
-
-    mat2 rotate = mat2_rotate_z(radians((layer * layer * 4321.0 + layer * 9.0) * 2.0));
-
-    mat2 scale = mat2((4.5 - layer / 4.0) * 2.0);
-
-    return mat4(scale * rotate) * translate * SCALE_TRANSLATE;
-}
-
 out vec4 fragColor;
 
+// ----------------------------- TWEAKABLES ----------------------------
+const vec3  TINT       = vec3(1.0, 1.0, 1.0); // multiplies the sky (1,1,1 = no tint)
+const float BRIGHTNESS = 1.0;                 // overall gain (>1 brighter, <1 dimmer)
+const float SPIN_SPEED = 0.0;                 // sky rotation, in REVOLUTIONS per
+                                              // in-game day, about the vertical axis.
+                                              // 0 = static. Try 0.25 for a slow drift.
+                                              // (Snaps once/day when GameTime wraps.)
+const bool  APPLY_FOG  = true;                // blend into distance fog like vanilla
+const bool  USE_VANILLA_TINT = true;          // honor /data tint applied to the block
+// ---------------------------------------------------------------------
+
+const float PI = 3.14159265358979323846;
+
+// Map a normalized direction (+Y up) to equirectangular UVs.
+vec2 equirect_uv(vec3 dir) {
+    float u = 0.5 + atan(dir.z, dir.x) / (2.0 * PI);
+    float v = 0.5 - asin(clamp(dir.y, -1.0, 1.0)) / PI;
+    return vec2(u, v);
+}
+
 void main() {
-    vec3 color = textureProj(Sampler0, texProj0).rgb * COLORS[0];
-    for (int i = 0; i < PORTAL_LAYERS; i++) {
-        color += textureProj(Sampler1, texProj0 * end_portal_layer(float(i + 1))).rgb * COLORS[i];
+    vec3 dir = normalize(worldDir);
+
+    if (SPIN_SPEED != 0.0) {
+        float a = GameTime * SPIN_SPEED * 2.0 * PI;
+        float s = sin(a);
+        float c = cos(a);
+        dir = vec3(c * dir.x - s * dir.z, dir.y, s * dir.x + c * dir.z);
     }
-    fragColor = apply_fog(vec4(color, 1.0), sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
+
+    vec3 sky = texture(Sampler0, equirect_uv(dir)).rgb;
+
+    vec3 color = sky * TINT * BRIGHTNESS;
+    if (USE_VANILLA_TINT) {
+        color *= ColorModulator.rgb;
+    }
+
+    vec4 outColor = vec4(color, 1.0);
+
+    if (APPLY_FOG) {
+        outColor = apply_fog(outColor, sphericalVertexDistance, cylindricalVertexDistance,
+                             FogEnvironmentalStart, FogEnvironmentalEnd,
+                             FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
+    }
+
+    fragColor = outColor;
 }
