@@ -5,6 +5,7 @@
 #moj_import <minecraft:chunksection.glsl>
 #moj_import <minecraft:projection.glsl>
 #moj_import <minecraft:sample_lightmap.glsl>
+#moj_import <grayscale.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -17,6 +18,7 @@ out float sphericalVertexDistance;
 out float cylindricalVertexDistance;
 out vec4 vertexColor;
 out vec2 texCoord0;
+out float grayscaleFactor;
 
 void main() {
     vec3 pos = Position + (ChunkPosition - CameraBlockPos) + CameraOffset;
@@ -26,4 +28,5 @@ void main() {
     cylindricalVertexDistance = fog_cylindrical_distance(pos);
     vertexColor = Color * sample_lightmap(Sampler2, UV2);
     texCoord0 = UV0;
+    grayscaleFactor = getGrayscaleFactor(UV2);
 }

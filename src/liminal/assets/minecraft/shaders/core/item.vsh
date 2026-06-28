@@ -5,6 +5,7 @@
 #moj_import <minecraft:dynamictransforms.glsl>
 #moj_import <minecraft:projection.glsl>
 #moj_import <minecraft:sample_lightmap.glsl>
+#moj_import <grayscale.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -21,6 +22,7 @@ out float cylindricalVertexDistance;
 out vec4 vertexColor;
 out vec4 lightMapColor;
 out vec4 overlayColor;
+out float grayscaleFactor;
 
 out vec2 texCoord0;
 
@@ -35,4 +37,5 @@ void main() {
     overlayColor = texelFetch(Sampler1, UV1, 0);
 
     texCoord0 = UV0;
+    grayscaleFactor = getGrayscaleFactor(UV2);
 }

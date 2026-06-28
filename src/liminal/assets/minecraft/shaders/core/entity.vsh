@@ -7,6 +7,7 @@
 #moj_import <minecraft:dynamictransforms.glsl>
 #moj_import <minecraft:projection.glsl>
 #moj_import <minecraft:sample_lightmap.glsl>
+#moj_import <grayscale.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -42,6 +43,7 @@ out vec4 overlayColor;
 #endif
 
 out vec2 texCoord0;
+out float grayscaleFactor;
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
@@ -68,8 +70,8 @@ void main() {
 #endif
 
     texCoord0 = UV0;
-
 #ifdef APPLY_TEXTURE_MATRIX
     texCoord0 = (TextureMat * vec4(UV0, 0.0, 1.0)).xy;
 #endif
+    grayscaleFactor = getGrayscaleFactor(UV2);
 }
