@@ -38,6 +38,12 @@ Bacteria BDEngine model by OsixD5_Stown:
 
 https://block-display.com/bd/295406/
 
+Pink floaty BDEngine model by Yoav_TC:
+https://block-display.com/bd/296456/#modelTop
+
+Yellow floaty BDEngine model by Nxlone:
+https://block-display.com/bd/7987/
+
 ## LICENSE
 
 This pack is licensed under Creative Commons 3.0, any re-use needs to fall under that license and
