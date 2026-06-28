@@ -1,5 +1,8 @@
 #version 330
 
+const float radius = 0.0; // The bigger the number, the lesser the radius. Negative values are also accepted.
+const float smoothness = 256.0; // The bigger the number, the smoother the transition. Zero will completely disable the effect.
+
 float getFactor(ivec2 uv, float radius, float smoothness) {
     float grayscaleFactor = 0.0;
     if (uv.x < 256) {
@@ -18,7 +21,5 @@ vec4 grayscale(vec4 color, float grayscaleFactor) {
 }
 
 float getGrayscaleFactor(ivec2 UV2) {
-    float radius = 0.0; // The bigger the number, the lesser the radius. Negative values are also accepted.
-    float smoothness = 256.0; // The bigger the number, the smoother the transition. Zero will completely disable the effect.
     return getFactor(UV2, radius, smoothness);
 }
