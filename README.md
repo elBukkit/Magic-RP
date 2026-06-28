@@ -24,7 +24,7 @@ https://modrinth.com/resourcepack/re-shaded
 
 Wavy Water by AlphaLeoli:
 
-https://www.planetminecraft.com/texture-pack/wavey-water-vanilla-no-optifine-mods-required/
+https://modrinth.com/resourcepack/waves
 
 End Windows, Shaders, Other Cool Stuff:
 
