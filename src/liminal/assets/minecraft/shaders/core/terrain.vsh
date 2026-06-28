@@ -6,12 +6,14 @@
 #moj_import <minecraft:projection.glsl>
 #moj_import <minecraft:sample_lightmap.glsl>
 #moj_import <grayscale.glsl>
+#moj_import <wavy.glsl>
 
 in vec3 Position;
 in vec4 Color;
 in vec2 UV0;
 in ivec2 UV2;
 
+uniform sampler2D Sampler0;
 uniform sampler2D Sampler2;
 
 out float sphericalVertexDistance;
@@ -22,6 +24,7 @@ out float grayscaleFactor;
 
 void main() {
     vec3 pos = Position + (ChunkPosition - CameraBlockPos) + CameraOffset;
+    pos.y += getWaveOffset(Sampler0, UV0, Position);
     gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);
 
     sphericalVertexDistance = fog_spherical_distance(pos);
