@@ -14,6 +14,10 @@ Pool Rooms Textures by CatFries:
 
 https://www.planetminecraft.com/texture-pack/poolrooms/
 
+Lobby / Backrooms Textures by Sonicos Painted Pixels
+
+https://www.planetminecraft.com/texture-pack/backrooms-retextured/
+
 No Light, No Color by SuperAnt_:
 
 https://modrinth.com/resourcepack/no-light-no-color
