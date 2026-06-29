@@ -16,6 +16,17 @@ float getFactor(ivec2 uv, float radius, float smoothness) {
 
 vec4 grayscale(vec4 color, float grayscaleFactor) {
     float gray = (color.r + color.g + color.b) / 3.0;
+
+    // Smooth transition, highest at midnight
+    // Luminance of fog color — low at night, higher during day
+    float fogBrightness = dot(FogColor.rgb, vec3(0.299, 0.587, 0.114));
+
+    // Invert so nightFactor is 1 at night, 0 at day
+    float nightFactor = 1.0 - clamp(fogBrightness * 4.0, 0.0, 0.8);
+
+    // Most gray at night, not gray in daytime
+    grayscaleFactor = grayscaleFactor * nightFactor;
+
     color = mix(color, vec4(gray, gray, gray, color.a), grayscaleFactor);
     return color;
 }
