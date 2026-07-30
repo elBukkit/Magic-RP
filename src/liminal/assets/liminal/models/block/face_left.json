@@ -1,0 +1,6 @@
+{
+  "parent": "liminal:block/template_multi",
+  "textures": {
+    "pattern": "liminal:block/face_left"
+  }
+}

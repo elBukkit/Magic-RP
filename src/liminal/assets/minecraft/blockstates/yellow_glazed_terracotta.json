@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "liminal:block/face_left"
+    },
+    "facing=north": {
+      "model": "liminal:block/run"
+    },
+    "facing=south": {
+      "model": "liminal:block/lizard"
+    },
+    "facing=west": {
+      "model": "liminal:block/face_right"
+    }
+  }
+}

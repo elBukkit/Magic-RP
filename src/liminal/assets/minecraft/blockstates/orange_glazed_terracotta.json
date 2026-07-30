@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "liminal:block/arrow_left"
+    },
+    "facing=north": {
+      "model": "liminal:block/arrow_down"
+    },
+    "facing=south": {
+      "model": "liminal:block/pitfall_guide"
+    },
+    "facing=west": {
+      "model": "liminal:block/arrow_right"
+    }
+  }
+}
